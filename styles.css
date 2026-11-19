@@ -870,9 +870,15 @@ body {
 
   .target-desc-content {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .target-desc-content .file-action-btn {
+    margin-left: auto;
+    flex-shrink: 0;
   }
 
   .indicators-toggle-btn {
@@ -889,27 +895,38 @@ body {
     margin-top: 8px;
   }
 
-  /* Indicator Item on Mobile: Stack button cleanly below text to prevent narrow text squishing */
+  /* All View Buttons Right-Aligned on Mobile */
   .indicator-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
     padding: 10px 0;
+    width: 100%;
   }
 
   .indicator-item-left {
-    width: 100%;
+    display: flex;
+    align-items: flex-start;
     gap: 8px;
+    flex: 1;
+    min-width: 0;
   }
 
   .indicator-text {
     font-size: 13px;
     line-height: 1.5;
+    flex: 1;
   }
 
   .indicator-item-right {
-    margin-left: 14px;
-    align-self: flex-start;
+    margin-left: auto;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
   }
 
   .indicator-item.indicator-subitem {
@@ -917,8 +934,10 @@ body {
   }
 
   .file-action-btn {
-    padding: 4px 9px;
+    padding: 4px 10px;
     font-size: 12px;
+    margin-left: auto;
+    flex-shrink: 0;
   }
 }
 
