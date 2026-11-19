@@ -164,7 +164,6 @@
     "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
     "name": "Partnerships for the Goals",
     "description": "Goal 17 is about revitalizing the global partnership for sustainable development. The Sustainable Development Goals (SDGs) are a universal blueprint and a call to action for all countries—both developed and developing—to ensure no one is left behind. Achieving them requires active partnerships between governments, the private sector, and civil society. These Goals can only be realized with a strong commitment to global cooperation, ensuring that everyone progresses together on our journey to development.",
-    "sourceUrl": "https://www.un.org/sustainabledevelopment/globalpartnerships/",
     "color": "#19486A",
     "colorLight": "rgba(25, 72, 106, 0.08)",
     "colorBorder": "rgba(25, 72, 106, 0.25)",
@@ -211,10 +210,11 @@
       {
         "id": "17.3",
         "desc": "Publication of SDG reports",
+        "file": "https://drive.google.com/file/d/15Ot_T2SXBneengJjdS1qgO33Gz4htIuJ/view",
         "indicators": [
           {
             "text": "17.3.1 to 17.3.17 Publication of SDG reports - per SDG",
-            "file": "https://docs.google.com/document/d/1j986Xh68fc5acpMZDLGGZ12Nd9Hbf8b9/edit?usp=drive_link&ouid=106142087827933382324&rtpof=true&sd=true"
+            "file": "https://drive.google.com/file/d/15Ot_T2SXBneengJjdS1qgO33Gz4htIuJ/view"
           }
         ]
       },
