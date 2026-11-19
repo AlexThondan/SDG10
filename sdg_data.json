@@ -9,17 +9,47 @@
     "image": "images/sdg-1.webp",
     "targets": [
       {
+        "id": "1.1",
+        "desc": "Research on poverty",
+        "file": "https://docs.google.com/document/d/1YI8edxuJCJHfIPzMBoVp8a3NCuM1iQuU/edit",
+        "excel": "https://docs.google.com/spreadsheets/d/1nARXXAZEcHhlXH5t7gjxatzniCJCa5nR/edit?gid=2063360444#gid=2063360444",
+        "indicators": [
+          "1.1.1 Papers co-authored with low or lower-middle income countries",
+          "1.1.2 No poverty: FWCI",
+          {
+            "text": "1.1.3 No poverty: publications",
+            "file": "https://docs.google.com/document/d/1ltFdDPIJZsCvz-gYh8oXGRCMTqywBnrR/edit",
+            "excel": "https://docs.google.com/spreadsheets/d/1nARXXAZEcHhlXH5t7gjxatzniCJCa5nR/edit?gid=2063360444#gid=2063360444"
+          }
+        ]
+      },
+      {
         "id": "1.2",
         "desc": "Proportion of students receiving financial aid to attend university because of poverty",
-        "indicators": []
+        "indicators": [
+          "1.2.1 Low-income students receiving financial aid"
+        ]
+      },
+      {
+        "id": "1.3",
+        "desc": "University anti-poverty programmes",
+        "file": "https://docs.google.com/document/d/1ufEA3Mm39eg5EpNIHg0PhSQcSR6fU5wB",
+        "indicators": [
+          "1.3.1 Bottom financial quintile admission target",
+          "1.3.2 Bottom financial quintile student success",
+          "1.3.3 Low-income student support",
+          "1.3.4 Bottom financial quintile student support",
+          "1.3.5 Low or lower-middle income countries student support"
+        ]
       },
       {
         "id": "1.4",
         "desc": "Community anti-poverty programmes",
         "indicators": [
-          "1.4.1 Local startup Assistance",
+          "1.4.1 Local start-up assistance",
           "1.4.2 Local start-up financial assistance",
-          "1.4.3 Programmes for services access"
+          "1.4.3 Programmes for services access",
+          "1.4.4 Policy addressing poverty"
         ]
       }
     ]

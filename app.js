@@ -350,6 +350,37 @@ function renderDetails(sdg) {
 
     const targetFile = target.file || target.pdf || target.doc || target.url || null;
     const hasTargetFile = Boolean(targetFile && targetFile.trim() !== "" && targetFile.trim() !== "#");
+    const targetExcel = target.excel || null;
+    const hasTargetExcel = Boolean(targetExcel && targetExcel.trim() !== "" && targetExcel.trim() !== "#");
+
+    let targetActionsHtml = "";
+    if (hasTargetFile) {
+      const isExcel = isExcelFile(target, targetFile);
+      const label = isExcel ? "View Excel" : "View PDF";
+      targetActionsHtml += `
+        <a href="${escapeHtml(targetFile)}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="file-action-btn ${isExcel ? 'is-excel' : ''}"
+           title="${escapeHtml(label)}">
+          <span>${escapeHtml(label)}</span>
+          ${BOX_ARROW_ICON_SVG}
+        </a>
+      `;
+    }
+
+    if (hasTargetExcel) {
+      targetActionsHtml += `
+        <a href="${escapeHtml(targetExcel)}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="file-action-btn is-excel"
+           title="View Excel">
+          <span>View Excel</span>
+          ${BOX_ARROW_ICON_SVG}
+        </a>
+      `;
+    }
 
     return `
       <article class="target-row" data-target-id="${escapeHtml(target.id)}">
@@ -360,17 +391,10 @@ function renderDetails(sdg) {
         </div>
 
         <p class="target-desc">
-          ${hasTargetFile ? `
+          ${targetActionsHtml ? `
             <span class="target-desc-content">
               <span>${escapeHtml(target.desc)}</span>
-              <a href="${escapeHtml(targetFile)}"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 class="file-action-btn ${isExcelFile(target, targetFile) ? 'is-excel' : ''}"
-                 title="${isExcelFile(target, targetFile) ? 'View Excel' : 'View PDF'}">
-                <span>${isExcelFile(target, targetFile) ? 'View Excel' : 'View PDF'}</span>
-                ${BOX_ARROW_ICON_SVG}
-              </a>
+              <div class="indicator-item-right">${targetActionsHtml}</div>
             </span>
           ` : escapeHtml(target.desc)}
         </p>
