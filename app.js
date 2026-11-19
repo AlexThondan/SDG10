@@ -390,14 +390,10 @@ function renderDetails(sdg) {
           <span class="target-id">${escapeHtml(target.id)}</span>
         </div>
 
-        <p class="target-desc">
-          ${targetActionsHtml ? `
-            <span class="target-desc-content">
-              <span>${escapeHtml(target.desc)}</span>
-              <div class="indicator-item-right">${targetActionsHtml}</div>
-            </span>
-          ` : escapeHtml(target.desc)}
-        </p>
+        <div class="target-desc-row">
+          <div class="target-desc-text">${escapeHtml(target.desc)}</div>
+          ${targetActionsHtml ? `<div class="target-actions">${targetActionsHtml}</div>` : ""}
+        </div>
 
         ${hasIndicators ? `
           <button

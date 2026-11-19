@@ -307,14 +307,32 @@ body {
   color: #1d4ed8;
 }
 
-.target-desc-content {
+.target-desc-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  gap: 14px;
+  gap: 16px;
   box-sizing: border-box;
-  padding-right: 19px; /* Matches indicators-content right edge (18px padding + 1px border) */
+  margin-bottom: 14px;
+  padding-right: 21px; /* Matches indicators-content right edge (20px padding + 1px border) */
+}
+
+.target-desc-text {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #374151;
+  flex: 1;
+  min-width: 0;
+}
+
+.target-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .target-desc-link {
@@ -386,12 +404,7 @@ body {
   line-height: 1.1;
 }
 
-.target-desc {
-  font-size: 14.5px;
-  line-height: 1.6;
-  color: #374151;
-  margin-bottom: 14px;
-}
+
 
 /* Indicators Dropdown */
 .indicators-toggle-btn {
@@ -515,9 +528,10 @@ body {
 .indicator-item-right {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 8px;
   flex-shrink: 0;
-  margin-left: 14px;
+  margin-left: auto;
 }
 
 /* File Action Button (View PDF / View Excel) matching Image 2 */
@@ -660,7 +674,12 @@ body {
     font-size: 25px;
   }
 
-  .target-desc {
+  .target-desc-row {
+    padding-right: 21px;
+    margin-bottom: 16px;
+  }
+
+  .target-desc-text {
     font-size: 16px;
     line-height: 1.65;
   }
@@ -869,25 +888,31 @@ body {
     font-size: 19px;
   }
 
-  .target-desc {
-    font-size: 13.5px;
-    line-height: 1.55;
-    margin-bottom: 10px;
-  }
-
-  .target-desc-content {
+  .target-desc-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     gap: 10px;
     box-sizing: border-box;
+    margin-bottom: 10px;
     padding-right: 15px; /* Matches mobile indicators-content right edge (14px padding + 1px border) */
   }
 
-  .target-desc-content .file-action-btn {
+  .target-desc-text {
+    font-size: 13.5px;
+    line-height: 1.55;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .target-actions {
     margin-left: auto;
     flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
   }
 
   .indicators-toggle-btn {
