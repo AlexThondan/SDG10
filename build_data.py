@@ -1,0 +1,249 @@
+import json
+
+sdgs = {
+    "1": {
+        "num": "1",
+        "title": "End poverty in all its forms everywhere",
+        "name": "No Poverty",
+        "color": "#E5243B",
+        "colorLight": "rgba(229, 36, 59, 0.08)",
+        "colorBorder": "rgba(229, 36, 59, 0.25)",
+        "image": "images/sdg-1.webp",
+        "targets": [
+            {
+                "id": "1.2",
+                "desc": "Proportion of students receiving financial aid to attend university because of poverty",
+                "indicators": []
+            },
+            {
+                "id": "1.4",
+                "desc": "Community anti-poverty programmes",
+                "indicators": [
+                    "1.4.1 Local startup Assistance",
+                    "1.4.2 Local start-up financial assistance",
+                    "1.4.3 Programmes for services access"
+                ]
+            }
+        ]
+    },
+    "4": {
+        "num": "4",
+        "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+        "name": "Quality Education",
+        "color": "#C5192D",
+        "colorLight": "rgba(197, 25, 45, 0.08)",
+        "colorBorder": "rgba(197, 25, 45, 0.25)",
+        "image": "images/sdg-4.webp",
+        "targets": [
+            {
+                "id": "4.3",
+                "desc": "By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university",
+                "indicators": [
+                    {
+                        "text": "4.3.1 Does your university as a body provide free access to educational resources for those not studying at the university, e.g., computers, library, online courses, access to lectures, etc?",
+                        "subItems": [
+                            {
+                                "text": "A. Report on Free Access to Educational Resources Through the University Library Website",
+                                "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf#page=1"
+                            },
+                            {
+                                "text": "B. Report on Open Access Educational Content Made Available to the General Public",
+                                "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf#page=6"
+                            },
+                            {
+                                "text": "C. Certificate Courses",
+                                "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf#page=8"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "4.3.2 Does your university as a body host event at university that are open to the general public: public lectures, community educational events?",
+                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.2.pdf"
+                    },
+                    {
+                        "text": "4.3.3 Vocational training events (lifelong learning)",
+                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.3.pdf"
+                    },
+                    {
+                        "text": "4.3.4 Does your university as a body undertake educational outreach activities (e.g.tailored lectures or demonstrations) beyond campus, e.g. in local schools, in the community, including voluntary student-run schemes?",
+                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.4.pdf"
+                    },
+                    {
+                        "text": "4.3.5 Does your university as a body have a policy that ensures that access to these activities is accessible to all, regardless of ethnicity, religion, disability, immigration status or gender?",
+                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.5.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    "10": {
+        "num": "10",
+        "title": "Reduce inequality within and among countries",
+        "name": "Reduced Inequalities",
+        "color": "#DD1367",
+        "colorLight": "rgba(221, 19, 103, 0.08)",
+        "colorBorder": "rgba(221, 19, 103, 0.25)",
+        "image": "images/sdg-10.webp",
+        "targets": [
+            {
+                "id": "10.1",
+                "desc": "By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average",
+                "indicators": [
+                    "10.1.1 Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population"
+                ]
+            },
+            {
+                "id": "10.2",
+                "desc": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status",
+                "indicators": [
+                    "10.2.1 Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities"
+                ]
+            },
+            {
+                "id": "10.3",
+                "desc": "Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard",
+                "indicators": [
+                    "10.3.1 Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
+                ]
+            },
+            {
+                "id": "10.4",
+                "desc": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality",
+                "indicators": [
+                    "10.4.1 Labour share of GDP, comprising wages and social protection transfers",
+                    "10.4.2 Redistributive impact of fiscal policy"
+                ]
+            },
+            {
+                "id": "10.5",
+                "desc": "Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations",
+                "indicators": [
+                    "10.5.1 Financial Soundness Indicators"
+                ]
+            },
+            {
+                "id": "10.6",
+                "desc": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions",
+                "indicators": [
+                    "10.6.1 Proportion of members and voting rights of developing countries in international organizations"
+                ]
+            },
+            {
+                "id": "10.7",
+                "desc": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies",
+                "indicators": [
+                    "10.7.1 Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
+                    "10.7.2 Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",
+                    "10.7.3 Number of people who died or disappeared in the process of migration towards an international destination",
+                    "10.7.4 Proportion of the refugee population by country of origin"
+                ]
+            },
+            {
+                "id": "10.a",
+                "desc": "Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements",
+                "indicators": [
+                    "10.a.1 Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff"
+                ]
+            },
+            {
+                "id": "10.b",
+                "desc": "Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes",
+                "indicators": [
+                    "10.b.1 Total resource flows for development, by recipient and donor countries and type of flow"
+                ]
+            },
+            {
+                "id": "10.c",
+                "desc": "By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent",
+                "indicators": [
+                    "10.c.1 Remittance costs as a proportion of the amount remitted"
+                ]
+            }
+        ]
+    },
+    "17": {
+        "num": "17",
+        "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+        "name": "Partnerships for the Goals",
+        "description": "Goal 17 is about revitalizing the global partnership for sustainable development. The Sustainable Development Goals (SDGs) are a universal blueprint and a call to action for all countries—both developed and developing—to ensure no one is left behind. Achieving them requires active partnerships between governments, the private sector, and civil society. These Goals can only be realized with a strong commitment to global cooperation, ensuring that everyone progresses together on our journey to development.",
+        "sourceUrl": "https://www.un.org/sustainabledevelopment/globalpartnerships/",
+        "color": "#19486A",
+        "colorLight": "rgba(25, 72, 106, 0.08)",
+        "colorBorder": "rgba(25, 72, 106, 0.25)",
+        "image": "images/sdg-17.webp",
+        "targets": [
+            {
+                "id": "17.1",
+                "desc": "Research into partnership for the goals",
+                "indicators": [
+                    "17.1.1 Proportion of output co-authored with low or lower-middle income Countries",
+                    {
+                        "text": "17.1.2 Partnerships for the goals: publications",
+                        "file": "https://docs.google.com/spreadsheets/d/1vICwusjdNYuBsSrUrw_dgrTG_LdJDjebpG0mGJ2nBoM/edit?usp=drive_link"
+                    }
+                ]
+            },
+            {
+                "id": "17.2",
+                "desc": "Relationships to support the goals",
+                "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?usp=drive_link",
+                "indicators": [
+                    {
+                        "text": "17.2.1 Relationships with regional NGOs and government for SDG policy",
+                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.je339qhviwpj"
+                    },
+                    {
+                        "text": "17.2.2 Cross sectoral dialogue about SDGs",
+                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.wlno2a4fup2x"
+                    },
+                    {
+                        "text": "17.2.3 International collaboration data gathering for SDG",
+                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.qs3a3qgrt7bq"
+                    },
+                    {
+                        "text": "17.2.4 Collaboration for SDG best practice",
+                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.ameh0frvph2d"
+                    },
+                    {
+                        "text": "17.2.5 Collaboration with NGOs for SDGs",
+                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.jsxpp7l8ok3"
+                    }
+                ]
+            },
+            {
+                "id": "17.3",
+                "desc": "Publication of SDG reports",
+                "indicators": [
+                    {
+                        "text": "17.3.1 to 17.3.17 Publication of SDG reports - per SDG",
+                        "file": "https://docs.google.com/document/d/1j986Xh68fc5acpMZDLGGZ12Nd9Hbf8b9/edit?usp=drive_link&ouid=106142087827933382324&rtpof=true&sd=true"
+                    }
+                ]
+            },
+            {
+                "id": "17.4",
+                "desc": "Education for the SDGs",
+                "indicators": [
+                    {
+                        "text": "17.4.1 Education for SDGs commitment to meaningful education",
+                        "file": "https://docs.google.com/document/d/1mGKhlVc2k9nDtOy_vy1dFWYKxm1co0IdLkUpP3clnHY/edit?tab=t.0"
+                    },
+                    {
+                        "text": "17.4.2 Education for SDGs: specific courses on sustainability",
+                        "file": "https://docs.google.com/document/d/1mGKhlVc2k9nDtOy_vy1dFWYKxm1co0IdLkUpP3clnHY/edit?tab=t.tlhwjivtf6s7"
+                    },
+                    {
+                        "text": "17.4.3 Education for SDGs in the wider community",
+                        "file": "https://docs.google.com/document/d/1mGKhlVc2k9nDtOy_vy1dFWYKxm1co0IdLkUpP3clnHY/edit?tab=t.47fx233v51cm"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+with open("sdg_data.json", "w", encoding="utf-8") as f:
+    json.dump(sdgs, f, indent=2, ensure_ascii=False)
+
+print("Saved sdg_data.json successfully!")
+

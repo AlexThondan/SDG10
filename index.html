@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE SDG Ranking</title>
+  
+  <!-- Only Gloock and Inter fonts as requested -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- SITE HEADER / HERO (Matching Screenshot 1) -->
+  <header class="site-header">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="#">Home</a>
+      <span class="sep">/</span>
+      <span class="current">THE SDG Ranking</span>
+    </nav>
+    <h1 class="main-heading">THE SDG Ranking</h1>
+  </header>
+
+  <!-- MAIN PAGE WRAPPER -->
+  <main class="page-wrapper">
+    <div class="layout-grid">
+      
+      <!-- LEFT COLUMN: 4 SQUARE IMAGE CARDS (No writings, Image fills completely) -->
+      <aside class="sidebar-column">
+        <nav class="cards-vertical-list" aria-label="SDG Selection">
+          
+          <!-- Card 1: SDG 1 -->
+          <div class="sdg-nav-card active" data-sdg="1" tabindex="0" role="button" aria-selected="true" aria-label="SDG 1 No Poverty" style="--card-bg: #D80218; --card-glow: rgba(216, 2, 24, 0.35);">
+            <img src="images/sdg-1.webp" alt="SDG 1 - No Poverty" loading="lazy" />
+          </div>
+
+          <!-- Card 2: SDG 4 -->
+          <div class="sdg-nav-card" data-sdg="4" tabindex="0" role="button" aria-selected="false" aria-label="SDG 4 Quality Education" style="--card-bg: #BB021A; --card-glow: rgba(187, 2, 26, 0.35);">
+            <img src="images/sdg-4.webp" alt="SDG 4 - Quality Education" loading="lazy" />
+          </div>
+
+          <!-- Card 3: SDG 10 -->
+          <div class="sdg-nav-card" data-sdg="10" tabindex="0" role="button" aria-selected="false" aria-label="SDG 10 Reduced Inequalities" style="--card-bg: #DE0375; --card-glow: rgba(222, 3, 117, 0.35);">
+            <img src="images/sdg-10.webp" alt="SDG 10 - Reduced Inequalities" loading="lazy" />
+          </div>
+
+          <!-- Card 4: SDG 17 -->
+          <div class="sdg-nav-card" data-sdg="17" tabindex="0" role="button" aria-selected="false" aria-label="SDG 17 Partnerships for the Goals" style="--card-bg: #002763; --card-glow: rgba(0, 39, 99, 0.35);">
+            <img src="images/sdg-17.webp" alt="SDG 17 - Partnerships for the Goals" loading="lazy" />
+          </div>
+
+        </nav>
+      </aside>
+
+      <!-- RIGHT COLUMN: DYNAMIC DETAILS AREA (Matching Screenshot 2) -->
+      <section class="content-column" id="sdg-content-area" aria-live="polite">
+        <!-- Rendered dynamically by app.js with initial state -->
+        <noscript>
+          <div class="detail-header-card">
+            <h2 class="detail-sub-header">
+              <span class="detail-number-prefix">1</span>
+              <span class="detail-title-text">End poverty in all its forms everywhere</span>
+            </h2>
+          </div>
+          <p>Please enable JavaScript to view the interactive SDG ranking details.</p>
+        </noscript>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Interactive Script -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
