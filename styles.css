@@ -584,6 +584,217 @@ body {
   color: #15803d;
 }
 
+/* Icon-Only View Button (No text, sleek box-arrow icon) */
+.icon-view-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 6px;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #1e3a8a;
+  text-decoration: none !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.icon-view-btn:hover {
+  background-color: var(--theme-color, #1d4ed8);
+  border-color: var(--theme-color, #1d4ed8);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+.icon-view-btn .box-arrow-icon {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 2.2;
+}
+
+/* Dedicated Subpage Styles (Target & Indicator Pages) */
+.subpage-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeInContent 0.15s ease-out;
+}
+
+.back-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+  text-decoration: none;
+  margin-bottom: 2px;
+  transition: color 0.15s ease;
+}
+
+.back-nav-link:hover {
+  color: var(--theme-color, #0f172a);
+}
+
+.subpage-header-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid var(--theme-color, #0f172a);
+  border-radius: 10px;
+  padding: 22px 26px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.subpage-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--theme-color, #0f172a);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+}
+
+.subpage-title {
+  font-family: var(--font-sans);
+  font-size: 23px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.35;
+  margin: 0 0 8px 0;
+}
+
+.subpage-subtitle {
+  font-size: 13.5px;
+  color: #64748b;
+  margin: 0;
+}
+
+.subpage-content-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 22px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.subpage-content-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 14px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.writeup-prose {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.writeup-prose p {
+  margin: 0 0 12px 0;
+}
+
+.writeup-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.evidences-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.evidence-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.evidence-icon-wrap {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: var(--theme-color, #1e3a8a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.evidence-info h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0 0 3px 0;
+}
+
+.evidence-info p {
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.subpage-footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.nav-btn.outline {
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  background: #ffffff;
+}
+
+.nav-btn.outline:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+.nav-btn.solid {
+  background: var(--theme-color, #0f172a);
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.nav-btn.solid:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
 /* Animations - Zero layout shift */
 @keyframes fadeInContent {
   from {
