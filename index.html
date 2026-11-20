@@ -15,60 +15,46 @@
 </head>
 <body>
 
-  <!-- SITE HEADER / HERO (Matching Screenshot 1) -->
+  <!-- SITE HEADER / HERO -->
   <header class="site-header">
     <nav class="breadcrumb" aria-label="Breadcrumb" id="site-breadcrumb">
       <a href="./" data-route="home">Home</a>
       <span class="sep">/</span>
-      <span class="current">THE SDG Ranking</span>
+      <a href="?sdg=1" data-route="sdg" data-sdg="1">THE SDG Ranking</a>
     </nav>
     <h1 class="main-heading" id="main-heading-title">THE SDG Ranking</h1>
   </header>
 
-  <!-- MAIN PAGE WRAPPER -->
+  <!-- MAIN PAGE WRAPPER (Centered Horizontally) -->
   <main class="page-wrapper">
-    <div class="layout-grid">
+    <div id="sdg-content-area" aria-live="polite">
       
-      <!-- LEFT COLUMN: 4 SQUARE IMAGE CARDS (No writings, Image fills completely) -->
-      <aside class="sidebar-column">
-        <nav class="cards-vertical-list" aria-label="SDG Selection">
+      <!-- Initial Landing View: 4 Logos Centered Horizontally -->
+      <div class="home-logos-wrapper">
+        <div class="home-logos-grid" role="region" aria-label="Sustainable Development Goals Selection">
           
           <!-- Card 1: SDG 1 -->
-          <div class="sdg-nav-card active" data-sdg="1" tabindex="0" role="button" aria-selected="true" aria-label="SDG 1 No Poverty" style="--card-bg: #D80218; --card-glow: rgba(216, 2, 24, 0.35);">
-            <img src="images/sdg-1.webp" alt="SDG 1 - No Poverty" loading="lazy" />
-          </div>
+          <a href="?sdg=1" class="home-sdg-card" data-route="sdg" data-sdg="1" title="SDG 1 - No Poverty" aria-label="SDG 1 No Poverty" style="--card-bg: #D80218; --card-glow: rgba(216, 2, 24, 0.4);">
+            <img src="images/sdg-1.webp" alt="SDG 1 - No Poverty" loading="eager" />
+          </a>
 
           <!-- Card 2: SDG 4 -->
-          <div class="sdg-nav-card" data-sdg="4" tabindex="0" role="button" aria-selected="false" aria-label="SDG 4 Quality Education" style="--card-bg: #BB021A; --card-glow: rgba(187, 2, 26, 0.35);">
-            <img src="images/sdg-4.webp" alt="SDG 4 - Quality Education" loading="lazy" />
-          </div>
+          <a href="?sdg=4" class="home-sdg-card" data-route="sdg" data-sdg="4" title="SDG 4 - Quality Education" aria-label="SDG 4 Quality Education" style="--card-bg: #BB021A; --card-glow: rgba(187, 2, 26, 0.4);">
+            <img src="images/sdg-4.webp" alt="SDG 4 - Quality Education" loading="eager" />
+          </a>
 
           <!-- Card 3: SDG 10 -->
-          <div class="sdg-nav-card" data-sdg="10" tabindex="0" role="button" aria-selected="false" aria-label="SDG 10 Reduced Inequalities" style="--card-bg: #DE0375; --card-glow: rgba(222, 3, 117, 0.35);">
-            <img src="images/sdg-10.webp" alt="SDG 10 - Reduced Inequalities" loading="lazy" />
-          </div>
+          <a href="?sdg=10" class="home-sdg-card" data-route="sdg" data-sdg="10" title="SDG 10 - Reduced Inequalities" aria-label="SDG 10 Reduced Inequalities" style="--card-bg: #DE0375; --card-glow: rgba(222, 3, 117, 0.4);">
+            <img src="images/sdg-10.webp" alt="SDG 10 - Reduced Inequalities" loading="eager" />
+          </a>
 
           <!-- Card 4: SDG 17 -->
-          <div class="sdg-nav-card" data-sdg="17" tabindex="0" role="button" aria-selected="false" aria-label="SDG 17 Partnerships for the Goals" style="--card-bg: #002763; --card-glow: rgba(0, 39, 99, 0.35);">
-            <img src="images/sdg-17.webp" alt="SDG 17 - Partnerships for the Goals" loading="lazy" />
-          </div>
+          <a href="?sdg=17" class="home-sdg-card" data-route="sdg" data-sdg="17" title="SDG 17 - Partnerships for the Goals" aria-label="SDG 17 Partnerships for the Goals" style="--card-bg: #002763; --card-glow: rgba(0, 39, 99, 0.4);">
+            <img src="images/sdg-17.webp" alt="SDG 17 - Partnerships for the Goals" loading="eager" />
+          </a>
 
-        </nav>
-      </aside>
-
-      <!-- RIGHT COLUMN: DYNAMIC DETAILS AREA (Matching Screenshot 2) -->
-      <section class="content-column" id="sdg-content-area" aria-live="polite">
-        <!-- Rendered dynamically by app.js with initial state -->
-        <noscript>
-          <div class="detail-header-card">
-            <h2 class="detail-sub-header">
-              <span class="detail-number-prefix">1</span>
-              <span class="detail-title-text">End poverty in all its forms everywhere</span>
-            </h2>
-          </div>
-          <p>Please enable JavaScript to view the interactive SDG ranking details.</p>
-        </noscript>
-      </section>
+        </div>
+      </div>
 
     </div>
   </main>

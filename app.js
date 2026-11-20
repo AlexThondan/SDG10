@@ -1,26 +1,29 @@
 /**
  * THE SDG RANKING - Multi-Page Controller & Static Router
- * Supports SDG Overview, Target Pages, and Indicator Pages with Breadcrumbs
+ * Flow:
+ * 1. logo (Home View - 4 logos horizontally centered)
+ * 2. 1 details (SDG Overview - SDG description, target list, switcher)
+ * 3. 1.1 details (Target View - Target metrics, annexures, indicators list)
+ * 4. 1.1.1 details (Indicator View - Full institutional write-up, data & evidence)
  */
 
 let SDG_DATA = {};
 
 // Active state
 let currentRoute = {
-  type: "sdg",
-  sdg: "17",
+  type: "home",
+  sdg: null,
   target: null,
   indicator: null
 };
 
 // DOM Elements
-const navCards = document.querySelectorAll(".sdg-nav-card");
 const contentContainer = document.getElementById("sdg-content-area");
 const breadcrumbContainer = document.getElementById("site-breadcrumb");
 const mainHeadingTitle = document.getElementById("main-heading-title");
 
 /**
- * SVG for box with arrow icon (clean icon-only view button)
+ * SVG for box with arrow icon (clean inline icon-only view button)
  */
 const BOX_ARROW_ICON_SVG = `
   <svg class="box-arrow-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -50,20 +53,28 @@ function parseIndicator(ind) {
   const text = typeof ind === "string" ? ind : (ind.text || "");
   const match = text.match(/^((?:\d+(?:\.[a-zA-Z0-9]+)+(?:\s+to\s+\d+(?:\.[a-zA-Z0-9]+)+)?)|[A-Z]\.)\s*(.*)$/);
 
+  const base = {
+    subtitle: (typeof ind === "object" && ind.subtitle) ? ind.subtitle : "",
+    description: (typeof ind === "object" && ind.description) ? ind.description : null,
+    contentBlocks: (typeof ind === "object" && ind.contentBlocks) ? ind.contentBlocks : null,
+    url: (typeof ind === "object" && (ind.url || ind.file)) ? (ind.url || ind.file) : "",
+    subItems: (typeof ind === "object" && ind.subItems) ? ind.subItems : []
+  };
+
   if (match) {
     return {
-      number: match[1],
-      title: match[2] || match[1],
-      raw: text,
-      subItems: (typeof ind === "object" && ind.subItems) ? ind.subItems : []
+      ...base,
+      number: (typeof ind === "object" && ind.number) ? ind.number : match[1],
+      title: (typeof ind === "object" && ind.title) ? ind.title : (match[2] || match[1]),
+      raw: text
     };
   }
 
   return {
-    number: "",
-    title: text,
-    raw: text,
-    subItems: (typeof ind === "object" && ind.subItems) ? ind.subItems : []
+    ...base,
+    number: (typeof ind === "object" && ind.number) ? ind.number : "",
+    title: (typeof ind === "object" && ind.title) ? ind.title : text,
+    raw: text
   };
 }
 
@@ -83,53 +94,112 @@ function formatPointText(text) {
  * Build URL for a route
  */
 function buildRouteUrl(route) {
-  const base = window.location.pathname.replace(/\/$/, "");
-  // Using query params ensures full cross-browser compatibility across static hosts
   if (route.type === "indicator") {
     return `?sdg=${encodeURIComponent(route.sdg)}&target=${encodeURIComponent(route.target)}&indicator=${encodeURIComponent(route.indicator)}`;
   }
   if (route.type === "target") {
     return `?sdg=${encodeURIComponent(route.sdg)}&target=${encodeURIComponent(route.target)}`;
   }
-  return `?sdg=${encodeURIComponent(route.sdg)}`;
+  if (route.type === "sdg") {
+    return `?sdg=${encodeURIComponent(route.sdg)}`;
+  }
+  return `./`;
 }
 
 /**
- * Render Breadcrumbs
+ * Render Breadcrumbs: Always shows ONLY Home / THE SDG Ranking
  */
-function updateBreadcrumbs(crumbs) {
+function updateBreadcrumbs(sdgNum) {
   if (!breadcrumbContainer) return;
-
-  const crumbsHtml = crumbs.map((crumb, idx) => {
-    const isLast = idx === crumbs.length - 1;
-    if (isLast) {
-      return `<span class="current">${escapeHtml(crumb.label)}</span>`;
-    }
-    return `
-      <a href="${escapeHtml(crumb.url || "#")}" 
-         class="breadcrumb-link" 
-         data-route="${escapeHtml(crumb.route)}"
-         ${crumb.sdg ? `data-sdg="${escapeHtml(crumb.sdg)}"` : ""}
-         ${crumb.target ? `data-target="${escapeHtml(crumb.target)}"` : ""}
-         ${crumb.indicator ? `data-indicator="${escapeHtml(crumb.indicator)}"` : ""}
-      >${escapeHtml(crumb.label)}</a>
-      <span class="sep">/</span>
-    `;
-  }).join("");
-
-  breadcrumbContainer.innerHTML = crumbsHtml;
+  const targetSdg = sdgNum || (currentRoute && currentRoute.sdg) || "1";
+  breadcrumbContainer.innerHTML = `
+    <a href="./" class="breadcrumb-link" data-route="home">Home</a>
+    <span class="sep">/</span>
+    <a href="${buildRouteUrl({ type: 'sdg', sdg: targetSdg })}" 
+       class="breadcrumb-link" 
+       data-route="sdg" 
+       data-sdg="${escapeHtml(targetSdg)}">THE SDG Ranking</a>
+  `;
 }
 
 /**
- * Render SDG Overview Page (Displays targets + indicators directly without dropdown)
+ * Render Home View (Initial state: ONLY 4 logos horizontally centered)
+ */
+function renderHomeView() {
+  updateBreadcrumbs();
+
+  if (mainHeadingTitle) {
+    mainHeadingTitle.textContent = "THE SDG Ranking";
+  }
+
+  // Set default neutral theme
+  document.documentElement.style.setProperty("--theme-color", "#0f172a");
+  document.documentElement.style.setProperty("--theme-light", "rgba(15, 23, 42, 0.05)");
+  document.documentElement.style.setProperty("--theme-border", "rgba(15, 23, 42, 0.15)");
+
+  contentContainer.innerHTML = `
+    <div class="home-logos-wrapper content-animated">
+      <div class="home-logos-grid" role="region" aria-label="Sustainable Development Goals Selection">
+        
+        <!-- Card 1: SDG 1 -->
+        <a href="?sdg=1" class="home-sdg-card" data-route="sdg" data-sdg="1" title="SDG 1 - No Poverty" aria-label="SDG 1 No Poverty" style="--card-bg: #D80218; --card-glow: rgba(216, 2, 24, 0.4);">
+          <img src="images/sdg-1.webp" alt="SDG 1 - No Poverty" loading="eager" />
+        </a>
+
+        <!-- Card 2: SDG 4 -->
+        <a href="?sdg=4" class="home-sdg-card" data-route="sdg" data-sdg="4" title="SDG 4 - Quality Education" aria-label="SDG 4 Quality Education" style="--card-bg: #BB021A; --card-glow: rgba(187, 2, 26, 0.4);">
+          <img src="images/sdg-4.webp" alt="SDG 4 - Quality Education" loading="eager" />
+        </a>
+
+        <!-- Card 3: SDG 10 -->
+        <a href="?sdg=10" class="home-sdg-card" data-route="sdg" data-sdg="10" title="SDG 10 - Reduced Inequalities" aria-label="SDG 10 Reduced Inequalities" style="--card-bg: #DE0375; --card-glow: rgba(222, 3, 117, 0.4);">
+          <img src="images/sdg-10.webp" alt="SDG 10 - Reduced Inequalities" loading="eager" />
+        </a>
+
+        <!-- Card 4: SDG 17 -->
+        <a href="?sdg=17" class="home-sdg-card" data-route="sdg" data-sdg="17" title="SDG 17 - Partnerships for the Goals" aria-label="SDG 17 Partnerships for the Goals" style="--card-bg: #002763; --card-glow: rgba(0, 39, 99, 0.4);">
+          <img src="images/sdg-17.webp" alt="SDG 17 - Partnerships for the Goals" loading="eager" />
+        </a>
+
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * Render Horizontal Top Switcher for SDG Pages
+ */
+function renderSdgSwitcherHtml(activeSdgNum) {
+  const sdgsList = [
+    { num: "1", name: "No Poverty", img: "images/sdg-1.webp", glow: "rgba(216, 2, 24, 0.4)" },
+    { num: "4", name: "Quality Education", img: "images/sdg-4.webp", glow: "rgba(187, 2, 26, 0.4)" },
+    { num: "10", name: "Reduced Inequalities", img: "images/sdg-10.webp", glow: "rgba(222, 3, 117, 0.4)" },
+    { num: "17", name: "Partnerships for the Goals", img: "images/sdg-17.webp", glow: "rgba(0, 39, 99, 0.4)" }
+  ];
+
+  return `
+    <nav class="sdg-horizontal-nav" role="tablist" aria-label="SDG Switcher">
+      ${sdgsList.map(s => `
+        <a href="${buildRouteUrl({ type: 'sdg', sdg: s.num })}" 
+           class="sdg-nav-pill ${s.num === activeSdgNum ? 'active' : ''}" 
+           data-route="sdg" 
+           data-sdg="${s.num}" 
+           title="SDG ${s.num} - ${s.name}" 
+           aria-label="SDG ${s.num} ${s.name}"
+           style="--card-glow: ${s.glow};">
+          <img src="${s.img}" alt="SDG ${s.num}" loading="lazy" />
+        </a>
+      `).join("")}
+    </nav>
+  `;
+}
+
+/**
+ * Render SDG Overview Page ("1 details")
+ * Displays SDG description and the list of targets.
  */
 function renderSdgMainView(sdg) {
-  const crumbs = [
-    { label: "Home", route: "home", url: "./" },
-    { label: "THE SDG Ranking", route: "sdg", sdg: sdg.num, url: buildRouteUrl({ type: "sdg", sdg: sdg.num }) },
-    { label: `SDG ${sdg.num} - ${sdg.name}` }
-  ];
-  updateBreadcrumbs(crumbs);
+  updateBreadcrumbs(sdg.num);
 
   if (mainHeadingTitle) {
     mainHeadingTitle.textContent = "THE SDG Ranking";
@@ -140,59 +210,55 @@ function renderSdgMainView(sdg) {
 
     const indicatorsListHtml = hasIndicators
       ? target.indicators.map(ind => {
-          const parsed = parseIndicator(ind);
-          const indId = parsed.number || parsed.title;
-          const indUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
+        const parsed = parseIndicator(ind);
+        const indId = parsed.number || parsed.title;
+        const indUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
 
-          let subItemsHtml = "";
-          if (parsed.subItems && parsed.subItems.length > 0) {
-            subItemsHtml = parsed.subItems.map(sub => {
-              const subParsed = parseIndicator(sub);
-              const subId = subParsed.number || subParsed.title;
-              const subUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: subId });
-              return `
+        let subItemsHtml = "";
+        if (parsed.subItems && parsed.subItems.length > 0) {
+          subItemsHtml = parsed.subItems.map(sub => {
+            const subParsed = parseIndicator(sub);
+            const subId = subParsed.number || subParsed.title;
+            const subUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: subId });
+            return `
                 <div class="indicator-item indicator-subitem">
                   <div class="indicator-item-left">
                     <span class="indicator-bullet indicator-bullet-sub"></span>
-                    <span class="indicator-text">${formatPointText(subParsed.raw)}</span>
-                  </div>
-                  <div class="indicator-item-right">
                     <a href="${subUrl}"
-                       class="icon-view-btn"
+                       class="indicator-title-link"
                        title="View ${escapeHtml(subId)}"
                        data-route="indicator"
                        data-sdg="${escapeHtml(sdg.num)}"
                        data-target="${escapeHtml(target.id)}"
                        data-indicator="${escapeHtml(subId)}">
-                      ${BOX_ARROW_ICON_SVG}
+                      <span class="indicator-text">${formatPointText(subParsed.raw)}</span>
+                      <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
                     </a>
                   </div>
                 </div>
               `;
-            }).join("");
-          }
+          }).join("");
+        }
 
-          return `
+        return `
             <div class="indicator-item">
               <div class="indicator-item-left">
                 <span class="indicator-bullet"></span>
-                <span class="indicator-text">${formatPointText(parsed.raw)}</span>
-              </div>
-              <div class="indicator-item-right">
                 <a href="${indUrl}"
-                   class="icon-view-btn"
+                   class="indicator-title-link"
                    title="View ${escapeHtml(indId)}"
                    data-route="indicator"
                    data-sdg="${escapeHtml(sdg.num)}"
                    data-target="${escapeHtml(target.id)}"
                    data-indicator="${escapeHtml(indId)}">
-                  ${BOX_ARROW_ICON_SVG}
+                  <span class="indicator-text">${formatPointText(parsed.raw)}</span>
+                  <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
                 </a>
               </div>
             </div>
             ${subItemsHtml}
           `;
-        }).join("")
+      }).join("")
       : "";
 
     const targetUrl = buildRouteUrl({ type: "target", sdg: sdg.num, target: target.id });
@@ -200,22 +266,20 @@ function renderSdgMainView(sdg) {
     return `
       <article class="target-row" data-target-id="${escapeHtml(target.id)}">
         <div class="target-header-meta">
-          <span class="target-label">Target</span>
+          <span class="target-pipe"></span>
           <span class="target-id">${escapeHtml(target.id)}</span>
         </div>
 
         <div class="target-desc-row">
-          <div class="target-desc-text">${escapeHtml(target.desc)}</div>
-          <div class="target-actions">
-            <a href="${targetUrl}"
-               class="icon-view-btn"
-               title="View Target ${escapeHtml(target.id)}"
-               data-route="target"
-               data-sdg="${escapeHtml(sdg.num)}"
-               data-target="${escapeHtml(target.id)}">
-              ${BOX_ARROW_ICON_SVG}
-            </a>
-          </div>
+          <a href="${targetUrl}"
+             class="target-title-link"
+             title="View Target ${escapeHtml(target.id)}"
+             data-route="target"
+             data-sdg="${escapeHtml(sdg.num)}"
+             data-target="${escapeHtml(target.id)}">
+            <span class="target-desc-text">${escapeHtml(target.desc)}</span>
+            <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
+          </a>
         </div>
 
         ${hasIndicators ? `
@@ -228,7 +292,16 @@ function renderSdgMainView(sdg) {
   }).join("");
 
   contentContainer.innerHTML = `
-    <div class="content-animated">
+    <div class="content-animated centered-layout">
+      
+      <div class="subpage-back-row">
+        <a href="./" class="back-nav-link" data-route="home">
+          ← Back to All SDGs
+        </a>
+      </div>
+
+      ${renderSdgSwitcherHtml(sdg.num)}
+
       <div class="detail-header-card">
         <h2 class="detail-sub-header ${sdg.num === "17" ? "sdg-17-sub-header" : ""}">
           <span class="detail-number-prefix ${sdg.num === "17" ? "sdg-17-prefix" : ""}">
@@ -241,7 +314,17 @@ function renderSdgMainView(sdg) {
 
         ${sdg.description ? `
           <div class="detail-intro-block">
-            <p class="detail-intro-text">${escapeHtml(sdg.description)}</p>
+            ${Array.isArray(sdg.description)
+        ? sdg.description.map(p => `<p class="detail-intro-text">${escapeHtml(p)}</p>`).join("")
+        : sdg.description.split("\n\n").map(p => `<p class="detail-intro-text">${escapeHtml(p)}</p>`).join("")
+      }
+            ${sdg.url ? `
+              <p class="detail-intro-source">
+                <a href="${escapeHtml(sdg.url)}" target="_blank" rel="noopener noreferrer" class="detail-intro-link">
+                  ${escapeHtml(sdg.url)}
+                </a>
+              </p>
+            ` : ""}
           </div>
         ` : ""}
       </div>
@@ -254,7 +337,8 @@ function renderSdgMainView(sdg) {
 }
 
 /**
- * Render Target Webpage
+ * Render Target Webpage ("1.1 details")
+ * Displays Target title, Annexure review tables, and Indicator drilldown list.
  */
 function renderTargetView(sdg, targetId) {
   const target = (sdg.targets || []).find(t => String(t.id) === String(targetId) || slugify(t.id) === slugify(targetId));
@@ -264,16 +348,10 @@ function renderTargetView(sdg, targetId) {
     return;
   }
 
-  const crumbs = [
-    { label: "Home", route: "home", url: "./" },
-    { label: "THE SDG Ranking", route: "sdg", sdg: sdg.num, url: buildRouteUrl({ type: "sdg", sdg: sdg.num }) },
-    { label: `SDG ${sdg.num}`, route: "sdg", sdg: sdg.num, url: buildRouteUrl({ type: "sdg", sdg: sdg.num }) },
-    { label: `Target ${target.id}` }
-  ];
-  updateBreadcrumbs(crumbs);
+  updateBreadcrumbs(sdg.num);
 
   if (mainHeadingTitle) {
-    mainHeadingTitle.textContent = `Target ${target.id}`;
+    mainHeadingTitle.textContent = "THE SDG Ranking";
   }
 
   const indicatorsListHtml = (target.indicators || []).map(ind => {
@@ -285,26 +363,97 @@ function renderTargetView(sdg, targetId) {
       <div class="indicator-item">
         <div class="indicator-item-left">
           <span class="indicator-bullet"></span>
-          <span class="indicator-text">${formatPointText(parsed.raw)}</span>
-        </div>
-        <div class="indicator-item-right">
           <a href="${indUrl}"
-             class="icon-view-btn"
+             class="indicator-title-link"
              title="View ${escapeHtml(indId)}"
              data-route="indicator"
              data-sdg="${escapeHtml(sdg.num)}"
              data-target="${escapeHtml(target.id)}"
              data-indicator="${escapeHtml(indId)}">
-            ${BOX_ARROW_ICON_SVG}
+            <span class="indicator-text">${formatPointText(parsed.raw)}</span>
+            <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
           </a>
         </div>
       </div>
     `;
   }).join("");
 
+  let metricsTableHtml = "";
+  if (target.metricsTable && target.metricsTable.length > 0) {
+    metricsTableHtml = `
+      <div class="subpage-content-card">
+        <h3>Research on Poverty Summary ${target.annexure ? `(${escapeHtml(target.annexure)})` : ""}</h3>
+        <div class="data-table-container">
+          <table class="data-grid-table">
+            <thead>
+              <tr>
+                <th style="width: 70%;">Publication / Citation Metric</th>
+                <th class="col-center" style="width: 30%;">Institutional Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${target.metricsTable.map(m => `
+                <tr>
+                  <td><strong>${escapeHtml(m.metric)}</strong></td>
+                  <td class="col-center"><span class="badge-yes">${escapeHtml(m.value)}</span></td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }
+
+  let evidenceTableHtml = "";
+  if (target.evidenceTable && target.evidenceTable.length > 0) {
+    evidenceTableHtml = `
+      <div class="subpage-content-card">
+        <h3>Institutional Evidence & Specificity Review ${target.annexure ? `(${escapeHtml(target.annexure)})` : ""}</h3>
+        <p class="writeup-prose" style="margin-bottom: 12px; color: #64748b; font-size: 13.5px;">
+          Times Higher Education (THE) Impact Rankings evidence audit table:
+        </p>
+        <div class="data-table-container">
+          <table class="data-grid-table">
+            <thead>
+              <tr>
+                <th class="col-center" style="width: 60px;">Sl. No</th>
+                <th>Evidence Details</th>
+                <th class="col-center">Exists</th>
+                <th class="col-center">Specificity</th>
+                <th class="col-center">Public</th>
+                <th class="col-center">Not Provided</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${target.evidenceTable.map(row => `
+                <tr>
+                  <td class="col-center"><strong>${escapeHtml(row.sl)}</strong></td>
+                  <td>${escapeHtml(row.details)}</td>
+                  <td class="col-center"><span class="badge-yes">${escapeHtml(row.exists)}</span></td>
+                  <td class="col-center"><strong>${escapeHtml(row.specificity)}</strong></td>
+                  <td class="col-center"><span class="badge-yes">${escapeHtml(row.public)}</span></td>
+                  <td class="col-center">${escapeHtml(row.notProvided || "-")}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+        ${target.url ? `
+          <div style="margin-top: 14px;">
+            <a href="${escapeHtml(target.url)}" target="_blank" rel="noopener noreferrer" class="nav-btn outline" style="display: inline-flex; align-items: center; gap: 8px;">
+              <span>Official University Scholarship Portal</span>
+              ${BOX_ARROW_ICON_SVG}
+            </a>
+          </div>
+        ` : ""}
+      </div>
+    `;
+  }
+
   contentContainer.innerHTML = `
-    <div class="subpage-container">
-      <div>
+    <div class="subpage-container content-animated centered-layout">
+      <div class="subpage-back-row">
         <a href="${buildRouteUrl({ type: "sdg", sdg: sdg.num })}" 
            class="back-nav-link" 
            data-route="sdg" 
@@ -314,36 +463,121 @@ function renderTargetView(sdg, targetId) {
       </div>
 
       <div class="subpage-header-card">
-        <span class="subpage-badge">Target ${escapeHtml(target.id)}</span>
+        <div class="target-header-meta" style="margin-bottom: 8px;">
+          <span class="target-pipe"></span>
+          <span class="target-id">${escapeHtml(target.id)}</span>
+          ${target.annexure ? `<span class="target-annexure-tag">(${escapeHtml(target.annexure)})</span>` : ""}
+        </div>
         <h2 class="subpage-title">${escapeHtml(target.desc)}</h2>
         <p class="subpage-subtitle">SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}</p>
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : true) && (target.url || target.file) ? `
+          <div style="margin-top: 14px;">
+            <a href="${escapeHtml(target.url || target.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
+              <span>View PDF</span>
+              ${BOX_ARROW_ICON_SVG}
+            </a>
+          </div>
+        ` : ""}
       </div>
+
+      ${target.description ? `
+        <div class="subpage-content-card">
+          <h3>Target Scope & Institutional Leadership</h3>
+          <div class="writeup-prose">
+            ${Array.isArray(target.description)
+              ? target.description.map(p => `<p>${escapeHtml(p)}</p>`).join("")
+              : target.description.split("\n\n").map(p => `<p>${escapeHtml(p)}</p>`).join("")
+            }
+          </div>
+        </div>
+      ` : ""}
+
+      ${metricsTableHtml}
+      ${evidenceTableHtml}
 
       <div class="subpage-content-card">
         <h3>Target Indicators & Performance Metrics</h3>
         <p class="writeup-prose" style="margin-bottom: 16px; color: #64748b; font-size: 13.5px;">
-          Below are the specific indicators monitored under Target ${escapeHtml(target.id)}. Click on any indicator's view icon to examine detailed institutional records, policies, and supporting evidence.
+          Below are the specific indicators monitored under Target ${escapeHtml(target.id)}. Click on any indicator title or icon to examine detailed institutional records, policies, and supporting evidence.
         </p>
 
         <div class="indicators-content">
           ${indicatorsListHtml || "<p style='color:#94a3b8;font-size:13px;'>No specific sub-indicators listed for this target.</p>"}
         </div>
       </div>
-
-      <div class="subpage-footer-nav">
-        <a href="${buildRouteUrl({ type: "sdg", sdg: sdg.num })}" 
-           class="nav-btn outline" 
-           data-route="sdg" 
-           data-sdg="${escapeHtml(sdg.num)}">
-          ← Back to SDG ${escapeHtml(sdg.num)} Overview
-        </a>
-      </div>
     </div>
   `;
 }
 
 /**
- * Render Indicator Webpage
+ * Render structured content blocks (paragraphs, tables, activities with images, standalone figures)
+ */
+function renderContentBlocks(blocks) {
+  if (!blocks || !Array.isArray(blocks)) return "";
+
+  return blocks.map(block => {
+    if (block.type === "report_banner") {
+      return `
+        <div class="report-cover-banner">
+          <div class="report-cover-tag">INSTITUTIONAL PERFORMANCE REPORT</div>
+          <h2 class="report-cover-title">${escapeHtml(block.title)}</h2>
+          <div class="report-cover-subtitle">${escapeHtml(block.subtitle)}</div>
+          <div class="report-cover-meta">${escapeHtml(block.meta)}</div>
+        </div>
+      `;
+    }
+    if (block.type === "section_header") {
+      return `
+        <div class="report-section-divider">
+          ${block.tag ? `<span class="report-section-badge">${escapeHtml(block.tag)}</span>` : ""}
+          <h3 class="report-section-title">${escapeHtml(block.title)}</h3>
+        </div>
+      `;
+    }
+    if (block.type === "paragraph") {
+      return `<p class="writeup-paragraph">${escapeHtml(block.text)}</p>`;
+    }
+    if (block.type === "table") {
+      const headersHtml = (block.headers || []).map(h => `<th>${escapeHtml(h)}</th>`).join("");
+      const rowsHtml = (block.rows || []).map(row => {
+        const cellsHtml = row.map((cell, idx) => {
+          const isNum = idx === 0 && row.length > 2;
+          return `<td ${isNum ? 'class="col-center"' : ''}>${escapeHtml(cell)}</td>`;
+        }).join("");
+        return `<tr>${cellsHtml}</tr>`;
+      }).join("");
+
+      return `
+        <div class="content-table-block">
+          ${block.title ? `<h4 class="table-block-title">${escapeHtml(block.title)}</h4>` : ""}
+          <div class="data-table-container">
+            <table class="data-grid-table">
+              <thead><tr>${headersHtml}</tr></thead>
+              <tbody>${rowsHtml}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+    if (block.type === "activity") {
+      const pText = (block.paragraphs || []).map(p => `<p class="activity-text">${escapeHtml(p)}</p>`).join("");
+      return `
+        <div class="activity-evidence-card">
+          <h4 class="activity-title">${escapeHtml(block.title)}</h4>
+          ${pText}
+        </div>
+      `;
+    }
+    if (block.type === "image") {
+      return "";
+    }
+    return "";
+  }).join("");
+}
+
+/**
+ * Render Indicator Webpage ("1.1.1 details")
+ * Displays detailed institutional write-up, data points, policies, and resources.
  */
 function renderIndicatorView(sdg, targetId, indicatorId) {
   const target = (sdg.targets || []).find(t => String(t.id) === String(targetId) || slugify(t.id) === slugify(targetId));
@@ -373,23 +607,39 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
 
   const displayPoint = foundIndicator ? (foundIndicator.number || indicatorId) : indicatorId;
   const displayTitle = foundIndicator ? foundIndicator.title : indicatorId;
+  const displaySubtitle = foundIndicator ? foundIndicator.subtitle : "";
 
-  const crumbs = [
-    { label: "Home", route: "home", url: "./" },
-    { label: "THE SDG Ranking", route: "sdg", sdg: sdg.num, url: buildRouteUrl({ type: "sdg", sdg: sdg.num }) },
-    { label: `SDG ${sdg.num}`, route: "sdg", sdg: sdg.num, url: buildRouteUrl({ type: "sdg", sdg: sdg.num }) },
-    { label: `Target ${target.id}`, route: "target", sdg: sdg.num, target: target.id, url: buildRouteUrl({ type: "target", sdg: sdg.num, target: target.id }) },
-    { label: `${displayPoint}` }
-  ];
-  updateBreadcrumbs(crumbs);
+  let writeupHtml = "";
+  if (foundIndicator && foundIndicator.contentBlocks && foundIndicator.contentBlocks.length > 0) {
+    writeupHtml = renderContentBlocks(foundIndicator.contentBlocks);
+  } else if (foundIndicator && foundIndicator.description) {
+    const desc = foundIndicator.description;
+    if (Array.isArray(desc)) {
+      writeupHtml = desc.map(p => `<p>${escapeHtml(p)}</p>`).join("");
+    } else {
+      writeupHtml = `<p>${escapeHtml(desc)}</p>`;
+    }
+  } else if (!foundIndicator || (!foundIndicator.url && !foundIndicator.file)) {
+    writeupHtml = `
+      <p>
+        This section documents the university's institutional performance, policies, and community outreach addressing 
+        <strong>${escapeHtml(displayTitle)}</strong> in accordance with Times Higher Education (THE) Impact Rankings criteria.
+      </p>
+      <p>
+        The dedicated coordinator team reviews annual progress, cross-departmental initiatives, and external stakeholder partnerships to ensure full transparency and compliance across all reported metrics.
+      </p>
+    `;
+  }
+
+  updateBreadcrumbs(sdg.num);
 
   if (mainHeadingTitle) {
-    mainHeadingTitle.textContent = `${displayPoint}`;
+    mainHeadingTitle.textContent = "THE SDG Ranking";
   }
 
   contentContainer.innerHTML = `
-    <div class="subpage-container">
-      <div>
+    <div class="subpage-container content-animated centered-layout">
+      <div class="subpage-back-row">
         <a href="${buildRouteUrl({ type: "target", sdg: sdg.num, target: target.id })}" 
            class="back-nav-link" 
            data-route="target" 
@@ -402,88 +652,36 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
       <div class="subpage-header-card">
         <span class="subpage-badge">Indicator ${escapeHtml(displayPoint)}</span>
         <h2 class="subpage-title">${escapeHtml(displayTitle)}</h2>
+        ${displaySubtitle ? `<h3 style="font-size: 15px; font-weight: 600; color: #1e293b; margin: 4px 0 8px 0;">${escapeHtml(displaySubtitle)}</h3>` : ""}
         <p class="subpage-subtitle">
           SDG ${escapeHtml(sdg.num)} (${escapeHtml(sdg.name)}) &nbsp;•&nbsp; Target ${escapeHtml(target.id)}: ${escapeHtml(target.desc)}
         </p>
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : true) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
+          <div style="margin-top: 14px;">
+            <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
+              <span>View PDF</span>
+              ${BOX_ARROW_ICON_SVG}
+            </a>
+          </div>
+        ` : ""}
       </div>
 
-      <div class="subpage-content-card">
-        <h3>Indicator Details & Scope</h3>
-        <div class="writeup-prose">
-          <p>
-            This section documents the university's institutional performance, policies, and community outreach addressing 
-            <strong>${escapeHtml(displayTitle)}</strong> in accordance with Times Higher Education (THE) Impact Rankings criteria.
-          </p>
-          <p>
-            The dedicated coordinator team reviews annual progress, cross-departmental initiatives, and external stakeholder partnerships to ensure full transparency and compliance across all reported metrics.
-          </p>
+      ${writeupHtml ? `
+        <div class="subpage-content-card">
+          ${(foundIndicator && foundIndicator.contentBlocks && foundIndicator.contentBlocks.some(b => b.type === "section_header" || b.type === "report_banner")) ? "" : "<h3>Indicator Details & Scope</h3>"}
+          <div class="writeup-prose">
+            ${writeupHtml}
+          </div>
+          ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : true) && foundIndicator && (foundIndicator.url || foundIndicator.file) ? `
+            <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid #f1f5f9;">
+              <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 8px 16px; font-size: 13.5px;" title="View PDF">
+                <span>View PDF</span>
+                ${BOX_ARROW_ICON_SVG}
+              </a>
+            </div>
+          ` : ""}
         </div>
-      </div>
-
-      <div class="subpage-content-card">
-        <h3>Supporting Evidences & Records</h3>
-        <div class="evidences-grid">
-          <div class="evidence-box">
-            <div class="evidence-icon-wrap">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-                <line x1="16" y1="13" x2="8" y2="13"></line>
-                <line x1="16" y1="17" x2="8" y2="17"></line>
-              </svg>
-            </div>
-            <div class="evidence-info">
-              <h4>Institutional Policies & Reports</h4>
-              <p>Approved statutes, university policies, and verified documentation.</p>
-            </div>
-          </div>
-
-          <div class="evidence-box">
-            <div class="evidence-icon-wrap">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <polyline points="21 15 16 10 5 21"></polyline>
-              </svg>
-            </div>
-            <div class="evidence-info">
-              <h4>Activity & Event Evidence</h4>
-              <p>Geotagged photographs, program reports, and community outreach.</p>
-            </div>
-          </div>
-
-          <div class="evidence-box">
-            <div class="evidence-icon-wrap">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="18" y1="20" x2="18" y2="10"></line>
-                <line x1="12" y1="20" x2="12" y2="4"></line>
-                <line x1="6" y1="20" x2="6" y2="14"></line>
-              </svg>
-            </div>
-            <div class="evidence-info">
-              <h4>Impact & Metric Benchmarks</h4>
-              <p>Audited figures, beneficiary statistics, and progress ratios.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="subpage-footer-nav">
-        <a href="${buildRouteUrl({ type: "target", sdg: sdg.num, target: target.id })}" 
-           class="nav-btn outline" 
-           data-route="target" 
-           data-sdg="${escapeHtml(sdg.num)}" 
-           data-target="${escapeHtml(target.id)}">
-          ← Back to Target ${escapeHtml(target.id)}
-        </a>
-
-        <a href="${buildRouteUrl({ type: "sdg", sdg: sdg.num })}" 
-           class="nav-btn solid" 
-           data-route="sdg" 
-           data-sdg="${escapeHtml(sdg.num)}">
-          SDG ${escapeHtml(sdg.num)} Overview →
-        </a>
-      </div>
+      ` : ""}
     </div>
   `;
 }
@@ -499,22 +697,22 @@ function navigateTo(route, push = true) {
     history.pushState(route, "", url);
   }
 
-  const sdg = SDG_DATA[route.sdg] || SDG_DATA["17"] || Object.values(SDG_DATA)[0];
+  if (route.type === "home") {
+    renderHomeView();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
 
-  if (!sdg) return;
+  const sdg = SDG_DATA[route.sdg] || SDG_DATA["1"] || Object.values(SDG_DATA)[0];
+  if (!sdg) {
+    renderHomeView();
+    return;
+  }
 
   // Set theme colors
   document.documentElement.style.setProperty("--theme-color", sdg.color);
   document.documentElement.style.setProperty("--theme-light", sdg.colorLight);
   document.documentElement.style.setProperty("--theme-border", sdg.colorBorder);
-
-  // Update Left Navigation Cards
-  navCards.forEach(card => {
-    const cardKey = card.getAttribute("data-sdg");
-    const isActive = cardKey === sdg.num;
-    card.classList.toggle("active", isActive);
-    card.setAttribute("aria-selected", isActive ? "true" : "false");
-  });
 
   // Render proper view
   if (route.type === "indicator" && route.target && route.indicator) {
@@ -530,7 +728,6 @@ function navigateTo(route, push = true) {
 
 /**
  * Parse current URL location to determine initial route
- * Supports query params (?sdg=17&target=17.1...), clean path (/sdg/17/17-1/...), and hash
  */
 function parseCurrentUrlRoute() {
   const params = new URLSearchParams(window.location.search);
@@ -573,7 +770,8 @@ function parseCurrentUrlRoute() {
     return { type: "sdg", sdg: hash };
   }
 
-  return { type: "sdg", sdg: "17" in SDG_DATA ? "17" : Object.keys(SDG_DATA)[0] };
+  // Initial landing state: 4 logos horizontally centered
+  return { type: "home" };
 }
 
 /**
@@ -583,10 +781,13 @@ function handleLinkClick(e) {
   const targetLink = e.target.closest("a[data-route]");
   if (!targetLink) return;
 
+  // Let external links open normally
+  if (targetLink.getAttribute("target") === "_blank") return;
+
   e.preventDefault();
 
   const routeType = targetLink.getAttribute("data-route");
-  const sdg = targetLink.getAttribute("data-sdg") || currentRoute.sdg || "17";
+  const sdg = targetLink.getAttribute("data-sdg") || currentRoute.sdg || "1";
   const target = targetLink.getAttribute("data-target");
   const indicator = targetLink.getAttribute("data-indicator");
 
@@ -594,8 +795,10 @@ function handleLinkClick(e) {
     navigateTo({ type: "indicator", sdg, target, indicator });
   } else if (routeType === "target") {
     navigateTo({ type: "target", sdg, target });
-  } else if (routeType === "sdg" || routeType === "home") {
+  } else if (routeType === "sdg") {
     navigateTo({ type: "sdg", sdg });
+  } else if (routeType === "home") {
+    navigateTo({ type: "home" });
   }
 }
 
@@ -634,23 +837,6 @@ async function init() {
   try {
     SDG_DATA = await loadSdgData();
 
-    // Bind Sidebar Card Click Events
-    navCards.forEach(card => {
-      card.addEventListener("click", () => {
-        const key = card.getAttribute("data-sdg");
-        if (key) {
-          navigateTo({ type: "sdg", sdg: key });
-        }
-      });
-
-      card.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          card.click();
-        }
-      });
-    });
-
     // Listen to all link clicks
     document.addEventListener("click", handleLinkClick);
 
@@ -671,7 +857,7 @@ async function init() {
     console.error("Initialization error:", error);
     if (contentContainer) {
       contentContainer.innerHTML = `
-        <div style="padding:25px;color:#b91c1c;">
+        <div style="padding:25px;color:#b91c1c;text-align:center;">
           <h3>Unable to load SDG data</h3>
           <p>${escapeHtml(error.message)}</p>
         </div>

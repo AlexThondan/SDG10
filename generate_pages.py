@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import shutil
 
 def slugify(s):
     if not s:
@@ -52,6 +53,11 @@ def main():
     # Update base index.html with embedded data
     with open(index_path, "w", encoding="utf-8") as f:
         f.write(template)
+
+    # Ensure images directory is synced to dist/images
+    if os.path.exists("images"):
+        dist_images = os.path.join(dist_dir, "images")
+        shutil.copytree("images", dist_images, dirs_exist_ok=True)
 
     # For every SDG, create directory in dist/sdg/{sdg_id}/
     for sdg_id, sdg in sdgs.items():

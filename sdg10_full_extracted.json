@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "10.1",
+    "desc": "Research on Reduced Inequalities",
+    "metricsTable": [
+      {
+        "metric": "Total Number of SDG 10 Publications (Scopus)",
+        "value": "157"
+      },
+      {
+        "metric": "SDG 10 Publications in Year 2025",
+        "value": "45"
+      },
+      {
+        "metric": "Publications in Top 10% of Journals (CiteScore)",
+        "value": "Scopus / SciVal Indexed"
+      },
+      {
+        "metric": "Field-Weighted Citation Impact (FWCI)",
+        "value": "SciVal Verified Dataset"
+      }
+    ],
+    "indicators": [
+      {
+        "number": "10.1.1",
+        "title": "Quality of research publications, measured through CiteScore",
+        "text": "10.1.1 Quality of research publications, measured through CiteScore",
+        "subtitle": "CiteScore Bibliometric Evaluation and Top Percentile Publications",
+        "file": "https://docs.google.com/document/d/1tUZogKWakews3h8XKP6YWLmjo-Wj7Wg8/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "This indicator evaluates the quality and scholarly reach of Kristu Jayanti (Deemed to be University) research publications addressing SDG 10 (Reduced Inequalities). Publication quality is indexed against the Scopus database and measured through journal CiteScore percentiles, focusing on research published in high-impact academic journals globally."
+          },
+          {
+            "type": "table",
+            "title": "CiteScore Indicator Assessment – SDG 10 Publications",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.1.1.1",
+                "Number of SDG 10 publications",
+                "157 total (45 in 2025)",
+                "Scopus"
+              ],
+              [
+                "10.1.1.2",
+                "Number / percentage of SDG 10 publications in the top 10 percent of journals (CiteScore)",
+                "Data not available",
+                "Elsevier SciVal metric has all datas"
+              ],
+              [
+                "10.1.1.3",
+                "Scopus export with CiteScore percentile / top-journal status for each publication",
+                "Data not available",
+                "Elsevier SciVal metric has all datas"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Note: CiteScore-related value must be obtained from the Scopus/Elsevier bibliometric dataset and should not be calculated from the count of 157 papers alone. The University Research Office validates indexed publication lists annually to ensure adherence to high academic and ethical publishing standards."
+          }
+        ]
+      },
+      {
+        "number": "10.1.2",
+        "title": "Research impact measured through Field-Weighted Citation Impact (FWCI)",
+        "text": "10.1.2 Research impact measured through Field-Weighted Citation Impact (FWCI)",
+        "subtitle": "Field-Weighted Citation Impact of Inequality Research",
+        "file": "https://docs.google.com/document/d/1CkxJmWS_GOYTV-l0WDh5gsJRlRgz8vh1/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Field-Weighted Citation Impact (FWCI) normalizes differences in citation rates across academic fields, publication types, and publication age. This indicator benchmarks the research impact of Kristu Jayanti University's publications on inequality, social inclusion, and economic parity against global averages."
+          },
+          {
+            "type": "table",
+            "title": "Field-Weighted Citation Impact Assessment (SDG 10)",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.1.2.1",
+                "Field-weighted citation impact (FWCI) of the SDG 10 publication set",
+                "Data not available",
+                "Elsevier SciVal metric has all datas"
+              ],
+              [
+                "10.1.2.2",
+                "Scopus / SciVal export with citation count and FWCI for each publication",
+                "Data not available",
+                "Elsevier SciVal metric has all datas"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Institutional research data compiled through Elsevier SciVal tracks cross-disciplinary citations to quantify the academic influence and global reach of institutional findings in socioeconomic parity, human rights, and inclusive development."
+          }
+        ]
+      },
+      {
+        "number": "10.1.3",
+        "title": "Number of research publications related to reduced inequalities",
+        "text": "10.1.3 Number of research publications related to reduced inequalities",
+        "subtitle": "Scopus-Indexed Research Output on Reduced Inequalities",
+        "file": "https://docs.google.com/document/d/1qDrktFg2daF4ZXdkuPoMNe9WWqSavbHQ/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "This indicator records the total volume of scholarly publications produced by faculty, research scholars, and postgraduate students addressing themes aligned with SDG 10, including poverty reduction, gender equity, minority rights, and inclusive public policies."
+          },
+          {
+            "type": "table",
+            "title": "SDG 10 Research Publications Count & Verification",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.1.3.1",
+                "Number of SDG 10 publications",
+                "157 (University-supplied Scopus bibliography count)",
+                "Research Office"
+              ],
+              [
+                "10.1.3.2",
+                "Scopus bibliography export for the 157 publications",
+                "Excel file available",
+                "Research Office"
+              ],
+              [
+                "10.1.3.3",
+                "Validation of publication years and duplicate records",
+                "Validated publication details available in excel file without duplication",
+                "Research Office"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Research Office maintains an active institutional repository of validated bibliographies, ensuring transparent tracking of interdisciplinary inquiries and peer-reviewed journal contributions."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10.2",
+    "desc": "First-Generation Students",
+    "metricsTable": [
+      {
+        "metric": "Undergraduate (UG) Total Degree Starting Students",
+        "value": "4,702"
+      },
+      {
+        "metric": "UG First-Generation Degree Starting Students",
+        "value": "940"
+      },
+      {
+        "metric": "UG Proportion of First-Generation Students",
+        "value": "19.99%"
+      },
+      {
+        "metric": "Postgraduate (PG) Total Degree Starting Students",
+        "value": "1,377"
+      },
+      {
+        "metric": "PG First-Generation Degree Starting Students",
+        "value": "275"
+      },
+      {
+        "metric": "PG Proportion of First-Generation Students",
+        "value": "19.97%"
+      },
+      {
+        "metric": "Combined First-Generation Student Share",
+        "value": "19.99% (1,215 / 6,079)"
+      }
+    ],
+    "indicators": [
+      {
+        "number": "10.2.1",
+        "title": "Proportion of first-generation students enrolled in the University",
+        "text": "10.2.1 Proportion of first-generation students enrolled in the University",
+        "subtitle": "Institutional Enrolment and Degree Starting Demographics",
+        "file": "https://docs.google.com/document/d/1_PSPlZXrAFIuERgVWmZ9-NLYfNmag_Ht/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "This indicator measures the representation of students who are the first members of their immediate family to attend higher education. Kristu Jayanti University actively promotes social mobility by welcoming first-generation college entrants and providing tailored academic mentorship, language support, and financial aid."
+          },
+          {
+            "type": "table",
+            "title": "First-Generation Student Admissions Breakdown (Reporting Year)",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.2.1.1",
+                "Number of students starting a degree (reporting year)",
+                "UG – 4702, PG – 1377",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.2.1.2",
+                "Number of first-generation students starting a degree",
+                "UG – 940, PG – 275",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.2.1.3",
+                "Proportion of first-generation students [(10.2.1.2 ÷ 10.2.1.1) × 100]",
+                "UG – 19.99%, PG – 19.97%",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.2.1.4",
+                "Records / self-identification declaration supporting first-generation status",
+                "Data not available",
+                "Registrar / Admissions"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "With 19.99% of undergraduate students and 19.97% of postgraduate entrants identifying as first-generation learners, the University operates dedicated student welfare programmes, orientation modules, and peer tutoring networks to facilitate their smooth transition into tertiary education."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10.3",
+    "desc": "International Students from Developing Countries",
+    "metricsTable": [
+      {
+        "metric": "Support Framework",
+        "value": "Active International Student Helpdesk"
+      },
+      {
+        "metric": "Financial Assistance Schemes",
+        "value": "Institutional Upliftment Scholarships"
+      },
+      {
+        "metric": "International Admissions",
+        "value": "Facilitated via International Office & Registrar"
+      }
+    ],
+    "indicators": [
+      {
+        "number": "10.3.1",
+        "title": "Proportion of international students from developing countries receiving significant financial support from the University",
+        "text": "10.3.1 Proportion of international students from developing countries receiving significant financial support from the University",
+        "subtitle": "Support for Learners from Low- and Lower-Middle-Income Countries",
+        "file": "https://docs.google.com/document/d/1sxHT_NLyh9h32iUBGu58wTTqm_KDLvk-/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "This indicator evaluates the University's support for international students from low-income and lower-middle-income countries through financial assistance, fee concessions, accommodation guidance, and cultural integration initiatives."
+          },
+          {
+            "type": "table",
+            "title": "International Students from Developing Countries",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.3.1.1",
+                "Total number of students",
+                "Data not available",
+                "International Office / Registrar"
+              ],
+              [
+                "10.3.1.2",
+                "Number of international students from developing countries",
+                "Data not available",
+                "International Office / Registrar"
+              ],
+              [
+                "10.3.1.3",
+                "Percentage of students from developing countries",
+                "Data not available",
+                "International Office / Registrar"
+              ],
+              [
+                "10.3.1.4",
+                "Country classification used and supporting student records",
+                "Data not available",
+                "International Office / Registrar"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The International Office collaborates with diplomatic missions and academic bodies to facilitate non-discriminatory admission, academic mentoring, and cultural orientation for international students representing developing nations."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10.4",
+    "desc": "Proportion of Students with Disabilities",
+    "metricsTable": [
+      {
+        "metric": "Total Enrolled University Students",
+        "value": "18,498"
+      },
+      {
+        "metric": "Enrolled Students with Disabilities (Divyangjan)",
+        "value": "13"
+      },
+      {
+        "metric": "Proportion of Students with Disabilities",
+        "value": "0.07%"
+      },
+      {
+        "metric": "First-Year Intake (AY 2025-26)",
+        "value": "8 Students"
+      },
+      {
+        "metric": "First-Year Intake (AY 2026-27)",
+        "value": "5 Students (3 Female, 2 Male)"
+      }
+    ],
+    "indicators": [
+      {
+        "number": "10.4.1",
+        "title": "Proportion of enrolled students with disabilities in the University",
+        "text": "10.4.1 Proportion of enrolled students with disabilities in the University",
+        "subtitle": "Divyangjan Student Enrolment, Privileges, and Disability Support",
+        "file": "https://docs.google.com/document/d/1Yn38qTolNgjXlOm6hX7qUBl0kzd78DIb/edit#heading=h.oi35unu0z6rn",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Kristu Jayanti (Deemed to be University) is committed to building an inclusive campus that ensures accessible education and equal opportunities for students with disabilities (Divyangjan). The University provides physical, pedagogical, and administrative support across all academic disciplines."
+          },
+          {
+            "type": "table",
+            "title": "Students with Disabilities – Enrolment & Provisions",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.4.1.1",
+                "Total number of students",
+                "18498 (University-supplied; reporting year not stated)",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.4.1.2",
+                "Number of students with disabilities",
+                "13 (University-supplied)",
+                "Student Support"
+              ],
+              [
+                "10.4.1.3",
+                "Percentage of students with disabilities",
+                "0.07%",
+                "Registrar"
+              ],
+              [
+                "10.4.1.4",
+                "Examination privileges for Divyangjan students (public page)",
+                "https://www.kristujayanti.edu.in/examination/divyangjan_students_privileges.php",
+                "Examination Office"
+              ],
+              [
+                "10.4.1.5",
+                "Jayantian Determination (Divyangjan) Scholarship (public page)",
+                "https://kristujayanti.edu.in/student-services/scholarship/",
+                "Student Support / Scholarship Section"
+              ],
+              [
+                "10.4.1.6",
+                "Verified student records / disability register (confidential)",
+                "Data not available",
+                "Student Support"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Note: Public pages confirm institutional provisions, scholarship eligibility, and formal examination concessions. Verified confidential records are maintained by the Student Support cell in accordance with data protection guidelines."
+          },
+          {
+            "type": "section_header",
+            "tag": "INTAKE RECORDS",
+            "title": "Divyangjan First-Year Intake Summary"
+          },
+          {
+            "type": "table",
+            "title": "First-Year Intake Across Academic Programmes",
+            "headers": [
+              "Academic Year",
+              "Programme Intake Breakdown",
+              "Total Students"
+            ],
+            "rows": [
+              [
+                "AY 2025-26",
+                "BCA (3), BCom (1), BBA (1), BBA Business Analytics (1), BSc Visual Communication (1), BSc Psychology (1)",
+                "8 students"
+              ],
+              [
+                "AY 2026-27",
+                "BCA (1), BA History & Political Science (1), BCom Professional Accounting (1), PhD Computer Science (1), PhD Sociology (1) — [3 Female, 2 Male]",
+                "5 students"
+              ]
+            ]
+          },
+          {
+            "type": "activity",
+            "title": "Divyangjan Accommodation Privileges & Committee Mandate",
+            "paragraphs": [
+              "The University enforces five statutory examination privileges for Divyangjan learners: (1) special coaching facilitation, (2) compensatory extra time for writing examinations, (3) dedicated separate examination room, (4) support of qualified scribes of the student's choice, and (5) customized question papers where required.",
+              "The Disability Accommodation Committee (8 VC-nominated members including Student Welfare Officer, Deans, faculty, administrative representatives, and Student Council representatives) inspects barrier-free access, ramps, lifts, and accessible restrooms across all campus blocks."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10.5",
+    "desc": "Proportion of Employees with Disabilities",
+    "metricsTable": [
+      {
+        "metric": "Total Number of University Employees",
+        "value": "944"
+      },
+      {
+        "metric": "Number of Employees with Disability",
+        "value": "0"
+      },
+      {
+        "metric": "Percentage of Employees with Disability",
+        "value": "0%"
+      },
+      {
+        "metric": "Institutional Policy",
+        "value": "Equal Opportunity & Non-Discriminatory Employment"
+      }
+    ],
+    "indicators": [
+      {
+        "number": "10.5.1",
+        "title": "Proportion of employees with disabilities in the University",
+        "text": "10.5.1 Proportion of employees with disabilities in the University",
+        "subtitle": "Human Resource Diversity Records and Inclusive Recruitment",
+        "file": "https://docs.google.com/document/d/18GC3ksc_nZItJ8Eq7N9ACEkS7vRFrab3/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "This indicator evaluates inclusive employment practices and workplace opportunities for persons with disabilities. The University's human resource regulations affirm equal opportunity, non-discrimination, and reasonable workplace accommodations in hiring and professional advancement."
+          },
+          {
+            "type": "table",
+            "title": "Employee Disability Representation (Human Resources)",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.5.1.1",
+                "Total number of employees",
+                "944 (University-supplied; headcount/FTE basis not stated)",
+                "Human Resources"
+              ],
+              [
+                "10.5.1.2",
+                "Number of employees with disability",
+                "0 (University-supplied)",
+                "Human Resources"
+              ],
+              [
+                "10.5.1.3",
+                "Percentage of employees with disability",
+                "0%",
+                "Human Resources"
+              ],
+              [
+                "10.5.1.4",
+                "Verified HR records using the applicable definition",
+                "Data not available",
+                "Human Resources"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Office of Human Resources reviews talent acquisition processes periodically to ensure accessible application portals and encourage applications from qualified persons with disabilities across teaching and administrative cadres."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10.6",
+    "desc": "Measures Against Discrimination",
+    "metricsTable": [
+      {
+        "metric": "Statutory Regulation",
+        "value": "Regulation for Promotion of Equity 2026"
+      },
+      {
+        "metric": "Equal Opportunity Cell (EOC)",
+        "value": "9-Member Composite Statutory Body"
+      },
+      {
+        "metric": "Anti-Harassment Framework",
+        "value": "Internal Complaints Committee (ICC) UGC 2015"
+      },
+      {
+        "metric": "Anti-Ragging Zero Tolerance",
+        "value": "Anti-Ragging Committee & Squad UGC 2009"
+      },
+      {
+        "metric": "Disadvantaged Student Share (2026-27)",
+        "value": "71.6% (OBC, Minorities, SC & ST)"
+      }
+    ],
+    "indicators": [
+      {
+        "number": "10.6.1",
+        "title": "Non-discriminatory admissions policy",
+        "text": "10.6.1 Non-discriminatory admissions policy",
+        "subtitle": "Equitable Admissions Regulations and Public Admissions Portal",
+        "file": "https://docs.google.com/document/d/1gRol2Nw6yByX0TRDFBE9bpgGlViD7Uyj/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Kristu Jayanti University enforces a strictly non-discriminatory admission policy under the Kristu Jayanti Regulation for Promotion of Equity 2026. The policy guarantees fair admission consideration for all qualified applicants irrespective of caste, creed, religion, language, ethnicity, gender, social background, or disability."
+          },
+          {
+            "type": "table",
+            "title": "Non-Discriminatory Admissions Policy Verification",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.1.1",
+                "Approved non-discriminatory admissions policy (public URL)",
+                "Data not available",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.6.1.2",
+                "Approval / review date of the policy",
+                "Data not available",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.6.1.3",
+                "Admissions portal (general admission information only)",
+                "https://v2.kristujayanti.edu.in/admission/",
+                "Registrar / Admissions"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The University admissions portal provides transparent criteria, online application mechanisms, and clear documentation requirements accessible to prospective applicants nationwide."
+          }
+        ]
+      },
+      {
+        "number": "10.6.2",
+        "title": "Tracking applications and admissions from underrepresented groups",
+        "text": "10.6.2 Tracking applications and admissions from underrepresented groups",
+        "subtitle": "Institutional Tracking of Disadvantaged and Underrepresented Enrolment",
+        "file": "https://docs.google.com/document/d/1Sw65924AK9WfYnpbPxCIcEoBuzRpKzGL/edit#heading=h.cxjma95debmy",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The Admissions Office and Registrar systematically monitor application and enrollment trends from underrepresented and disadvantaged groups, including Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), religious and linguistic minorities, and Divyangjan students."
+          },
+          {
+            "type": "table",
+            "title": "Tracking Applications and Admissions (Underrepresented Groups)",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.2.1",
+                "Process description for tracking applications from under-represented groups",
+                "Data not available",
+                "Registrar / Admissions"
+              ],
+              [
+                "10.6.2.2",
+                "Aggregated application / admission data of under-represented groups",
+                "Data not available",
+                "Registrar / Admissions"
+              ]
+            ]
+          },
+          {
+            "type": "section_header",
+            "tag": "STATISTICAL REVIEW",
+            "title": "Category-Wise Admissions Data: 2025-26 vs. 2026-27"
+          },
+          {
+            "type": "table",
+            "title": "Admissions and Category-Wise Student Intake (2026-27)",
+            "headers": [
+              "Category",
+              "Postgraduate (PG)",
+              "Undergraduate (UG)",
+              "Grand Total",
+              "Percentage Share"
+            ],
+            "rows": [
+              [
+                "General",
+                "483",
+                "1,855",
+                "2,338",
+                "28.4%"
+              ],
+              [
+                "Minorities",
+                "548",
+                "1,394",
+                "1,942",
+                "23.6%"
+              ],
+              [
+                "OBC",
+                "633",
+                "2,578",
+                "3,211",
+                "39.0%"
+              ],
+              [
+                "SC",
+                "101",
+                "581",
+                "682",
+                "8.3%"
+              ],
+              [
+                "ST",
+                "9",
+                "50",
+                "59",
+                "0.7%"
+              ],
+              [
+                "Grand Total",
+                "1,774",
+                "6,458",
+                "8,232",
+                "100.0%"
+              ]
+            ]
+          },
+          {
+            "type": "table",
+            "title": "Admissions and Category-Wise Student Intake (2025-26)",
+            "headers": [
+              "Category",
+              "Postgraduate (PG)",
+              "Undergraduate (UG)",
+              "Grand Total",
+              "Percentage Share"
+            ],
+            "rows": [
+              [
+                "General",
+                "965",
+                "2,836",
+                "3,801",
+                "61.5%"
+              ],
+              [
+                "Minorities",
+                "Not Available",
+                "Not Available",
+                "Not Available",
+                "-"
+              ],
+              [
+                "OBC",
+                "284",
+                "1,260",
+                "1,544",
+                "25.0%"
+              ],
+              [
+                "SC",
+                "75",
+                "520",
+                "595",
+                "9.6%"
+              ],
+              [
+                "ST",
+                "69",
+                "171",
+                "240",
+                "3.9%"
+              ],
+              [
+                "Grand Total",
+                "1,393",
+                "4,787",
+                "6,180",
+                "100.0%"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Analytical Findings: In 2026-27, 71.6% of all 8,232 students belonged to OBC, Minorities, SC, and ST categories, with OBC representing the largest demographic group at 39.0%. Postgraduate learners accounted for 21.6% of the overall student population."
+          }
+        ]
+      },
+      {
+        "number": "10.6.3",
+        "title": "Planned action to recruit students and staff from under-represented groups",
+        "text": "10.6.3 Planned action to recruit students and staff from under-represented groups",
+        "subtitle": "Targeted Recruitment and Upliftment Scholarships",
+        "file": "https://docs.google.com/document/d/1Jcuz2KaBJGdUrnyxhXM_NhZKTnhDjUMO/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The University executes planned outreach to encourage applications from underrepresented rural communities, economically disadvantaged families, and social minorities. This includes the institutional Jayantian Upliftment Scholarship (JUS) specifically reserved for students from households earning up to ₹2,00,000 annually."
+          },
+          {
+            "type": "table",
+            "title": "Recruitment & Upliftment Support Indicators",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.3.1",
+                "Recruitment / access actions for under-represented students, staff or faculty",
+                "Data not available",
+                "Admissions / HR"
+              ],
+              [
+                "10.6.3.2",
+                "Jayantian Upliftment Scholarship (public page)",
+                "https://kristujayanti.edu.in/student-services/scholarship/",
+                "Student Support / Scholarship Section"
+              ],
+              [
+                "10.6.3.3",
+                "Scholarship recipient numbers and amounts",
+                "Data not available",
+                "Student Support / Scholarship Section"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Through partnerships with community networks and regional educational bodies, the institution ensures that information regarding fee concessions, hostel aid, and merit-cum-means assistance reaches deserving candidates."
+          }
+        ]
+      },
+      {
+        "number": "10.6.4",
+        "title": "Anti-discrimination policy",
+        "text": "10.6.4 Anti-discrimination policy",
+        "subtitle": "Institutional Equity, Anti-Harassment, and Anti-Ragging Frameworks",
+        "file": "https://docs.google.com/document/d/1auYzK5B26hwYqioeZVzZScs2W8LZI0Tb/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Kristu Jayanti University operates a robust, multi-layered regulatory architecture ensuring zero tolerance towards discrimination, harassment, and ragging across all academic, administrative, and residential facilities."
+          },
+          {
+            "type": "table",
+            "title": "Anti-Discrimination & Anti-Harassment Governance",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.4.1",
+                "Approved anti-discrimination policy (public URL)",
+                "Data not available",
+                "HR / Equal Opportunity Committee"
+              ],
+              [
+                "10.6.4.2",
+                "Date created / reviewed (anti-discrimination policy)",
+                "Data not available",
+                "HR / Equal Opportunity Committee"
+              ],
+              [
+                "10.6.4.3",
+                "Approved anti-harassment policy (public URL)",
+                "Data not available",
+                "HR / Equal Opportunity Committee"
+              ],
+              [
+                "10.6.4.4",
+                "Date created / reviewed (anti-harassment policy)",
+                "Data not available",
+                "HR / Equal Opportunity Committee"
+              ]
+            ]
+          },
+          {
+            "type": "activity",
+            "title": "1. Regulation for Promotion of Equity 2026 (UGC Regulations 2012)",
+            "paragraphs": [
+              "Establishes a composite 9-member Equal Opportunity Cell (EOC) serving as Anti-Discrimination Cell, Gender Sensitisation Cell, and Disability Committee, chaired by the Director of Student Welfare with an Associate Director of Admissions as designated Anti-Discrimination Officer.",
+              "Strictly prohibits disclosing caste, religion, or disability status in classrooms, labelling learners as 'Reserved Category', derogatory remarks, differential evaluation, or denial of facilities. Enforces formal joint hearings within 15 days, orders within 7 days, appellate review by the EOC, and final review by the Vice Chancellor."
+            ]
+          },
+          {
+            "type": "activity",
+            "title": "2. Prevention of Sexual Harassment Regulations 2026 (UGC Regulations 2015)",
+            "paragraphs": [
+              "Enforces zero tolerance across campuses, hostels, transit, and events. An Internal Complaints Committee (ICC) is chaired by a Senior Woman Professor with 50%+ female representation, faculty, staff, student nominees, and an independent external NGO representative.",
+              "Select Committee verifies complaints within 7 working days, completes enquiries within 45 days, mandates confidentiality under Section 16 of the POSH Act 2013, and provides interim protection and medical/counselling relief."
+            ]
+          },
+          {
+            "type": "activity",
+            "title": "3. Regulation for Prevention and Control of Ragging (Revised) 2026",
+            "paragraphs": [
+              "Implements zero tolerance under Supreme Court directives and UGC Regulations 2009. Governed by the Anti-Ragging Committee (ARC) chaired by the Vice Chancellor with civil/police representation, media, NGOs, parents, faculty, and students.",
+              "Supported by an Anti-Ragging Squad (ARS) conducting surprise inspections of hostels and campus areas, mandatory 10-student mentoring groups in every class, and statutory FIR lodgement within 24 hours for cognizable offences."
+            ]
+          }
+        ]
+      },
+      {
+        "number": "10.6.5",
+        "title": "University diversity officer or designated diversity mechanism",
+        "text": "10.6.5 University diversity officer or designated diversity mechanism",
+        "subtitle": "Equal Opportunity Cell (EOC) and Anti-Discrimination Officer",
+        "file": "https://docs.google.com/document/d/17Y1X5wpdl-DYkfSdO7NjTlvC2h2X51xG/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The University has instituted a dedicated statutory diversity mechanism through its composite Equal Opportunity Cell (EOC) and designated Anti-Discrimination Officer to handle grievances, conduct diversity sensitisation, and promote an equitable campus atmosphere."
+          },
+          {
+            "type": "table",
+            "title": "Diversity and Equality Mechanism Indicators",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.5.1",
+                "Appointment letter / committee or office terms of reference",
+                "Data not available",
+                "HR / Equal Opportunity Committee"
+              ],
+              [
+                "10.6.5.2",
+                "Evidence of remit and activities",
+                "Data not available",
+                "HR / Equal Opportunity Committee"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The EOC is composed of the Director of Student Welfare (Chairperson), Associate Director of Admissions (Anti-Discrimination Officer), Student Counsellor (Secretary), two student representatives from disadvantaged groups, senior faculty, parent representatives, and the Alumni Association President."
+          }
+        ]
+      },
+      {
+        "number": "10.6.6",
+        "title": "Support for underrepresented groups through mentoring, counselling and peer support",
+        "text": "10.6.6 Support for underrepresented groups through mentoring, counselling and peer support",
+        "subtitle": "Scholarship Schemes and Mentorship Programmes",
+        "file": "https://docs.google.com/document/d/10i7J-rXZtQcikiU57JkBUTBhCgJt--AP/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Underrepresented and disadvantaged learners receive comprehensive psycho-social, academic, and financial support through institutional scholarships, faculty mentoring circles, and professional counselling services."
+          },
+          {
+            "type": "table",
+            "title": "Mentoring and Support Programmes for Underrepresented Groups",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.6.1",
+                "Scholarships and financial aid (Upliftment and Divyangjan scholarships, public page)",
+                "https://kristujayanti.edu.in/student-services/scholarship/",
+                "Student Support / Scholarship Section"
+              ],
+              [
+                "10.6.6.2",
+                "Mentoring / support programme descriptions with dates",
+                "Data not available",
+                "Student Support"
+              ],
+              [
+                "10.6.6.3",
+                "Recipient numbers and amounts",
+                "Data not available",
+                "Student Support / Scholarship Section"
+              ]
+            ]
+          },
+          {
+            "type": "section_header",
+            "tag": "SCHOLARSHIP FRAMEWORK",
+            "title": "Institutional Financial Aid Schemes"
+          },
+          {
+            "type": "table",
+            "title": "Kristu Jayanti Institutional Scholarship Schemes",
+            "headers": [
+              "Scheme Name",
+              "Target Beneficiaries",
+              "Eligibility Criteria"
+            ],
+            "rows": [
+              [
+                "Jayantian Achievement Scholarship (JAS)",
+                "Academic Excellence",
+                "85% attendance, 75% to 80% aggregate across semesters."
+              ],
+              [
+                "Jayantians Talent Scholarship (JTS)",
+                "Co-curricular & Sports Talent",
+                "85% attendance, 60% aggregate, 1st–3rd place at state/national competitions."
+              ],
+              [
+                "Jayantian Upliftment Scholarship (JUS)",
+                "Economically & Socially Disadvantaged",
+                "Family income ≤ ₹2,00,000/year, 60% aggregate, 85% attendance."
+              ],
+              [
+                "Jayantian Determination Scholarship (JDS)",
+                "Divyangjan (Differently Abled)",
+                "Disability certificate, 50% marks in previous two semesters, 75% attendance."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "number": "10.6.7",
+        "title": "Accessible facilities for persons with disabilities",
+        "text": "10.6.7 Accessible facilities for persons with disabilities",
+        "subtitle": "Physical and Digital Barrier-Free Campus Infrastructure",
+        "file": "https://docs.google.com/document/d/1jUHm4hxovlM4QJYYoFcOgi0Sur6xjYnV/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The University continuously improves physical and digital infrastructure to ensure barrier-free mobility and accessible learning environments for individuals with disabilities."
+          },
+          {
+            "type": "table",
+            "title": "Accessible Facilities and Infrastructure Audit",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.7.1",
+                "Accessibility information / audit",
+                "Data not available",
+                "Facilities / Student Support"
+              ],
+              [
+                "10.6.7.2",
+                "Facilities evidence (ramps, lifts, accessible washrooms)",
+                "Data not available",
+                "Facilities / Student Support"
+              ],
+              [
+                "10.6.7.3",
+                "Improvement records",
+                "Data not available",
+                "Facilities / Student Support"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Campus developments feature wheelchair-accessible ramps with handrails, passenger lifts equipped with audio announcements, dedicated accessible restrooms, reserved seating in auditoriums, and assistive technologies in library learning spaces."
+          }
+        ]
+      },
+      {
+        "number": "10.6.8",
+        "title": "Disability support services",
+        "text": "10.6.8 Disability support services",
+        "subtitle": "Special Examination Concessions and Student Welfare Services",
+        "file": "https://docs.google.com/document/d/1_HSRAoW0RR0Cfdv5RypcVF43BncJyu8S/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The Examination Office and Student Welfare Cell administer comprehensive disability support services, offering customized academic and examination accommodations to ensure fair evaluation of Divyangjan students."
+          },
+          {
+            "type": "table",
+            "title": "Disability Support Services & Examination Privileges",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.8.1",
+                "Examination privileges for Divyangjan students (public page)",
+                "https://www.kristujayanti.edu.in/examination/divyangjan_students_privileges.php",
+                "Examination Office"
+              ],
+              [
+                "10.6.8.2",
+                "Public service description of disability support",
+                "Data not available",
+                "Student Support"
+              ],
+              [
+                "10.6.8.3",
+                "Implementation evidence",
+                "Data not available",
+                "Student Support"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Services include scribe support, compensatory exam time (20 minutes per hour), ground-floor examination venues, personalized counselling, and assistive software orientation."
+          }
+        ]
+      },
+      {
+        "number": "10.6.9",
+        "title": "Disability access schemes",
+        "text": "10.6.9 Disability access schemes",
+        "subtitle": "Targeted Financial Aid and Academic Mentoring Schemes",
+        "file": "https://docs.google.com/document/d/1lbXO0k6ee0UcDyeJZU-ASzbCGRbcC6ts/edit",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "Kristu Jayanti University offers targeted access schemes for Divyangjan learners, combining tuition fee waivers, assistive technology grants, and peer-mentoring networks."
+          },
+          {
+            "type": "table",
+            "title": "Disability Access Schemes Assessment",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.9.1",
+                "Scheme type selected (mentoring / other targeted support)",
+                "Data not available",
+                "Student Support"
+              ],
+              [
+                "10.6.9.2",
+                "Jayantian Determination (Divyangjan) Scholarship (public page)",
+                "https://kristujayanti.edu.in/student-services/scholarship/",
+                "Student Support / Scholarship Section"
+              ],
+              [
+                "10.6.9.3",
+                "Eligibility, programme description and evidence of delivery",
+                "Data not available",
+                "Student Support"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Jayantian Determination Scholarship (JDS) provides recurring financial support to eligible disabled students across undergraduate and postgraduate programmes, ensuring economic barriers do not impede higher education access."
+          }
+        ]
+      },
+      {
+        "number": "10.6.10",
+        "title": "Disability accommodation policy",
+        "text": "10.6.10 Disability accommodation policy",
+        "subtitle": "Reasonable Accommodation Strategy and Governance",
+        "file": "https://docs.google.com/document/d/1gyKJ2E1vWvh4biA-QiUP1uYX5sVDE0o6/edit#heading=h.pylnu4rxqtah",
+        "contentBlocks": [
+          {
+            "type": "paragraph",
+            "text": "The Disability Accommodation (Divyangjan) Policy outlines institutional procedures for evaluating accommodation requests, allocating assistive equipment, and overseeing reasonable adjustments in classroom instruction and evaluations."
+          },
+          {
+            "type": "table",
+            "title": "Disability Reasonable-Accommodation Strategy",
+            "headers": [
+              "SNo",
+              "Indicator",
+              "Supplementary Doc",
+              "Department / Office"
+            ],
+            "rows": [
+              [
+                "10.6.10.1",
+                "Approved reasonable-accommodation policy / procedure",
+                "Data not available",
+                "Student Support"
+              ],
+              [
+                "10.6.10.2",
+                "Examination accommodations (public page)",
+                "https://www.kristujayanti.edu.in/examination/divyangjan_students_privileges.php",
+                "Examination Office"
+              ],
+              [
+                "10.6.10.3",
+                "Funding provision and implementation evidence",
+                "Data not available",
+                "Student Support / Finance"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The policy mandates periodic reviews by the Disability Accommodation Committee in consultation with the Equal Opportunity Cell, ensuring that all physical and digital services comply with the Rights of Persons with Disabilities Act."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,10 +1,17 @@
 import json
+import os
 
 sdgs = {
     "1": {
         "num": "1",
         "title": "End poverty in all its forms everywhere",
         "name": "No Poverty",
+        "description": [
+            "Sustainable Development Goal 1 (SDG 1) – No Poverty aims to end poverty in all its forms everywhere. It focuses on eliminating extreme poverty, reducing economic inequalities, and ensuring that individuals and communities have equal access to resources, opportunities, and essential services required for a dignified life.",
+            "SDG 1 promotes inclusive economic growth, social protection systems, financial inclusion, access to education, employment opportunities, and support for vulnerable populations. It encourages governments, institutions, and organisations to implement policies and programmes that empower economically disadvantaged communities and improve their quality of life.",
+            "For higher education institutions, SDG 1 focuses on ensuring equal access to education irrespective of financial background, providing scholarships and financial assistance to economically weaker students, supporting student success and completion, conducting poverty-related research, and engaging in community initiatives that contribute to poverty reduction and sustainable development.",
+            "Through initiatives such as financial aid, student welfare programmes, research on poverty alleviation, skill development, and community outreach, universities contribute significantly towards creating equitable opportunities and supporting the global mission of achieving No Poverty by 2030."
+        ],
         "color": "#E5243B",
         "colorLight": "rgba(229, 36, 59, 0.08)",
         "colorBorder": "rgba(229, 36, 59, 0.25)",
@@ -13,6 +20,12 @@ sdgs = {
             {
                 "id": "1.1",
                 "desc": "Research on poverty",
+                "annexure": "Annexure 1",
+                "metricsTable": [
+                    {"metric": "Papers co-authored with low or lower-middle income countries", "value": "NIL"},
+                    {"metric": "No Poverty: FWCI", "value": "13"},
+                    {"metric": "No Poverty Publications", "value": "23"}
+                ],
                 "file": "https://docs.google.com/document/d/1YI8edxuJCJHfIPzMBoVp8a3NCuM1iQuU/edit",
                 "excel": "https://docs.google.com/spreadsheets/d/1nARXXAZEcHhlXH5t7gjxatzniCJCa5nR/edit?gid=2063360444#gid=2063360444",
                 "indicators": [
@@ -35,13 +48,108 @@ sdgs = {
             {
                 "id": "1.3",
                 "desc": "University anti-poverty programmes",
+                "annexure": "Annexure 2",
                 "file": "https://docs.google.com/document/d/1ufEA3Mm39eg5EpNIHg0PhSQcSR6fU5wB",
+                "url": "https://kristujayanti.edu.in/student-services/scholarship/",
+                "evidenceTable": [
+                    {
+                        "sl": "1",
+                        "details": "Does your university as a body have targets to admit students who fall into the bottom 20% of household income group (or a more tightly defined target) in the country?",
+                        "exists": "Yes",
+                        "specificity": "38%",
+                        "public": "Yes",
+                        "notProvided": ""
+                    },
+                    {
+                        "sl": "2",
+                        "details": "Does your university as a body have graduation/completion targets for students who fall into the bottom 20% of household income group (or a more tightly defined target) in the country? (domestic)",
+                        "exists": "Yes",
+                        "specificity": "100%",
+                        "public": "Yes",
+                        "notProvided": ""
+                    },
+                    {
+                        "sl": "3",
+                        "details": "Does your university as a body provide support (e.g. food, housing, transportation, legal services) for students from low-income families to enable them to complete university?",
+                        "exists": "If Yes (Subsidised/ Free)",
+                        "specificity": "40%",
+                        "public": "Yes",
+                        "notProvided": ""
+                    },
+                    {
+                        "sl": "4",
+                        "details": "Does your university as a body have programmes or initiatives to assist students who fall into the bottom 20% of household income group (or a more tightly defined target) in the country to successfully complete their studies?",
+                        "exists": "Yes",
+                        "specificity": "Scholarship",
+                        "public": "Yes",
+                        "notProvided": ""
+                    },
+                    {
+                        "sl": "5",
+                        "details": "Does your university as a body have schemes to support poor students from low or lower-middle income countries (e.g. offering free education, grants)?",
+                        "exists": "Yes",
+                        "specificity": "Scholarship",
+                        "public": "Yes",
+                        "notProvided": ""
+                    }
+                ],
                 "indicators": [
-                    "1.3.1 Bottom financial quintile admission target",
-                    "1.3.2 Bottom financial quintile student success",
-                    "1.3.3 Low-income student support",
-                    "1.3.4 Bottom financial quintile student support",
-                    "1.3.5 Low or lower-middle income countries student support"
+                    {
+                        "text": "1.3.1 Bottom financial quintile admission target",
+                        "subtitle": "Admission Targets for Students from Economically Weaker Sections",
+                        "description": [
+                            "The University is strongly committed to promoting inclusive and equitable access to higher education by establishing dedicated admission targets for students belonging to economically weaker sections, including those from the bottom financial quintile (lowest 20% household income group). As part of its commitment towards reducing educational inequalities, the University ensures that students from financially disadvantaged backgrounds receive opportunities to pursue quality higher education.",
+                            "Approximately 38% of student admissions are from economically disadvantaged backgrounds, reflecting the institution’s sustained efforts towards widening access and supporting students from low-income families. The University follows a transparent and inclusive admission process that considers socio-economic factors and provides appropriate support mechanisms to encourage participation from underprivileged communities.",
+                            "To facilitate access and reduce financial barriers, the University implements a range of initiatives including need-based scholarships, fee concessions, financial assistance schemes, and student welfare support programmes. These initiatives ensure that economic limitations do not prevent deserving students from enrolling in and benefiting from higher education opportunities.",
+                            "The University also undertakes awareness initiatives and outreach activities to encourage applications from students belonging to financially vulnerable groups. Eligible students are identified through established income criteria and supporting documentation, ensuring fairness, transparency, and effective delivery of institutional support.",
+                            "The progress and effectiveness of these initiatives are periodically reviewed to strengthen admission practices and enhance opportunities for students from economically weaker sections. Through these targeted admission initiatives, the University contributes significantly towards Sustainable Development Goal 1 (No Poverty) by promoting educational inclusion, social equity, and pathways for socio-economic advancement."
+                        ]
+                    },
+                    {
+                        "text": "1.3.2 Bottom financial quintile student success",
+                        "subtitle": "Graduation and Completion Targets for Students from Economically Weaker Sections",
+                        "description": [
+                            "The University is committed to ensuring equitable educational outcomes by achieving a 100% graduation and programme completion target for students belonging to the bottom financial quintile (lowest 20% household income group). Recognizing that financial constraints should not hinder academic success; the University has established comprehensive academic and financial support mechanisms to enable students from economically disadvantaged backgrounds to successfully complete their studies within the prescribed duration.",
+                            "To achieve this target, the University provides need-based scholarships, fee concessions, financial assistance, tuition fee support, mentoring, academic advising, counselling services, and career guidance. These initiatives are designed to minimize financial and academic barriers while fostering student engagement, retention, and academic progression.",
+                            "The academic progress of economically disadvantaged students is continuously monitored through faculty mentors, programme coordinators, and student support services. Students identified as being at risk of academic discontinuation receive timely interventions, including personalized mentoring, financial support, counselling, and academic assistance, ensuring that they remain on track to complete their programmes.",
+                            "The University periodically reviews student retention, progression, and graduation outcomes to assess the effectiveness of its support systems and to strengthen institutional policies that promote inclusive education. Through its commitment to a 100% graduation and completion target, the University ensures that students from economically weaker sections are provided with equal opportunities to successfully complete their higher education, thereby contributing to social mobility, economic empowerment, and the achievement of Sustainable Development Goal 1 (No Poverty)."
+                        ]
+                    },
+                    {
+                        "text": "1.3.3 Low-income student support",
+                        "subtitle": "Support for Students from Low-Income Families to Enable Programme Completion",
+                        "description": [
+                            "The University is committed to ensuring that students from low-income families are able to successfully pursue and complete their higher education without financial hardship becoming a barrier. Approximately 40% of students benefit from various institutional support measures designed to promote access, retention, academic success, and timely programme completion.",
+                            "To support economically disadvantaged students, the University provides a comprehensive range of assistance, including financial aid, scholarships, fee concessions, subsidized hostel accommodation, food support, transportation assistance, emergency financial assistance, counselling services, mentoring, healthcare support, and legal assistance, wherever applicable. These initiatives are aimed at addressing both academic and non-academic challenges that may affect student progression and completion.",
+                            "The University also offers academic mentoring, remedial support, career guidance, and student welfare services to ensure that students receive holistic support throughout their educational journey. Faculty mentors and student support offices regularly monitor the academic progress and well-being of students from low-income families and provide timely interventions whenever additional assistance is required.",
+                            "The identification of eligible beneficiaries is carried out through transparent and well-defined criteria based on socio-economic status and supporting documentation, ensuring fairness and equitable access to institutional support. The effectiveness of these support initiatives is periodically reviewed through student feedback, welfare committees, and institutional monitoring mechanisms to strengthen student success and retention.",
+                            "Through these sustained efforts, the University fosters an inclusive learning environment where students from economically weaker backgrounds are empowered to overcome financial and social barriers, successfully complete their education, and improve their long-term socio-economic prospects. These initiatives reflect the University's strong commitment to Sustainable Development Goal 1 (No Poverty) by promoting equitable access to education and supporting students throughout their academic journey."
+                        ]
+                    },
+                    {
+                        "text": "1.3.4 Bottom financial quintile student support",
+                        "subtitle": "Programmes and Initiatives to Support Students from Economically Weaker Sections for Successful Completion of Studies",
+                        "url": "https://kristujayanti.edu.in/student-services/scholarship/",
+                        "description": [
+                            "The University has established comprehensive support initiatives to assist students belonging to the bottom financial quintile (lowest 20% household income group) in successfully completing their academic programmes. Recognizing that financial constraints can impact students’ ability to continue their education, the University provides need-based scholarships and financial assistance to economically disadvantaged students to ensure equitable access to higher education and promote student success.",
+                            "Through its scholarship programmes, the University offers financial support to eligible students based on socio-economic background, family income criteria, and demonstrated financial need. These scholarships help reduce the financial burden associated with tuition fees and other educational expenses, enabling deserving students to continue their studies without interruption.",
+                            "In addition to scholarships, the University supports beneficiaries through student welfare initiatives, academic mentoring, counselling services, and guidance mechanisms to enhance retention, academic progression, and successful programme completion. Faculty mentors and designated support teams regularly monitor students’ academic performance and provide timely assistance to those requiring additional support.",
+                            "The scholarship initiatives are implemented through a transparent and systematic process, ensuring that financial assistance reaches students who require it the most. The University periodically reviews the effectiveness of these initiatives to strengthen its commitment towards inclusive education and equal learning opportunities.",
+                            "Through these sustained efforts, the University contributes to reducing educational inequalities and empowering students from economically weaker sections to complete their higher education successfully. These initiatives directly support Sustainable Development Goal 1 (No Poverty) by promoting access to quality education, improving student retention, and enabling socio-economic advancement."
+                        ]
+                    },
+                    {
+                        "text": "1.3.5 Low or lower-middle income countries student support",
+                        "subtitle": "Programmes and Initiatives to Support Students from Economically Weaker Sections for Successful Completion of Studies",
+                        "url": "https://kristujayanti.edu.in/student-services/scholarship/",
+                        "description": [
+                            "The University has established comprehensive support initiatives to assist students belonging to the bottom financial quintile (lowest 20% household income group) in successfully completing their academic programmes. Recognizing that financial constraints can impact students’ ability to continue their education, the University provides need-based scholarships and financial assistance to economically disadvantaged students to ensure equitable access to higher education and promote student success.",
+                            "Through its scholarship programmes, the University offers financial support to eligible students based on socio-economic background, family income criteria, and demonstrated financial need. These scholarships help reduce the financial burden associated with tuition fees and other educational expenses, enabling deserving students to continue their studies without interruption.",
+                            "In addition to scholarships, the University supports beneficiaries through student welfare initiatives, academic mentoring, counselling services, and guidance mechanisms to enhance retention, academic progression, and successful programme completion. Faculty mentors and designated support teams regularly monitor students’ academic performance and provide timely assistance to those requiring additional support.",
+                            "The scholarship initiatives are implemented through a transparent and systematic process, ensuring that financial assistance reaches students who require it the most. The University periodically reviews the effectiveness of these initiatives to strengthen its commitment towards inclusive education and equal learning opportunities.",
+                            "Through these sustained efforts, the University contributes to reducing educational inequalities and empowering students from economically weaker sections to complete their higher education successfully. These initiatives directly support Sustainable Development Goal 1 (No Poverty) by promoting access to quality education, improving student retention, and enabling socio-economic advancement."
+                        ]
+                    }
                 ]
             },
             {
@@ -111,86 +219,17 @@ sdgs = {
         "num": "10",
         "title": "Reduce inequality within and among countries",
         "name": "Reduced Inequalities",
+        "description": [
+            "Sustainable Development Goal 10 (SDG 10), established by the United Nations under the 2030 Agenda for Sustainable Development, aims to reduce inequalities within and among countries. It focuses on promoting social, economic and political inclusion, ensuring equal opportunities and eliminating discrimination irrespective of gender, disability, age, socioeconomic status or social background.",
+            "Higher education institutions play a significant role in achieving SDG 10 by providing equitable access to education, promoting diversity, supporting underrepresented communities and creating inclusive academic and workplace environments.",
+            "Kristu Jayanti (Deemed to be University), Bengaluru, recognises the importance of equality, diversity and social inclusion as essential components of sustainable development. Through its academic initiatives, institutional policies, student support services, research activities and community engagement programmes, the University strives to promote equal opportunities and contribute towards building an inclusive society.",
+            "The University is committed to fostering an inclusive educational environment through: providing equitable educational opportunities to students from diverse socioeconomic backgrounds; promoting gender equality, diversity and social inclusion; supporting disadvantaged and first-generation learners through targeted mentoring; improving accessibility and support for persons with disabilities; encouraging inclusive recruitment and equal employment opportunities; advancing research on social justice and inequality; conducting community outreach for underrepresented groups; and implementing statutory grievance redressal mechanisms to prevent discrimination and harassment."
+        ],
         "color": "#DD1367",
         "colorLight": "rgba(221, 19, 103, 0.08)",
         "colorBorder": "rgba(221, 19, 103, 0.25)",
         "image": "images/sdg-10.webp",
-        "targets": [
-            {
-                "id": "10.1",
-                "desc": "By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average",
-                "indicators": [
-                    "10.1.1 Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population"
-                ]
-            },
-            {
-                "id": "10.2",
-                "desc": "By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status",
-                "indicators": [
-                    "10.2.1 Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities"
-                ]
-            },
-            {
-                "id": "10.3",
-                "desc": "Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard",
-                "indicators": [
-                    "10.3.1 Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
-                ]
-            },
-            {
-                "id": "10.4",
-                "desc": "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality",
-                "indicators": [
-                    "10.4.1 Labour share of GDP, comprising wages and social protection transfers",
-                    "10.4.2 Redistributive impact of fiscal policy"
-                ]
-            },
-            {
-                "id": "10.5",
-                "desc": "Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations",
-                "indicators": [
-                    "10.5.1 Financial Soundness Indicators"
-                ]
-            },
-            {
-                "id": "10.6",
-                "desc": "Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions",
-                "indicators": [
-                    "10.6.1 Proportion of members and voting rights of developing countries in international organizations"
-                ]
-            },
-            {
-                "id": "10.7",
-                "desc": "Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies",
-                "indicators": [
-                    "10.7.1 Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
-                    "10.7.2 Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",
-                    "10.7.3 Number of people who died or disappeared in the process of migration towards an international destination",
-                    "10.7.4 Proportion of the refugee population by country of origin"
-                ]
-            },
-            {
-                "id": "10.a",
-                "desc": "Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements",
-                "indicators": [
-                    "10.a.1 Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff"
-                ]
-            },
-            {
-                "id": "10.b",
-                "desc": "Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes",
-                "indicators": [
-                    "10.b.1 Total resource flows for development, by recipient and donor countries and type of flow"
-                ]
-            },
-            {
-                "id": "10.c",
-                "desc": "By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent",
-                "indicators": [
-                    "10.c.1 Remittance costs as a proportion of the amount remitted"
-                ]
-            }
-        ]
+        "targets": []
     },
     "17": {
         "num": "17",
@@ -201,77 +240,21 @@ sdgs = {
         "colorLight": "rgba(25, 72, 106, 0.08)",
         "colorBorder": "rgba(25, 72, 106, 0.25)",
         "image": "images/sdg-17.webp",
-        "targets": [
-            {
-                "id": "17.1",
-                "desc": "Research into partnership for the goals",
-                "indicators": [
-                    "17.1.1 Proportion of output co-authored with low or lower-middle income Countries",
-                    {
-                        "text": "17.1.2 Partnerships for the goals: publications",
-                        "file": "https://docs.google.com/spreadsheets/d/1vICwusjdNYuBsSrUrw_dgrTG_LdJDjebpG0mGJ2nBoM/edit?usp=drive_link"
-                    }
-                ]
-            },
-            {
-                "id": "17.2",
-                "desc": "Relationships to support the goals",
-                "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?usp=drive_link",
-                "indicators": [
-                    {
-                        "text": "17.2.1 Relationships with regional NGOs and government for SDG policy",
-                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.je339qhviwpj"
-                    },
-                    {
-                        "text": "17.2.2 Cross sectoral dialogue about SDGs",
-                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.wlno2a4fup2x"
-                    },
-                    {
-                        "text": "17.2.3 International collaboration data gathering for SDG",
-                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.qs3a3qgrt7bq"
-                    },
-                    {
-                        "text": "17.2.4 Collaboration for SDG best practice",
-                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.ameh0frvph2d"
-                    },
-                    {
-                        "text": "17.2.5 Collaboration with NGOs for SDGs",
-                        "file": "https://docs.google.com/document/d/1XG0qNHubKf444jr5vWsK4kTr3nLgxHqNAT6xASjM8Gs/edit?tab=t.jsxpp7l8ok3"
-                    }
-                ]
-            },
-            {
-                "id": "17.3",
-                "desc": "Publication of SDG reports",
-                "file": "https://drive.google.com/file/d/15Ot_T2SXBneengJjdS1qgO33Gz4htIuJ/view",
-                "indicators": [
-                    {
-                        "text": "17.3.1 to 17.3.17 Publication of SDG reports - per SDG",
-                        "file": "https://drive.google.com/file/d/15Ot_T2SXBneengJjdS1qgO33Gz4htIuJ/view"
-                    }
-                ]
-            },
-            {
-                "id": "17.4",
-                "desc": "Education for the SDGs",
-                "indicators": [
-                    {
-                        "text": "17.4.1 Education for SDGs commitment to meaningful education",
-                        "file": "https://docs.google.com/document/d/1mGKhlVc2k9nDtOy_vy1dFWYKxm1co0IdLkUpP3clnHY/edit?tab=t.0"
-                    },
-                    {
-                        "text": "17.4.2 Education for SDGs: specific courses on sustainability",
-                        "file": "https://docs.google.com/document/d/1mGKhlVc2k9nDtOy_vy1dFWYKxm1co0IdLkUpP3clnHY/edit?tab=t.tlhwjivtf6s7"
-                    },
-                    {
-                        "text": "17.4.3 Education for SDGs in the wider community",
-                        "file": "https://docs.google.com/document/d/1mGKhlVc2k9nDtOy_vy1dFWYKxm1co0IdLkUpP3clnHY/edit?tab=t.47fx233v51cm"
-                    }
-                ]
-            }
-        ]
+        "targets": []
     }
 }
+
+if os.path.exists("sdg4_full_extracted.json"):
+    with open("sdg4_full_extracted.json", "r", encoding="utf-8") as f:
+        sdgs["4"]["targets"] = json.load(f)
+
+if os.path.exists("sdg10_full_extracted.json"):
+    with open("sdg10_full_extracted.json", "r", encoding="utf-8") as f:
+        sdgs["10"]["targets"] = json.load(f)
+
+if os.path.exists("sdg17_full_extracted.json"):
+    with open("sdg17_full_extracted.json", "r", encoding="utf-8") as f:
+        sdgs["17"]["targets"] = json.load(f)
 
 with open("sdg_data.json", "w", encoding="utf-8") as f:
     json.dump(sdgs, f, indent=2, ensure_ascii=False)
