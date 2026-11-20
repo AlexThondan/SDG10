@@ -584,37 +584,35 @@ body {
   color: #15803d;
 }
 
-/* Icon-Only View Button (No text, sleek box-arrow icon) */
+/* Icon-Only View Button (Just the icon, no surrounding box) */
 .icon-view-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  border-radius: 6px;
-  background-color: #f1f5f9;
-  border: 1px solid #cbd5e1;
-  color: #1e3a8a;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #475569;
+  padding: 4px;
+  border-radius: 4px;
   text-decoration: none !important;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: color 0.15s ease, transform 0.15s ease;
   flex-shrink: 0;
   box-sizing: border-box;
 }
 
 .icon-view-btn:hover {
-  background-color: var(--theme-color, #1d4ed8);
-  border-color: var(--theme-color, #1d4ed8);
-  color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: var(--theme-color, #1d4ed8);
+  transform: translate(1.5px, -1.5px);
 }
 
 .icon-view-btn .box-arrow-icon {
-  width: 14px;
-  height: 14px;
+  width: 17px;
+  height: 17px;
   stroke: currentColor;
   stroke-width: 2.2;
 }
