@@ -40,19 +40,7 @@ def main():
         template = f.read()
 
     with open("sdg_data.json", "r", encoding="utf-8") as f:
-        raw_json = f.read()
-        sdgs = json.loads(raw_json)
-
-    # Embed data script tag
-    embedded_tag = f'<script id="sdg-embedded-data" type="application/json">{raw_json}</script>\n'
-    if '<script type="module"' in template:
-        template = template.replace('<script type="module"', embedded_tag + '  <script type="module"')
-    else:
-        template = template.replace('</body>', embedded_tag + '</body>')
-
-    # Update base index.html with embedded data
-    with open(index_path, "w", encoding="utf-8") as f:
-        f.write(template)
+        sdgs = json.load(f)
 
     # Ensure images directory is synced to dist/images
     if os.path.exists("images"):

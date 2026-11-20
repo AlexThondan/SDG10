@@ -1,3 +1,5 @@
+import staticSdgData from "./sdg_data.json";
+
 /**
  * THE SDG RANKING - Multi-Page Controller & Static Router
  * Flow:
@@ -806,6 +808,10 @@ function handleLinkClick(e) {
  * Load SDG data from embedded script or fetch
  */
 async function loadSdgData() {
+  if (staticSdgData && Object.keys(staticSdgData).length > 0) {
+    return staticSdgData;
+  }
+
   const embeddedScript = document.getElementById("sdg-embedded-data");
   if (embeddedScript && embeddedScript.textContent.trim()) {
     try {
