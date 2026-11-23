@@ -474,7 +474,7 @@ function renderTargetView(sdg, targetId) {
           ${target.annexure ? `<span class="target-annexure-tag">(${escapeHtml(target.annexure)})</span>` : ""}
         </div>
         <h2 class="subpage-title">${escapeHtml(target.desc)}</h2>
-        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && (target.url || target.file) ? `
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !((String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3"))) && (target.url || target.file) ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(target.url || target.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
               <span>View PDF</span>
@@ -489,9 +489,9 @@ function renderTargetView(sdg, targetId) {
           <h3>Target Scope & Institutional Leadership</h3>
           <div class="writeup-prose">
             ${Array.isArray(target.description)
-              ? target.description.map(p => `<p>${escapeHtml(p)}</p>`).join("")
-              : target.description.split("\n\n").map(p => `<p>${escapeHtml(p)}</p>`).join("")
-            }
+        ? target.description.map(p => `<p>${escapeHtml(p)}</p>`).join("")
+        : target.description.split("\n\n").map(p => `<p>${escapeHtml(p)}</p>`).join("")
+      }
           </div>
         </div>
       ` : ""}
@@ -600,15 +600,15 @@ function renderContentBlocks(blocks) {
         imagesHtml = `
           <div class="activity-photos-grid">
             ${imgs.map(img => {
-              const url = typeof img === "string" ? img : img.url;
-              return `
+          const url = typeof img === "string" ? img : img.url;
+          return `
                 <div class="gallery-photo-card">
                   <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="gallery-photo-link" title="View Image">
                     <img src="${escapeHtml(url)}" alt="${escapeHtml(block.title || 'Event Photo')}" loading="lazy" class="gallery-photo-img" />
                   </a>
                 </div>
               `;
-            }).join("")}
+        }).join("")}
           </div>
         `;
       }
@@ -729,8 +729,8 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
 
   const canShowIndicatorPdf = !!(foundIndicator && (foundIndicator.url || foundIndicator.file) && (
     String(sdg.num) === "17" ? String(target.id) === "17.3" :
-    (String(sdg.num) === "1" ? (String(target.id) !== "1.1" && (String(target.id) !== "1.4" || String(foundIndicator.number) === "1.4.2")) :
-    (String(sdg.num) === "4" ? String(target.id) !== "4.3" : true))
+      (String(sdg.num) === "1" ? (String(target.id) !== "1.1" && (String(target.id) !== "1.4" || String(foundIndicator.number) === "1.4.2")) :
+        (String(sdg.num) === "4" ? String(target.id) !== "4.3" : true))
   ));
 
   contentContainer.innerHTML = `
