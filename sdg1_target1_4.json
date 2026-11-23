@@ -159,10 +159,6 @@
     "text": "1.4.2 Local start-up financial assistance",
     "contentBlocks": [
       {
-        "type": "section_header",
-        "title": "Government Collaboration and Anti-Poverty Policy Programmes"
-      },
-      {
         "type": "paragraph",
         "text": "Kristu Jayanti (Deemed to be University), through Jayantian Extension Services and its student units (CSA, NSS, KCDC and UBA), works with government bodies to put national, state and local anti-poverty policy into practice in the communities around it. The university works with local self-government bodies such as Gram Panchayats and the BBMP, takes part in flagship schemes such as Unnat Bharat Abhiyan, Ayushman Bharat (ABHA), Swachh Bharat, One District One Product and Beti Bachao Beti Padhao, and hosts government officials at its events. Through these partnerships the university takes policy on rural development, livelihoods, health access, sanitation and girls' education to poor and rural households. It also builds long-term relationships with village administrations, which supports its continued participation in local and national development programmes."
       },
@@ -218,8 +214,18 @@
         "paragraphs": [
           "Promoted the national campaign for girls' education and protection through community theatrical performances."
         ]
+      },
+      {
+        "type": "pdf_links",
+        "links": [
+          {
+            "label": "View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/1.4.2.pdf"
+          }
+        ]
       }
-    ]
+    ],
+    "file": "https://assets.kristujayanti.com/sdg-ranking/1.4.2.pdf"
   },
   {
     "number": "1.4.3",

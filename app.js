@@ -701,6 +701,12 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
     mainHeadingTitle.textContent = "THE SDG Ranking";
   }
 
+  const canShowIndicatorPdf = !!(foundIndicator && (foundIndicator.url || foundIndicator.file) && (
+    String(sdg.num) === "17" ? String(target.id) === "17.3" :
+    (String(sdg.num) === "1" ? (String(target.id) !== "1.1" && (String(target.id) !== "1.4" || String(foundIndicator.number) === "1.4.2")) :
+    (String(sdg.num) === "4" ? String(target.id) !== "4.3" : true))
+  ));
+
   contentContainer.innerHTML = `
     <div class="subpage-container content-animated centered-layout" data-sdg-num="${escapeHtml(sdg.num)}" data-target-id="${escapeHtml(target.id)}">
       <div class="subpage-back-row">
@@ -720,7 +726,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
         <p class="subpage-subtitle">
           SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}
         </p>
-        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
+        ${canShowIndicatorPdf ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
               <span>View PDF</span>
@@ -736,7 +742,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
           <div class="writeup-prose">
             ${writeupHtml}
           </div>
-          ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && foundIndicator && (foundIndicator.url || foundIndicator.file) ? `
+          ${canShowIndicatorPdf ? `
             <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid #f1f5f9;">
               <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 8px 16px; font-size: 13.5px;" title="View PDF">
                 <span>View PDF</span>
