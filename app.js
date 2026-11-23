@@ -60,6 +60,8 @@ function parseIndicator(ind) {
     description: (typeof ind === "object" && ind.description) ? ind.description : null,
     contentBlocks: (typeof ind === "object" && ind.contentBlocks) ? ind.contentBlocks : null,
     url: (typeof ind === "object" && (ind.url || ind.file)) ? (ind.url || ind.file) : "",
+    directUrl: (typeof ind === "object" && (ind.directUrl || ind.externalUrl)) ? (ind.directUrl || ind.externalUrl) : "",
+    policyName: (typeof ind === "object" && ind.policyName) ? ind.policyName : "",
     subItems: (typeof ind === "object" && ind.subItems) ? ind.subItems : []
   };
 
@@ -214,25 +216,28 @@ function renderSdgMainView(sdg) {
       ? target.indicators.map(ind => {
         const parsed = parseIndicator(ind);
         const indId = parsed.number || parsed.title;
-        const indUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
+        const isDirectPdf = (String(sdg.num) === "10" && String(target.id) === "10.6") || !!parsed.directUrl;
+        const targetUrl = (isDirectPdf && (parsed.directUrl || parsed.url || parsed.file))
+          ? (parsed.directUrl || parsed.url || parsed.file)
+          : buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
 
         let subItemsHtml = "";
         if (parsed.subItems && parsed.subItems.length > 0) {
           subItemsHtml = parsed.subItems.map(sub => {
             const subParsed = parseIndicator(sub);
             const subId = subParsed.number || subParsed.title;
-            const subUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: subId });
+            const subDirectPdf = (String(sdg.num) === "10" && String(target.id) === "10.6") || !!subParsed.directUrl;
+            const subUrl = (subDirectPdf && (subParsed.directUrl || subParsed.url || subParsed.file))
+              ? (subParsed.directUrl || subParsed.url || subParsed.file)
+              : buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: subId });
             return `
                 <div class="indicator-item indicator-subitem">
                   <div class="indicator-item-left">
                     <span class="indicator-bullet indicator-bullet-sub"></span>
                     <a href="${subUrl}"
                        class="indicator-title-link"
-                       title="View ${escapeHtml(subId)}"
-                       data-route="indicator"
-                       data-sdg="${escapeHtml(sdg.num)}"
-                       data-target="${escapeHtml(target.id)}"
-                       data-indicator="${escapeHtml(subId)}">
+                       title="${subDirectPdf ? `Open PDF: ${escapeHtml(subParsed.policyName || subParsed.raw)}` : `View ${escapeHtml(subId)}`}"
+                       ${subDirectPdf ? 'target="_blank" rel="noopener noreferrer"' : `data-route="indicator" data-sdg="${escapeHtml(sdg.num)}" data-target="${escapeHtml(target.id)}" data-indicator="${escapeHtml(subId)}"`}>
                       <span class="indicator-text">${formatPointText(subParsed.raw)}</span>
                       <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
                     </a>
@@ -246,13 +251,10 @@ function renderSdgMainView(sdg) {
             <div class="indicator-item">
               <div class="indicator-item-left">
                 <span class="indicator-bullet"></span>
-                <a href="${indUrl}"
+                <a href="${targetUrl}"
                    class="indicator-title-link"
-                   title="View ${escapeHtml(indId)}"
-                   data-route="indicator"
-                   data-sdg="${escapeHtml(sdg.num)}"
-                   data-target="${escapeHtml(target.id)}"
-                   data-indicator="${escapeHtml(indId)}">
+                   title="${isDirectPdf ? `Open PDF: ${escapeHtml(parsed.policyName || parsed.raw)}` : `View ${escapeHtml(indId)}`}"
+                   ${isDirectPdf ? 'target="_blank" rel="noopener noreferrer"' : `data-route="indicator" data-sdg="${escapeHtml(sdg.num)}" data-target="${escapeHtml(target.id)}" data-indicator="${escapeHtml(indId)}"`}>
                   <span class="indicator-text">${formatPointText(parsed.raw)}</span>
                   <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
                 </a>
@@ -359,19 +361,19 @@ function renderTargetView(sdg, targetId) {
   const indicatorsListHtml = (target.indicators || []).map(ind => {
     const parsed = parseIndicator(ind);
     const indId = parsed.number || parsed.title;
-    const indUrl = buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
+    const isDirectPdf = (String(sdg.num) === "10" && String(target.id) === "10.6") || !!parsed.directUrl;
+    const targetUrl = (isDirectPdf && (parsed.directUrl || parsed.url || parsed.file))
+      ? (parsed.directUrl || parsed.url || parsed.file)
+      : buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
 
     return `
       <div class="indicator-item">
         <div class="indicator-item-left">
           <span class="indicator-bullet"></span>
-          <a href="${indUrl}"
+          <a href="${targetUrl}"
              class="indicator-title-link"
-             title="View ${escapeHtml(indId)}"
-             data-route="indicator"
-             data-sdg="${escapeHtml(sdg.num)}"
-             data-target="${escapeHtml(target.id)}"
-             data-indicator="${escapeHtml(indId)}">
+             title="${isDirectPdf ? `Open PDF: ${escapeHtml(parsed.policyName || parsed.raw)}` : `View ${escapeHtml(indId)}`}"
+             ${isDirectPdf ? 'target="_blank" rel="noopener noreferrer"' : `data-route="indicator" data-sdg="${escapeHtml(sdg.num)}" data-target="${escapeHtml(target.id)}" data-indicator="${escapeHtml(indId)}"`}>
             <span class="indicator-text">${formatPointText(parsed.raw)}</span>
             <span class="inline-view-icon">${BOX_ARROW_ICON_SVG}</span>
           </a>
