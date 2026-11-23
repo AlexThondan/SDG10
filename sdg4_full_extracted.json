@@ -254,14 +254,14 @@
       {
         "number": "4.3.1",
         "title": "Does your university as a body provide free access to educational resources for those not studying at the university, e.g., computers, library, online courses, access to lectures, etc?",
-        "text": "4.3.1 Does your university as a body provide free access to educational resources for those not studying at the university, e.g., computers, library, online courses, access to lectures, etc?",
+        "text": "4.3.1 Free access to educational resources for those not studying at the university",
         "subtitle": "Library Open Access Portal, Digital Repository, and Community Certificate Courses",
         "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf",
         "contentBlocks": [
           {
             "type": "section_header",
-            "tag": "PART A",
-            "title": "Report on Free Access to Educational Resources Through the University Library Website"
+            "title": "A. REPORT ON FREE ACCESS TO EDUCATIONAL RESOURCES THROUGH THE UNIVERSITY LIBRARY WEBSITE",
+            "tag": "Library & Information Centre"
           },
           {
             "type": "paragraph",
@@ -273,10 +273,10 @@
           },
           {
             "type": "table",
-            "title": "University Library Collection & Open Access Infrastructure",
+            "title": "Institutional Library Resources & Public Digital Gateway",
             "headers": [
               "Particulars",
-              "Institutional Response / Capacity"
+              "Response"
             ],
             "rows": [
               [
@@ -318,16 +318,65 @@
             ]
           },
           {
-            "type": "paragraph",
-            "text": "1. Availability of Library Resources: The University maintains an extensive library collection comprising more than 1,75,000 resources, including books, reference materials, journals, magazines, newspapers, research publications and digital resources across 6 campus libraries with 134 computer systems and a total seating capacity of 1,018."
+            "type": "section_header",
+            "title": "1. Availability of Library Resources",
+            "tag": "Collection & Capacity"
           },
           {
             "type": "paragraph",
-            "text": "2. Free Access to Digital Educational Resources: The University's Library website provides direct links to 42 digital educational resource platforms covering different academic disciplines and areas of general interest, accessible without requiring paid subscriptions or institutional membership."
+            "text": "The University maintains an extensive library collection comprising more than 1,75,000 resources, including books, reference materials, journals, magazines, newspapers, research publications and digital resources."
           },
           {
             "type": "table",
-            "title": "Prominent Open Educational Platforms Accessible via Library Portal",
+            "title": "Physical Infrastructure Summary",
+            "headers": [
+              "Resource Metric",
+              "Provision"
+            ],
+            "rows": [
+              [
+                "Computer systems",
+                "134"
+              ],
+              [
+                "Library seating capacity",
+                "1,018"
+              ],
+              [
+                "Libraries across campuses",
+                "6"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "In addition to the physical library collection, the University provides access to numerous online educational platforms through its website, extending the availability of academic information beyond the University's physical premises."
+          },
+          {
+            "type": "section_header",
+            "title": "2. Free Access to Digital Educational Resources",
+            "tag": "Open Digital Learning"
+          },
+          {
+            "type": "paragraph",
+            "text": "The University's Library website provides direct links to a wide range of digital educational resources covering different academic disciplines and areas of general interest. These resources are accessible through the website and enable users to explore educational content without necessarily requiring institutional membership or paid subscriptions."
+          },
+          {
+            "type": "paragraph",
+            "text": "These platforms offer access to academic publications, electronic books, research articles, newspapers, magazines, dissertations and knowledge resources. The availability of these links through the University's public website enables individuals beyond the University community to benefit from the educational resources."
+          },
+          {
+            "type": "section_header",
+            "title": "3. Access to Open Educational Resources",
+            "tag": "Open Access Platforms"
+          },
+          {
+            "type": "paragraph",
+            "text": "A significant feature of the University's digital library initiative is the provision of links to internationally recognised open-access educational platforms. These platforms make scholarly publications, research materials and educational content freely available to students, researchers, academicians and the general public."
+          },
+          {
+            "type": "table",
+            "title": "Prominent Open Educational Platforms Accessible",
             "headers": [
               "Educational Platform",
               "Resources Accessible"
@@ -362,8 +411,8 @@
                 "Open-access scholarly books"
               ],
               [
-                "National Digital Library of India (NDLI)",
-                "Digital educational resources across disciplines"
+                "National Digital Library of India",
+                "Digital educational resources"
               ],
               [
                 "REPEC",
@@ -377,60 +426,170 @@
           },
           {
             "type": "paragraph",
-            "text": "4. Access to Institutional and Scholarly Databases: The University Library website also provides information and links to reputed national and international academic databases and electronic information resources, including EBSCO, Springer, JSTOR, ProQuest, J-Gate, N-List and Scopus."
-          },
-          {
-            "type": "paragraph",
-            "text": "5. Additional Digital Learning and Information Resources: E-newspapers (The Hindu, Deccan Herald, Times of India, Deccan Chronicle, Economic Times), E-magazines (India Today, Business Today, Outlook, Digit, Reader's Digest), General Knowledge and Current Affairs resources, and Institutional Research Repositories."
+            "text": "Through these platforms, users can access a wide spectrum of academic materials without being restricted to the University's student or faculty community. This facilitates wider dissemination of knowledge and encourages research-based learning among the public."
           },
           {
             "type": "section_header",
-            "tag": "PART B",
-            "title": "Report on Open Access Educational Content Made Available to the General Public"
+            "title": "4. Access to Institutional and Scholarly Databases",
+            "tag": "Academic Repositories"
           },
           {
             "type": "paragraph",
-            "text": "Kristu Jayanti University has undertaken a distinctive and commendable initiative by making a substantial collection of faculty-developed educational resources freely accessible to the general public through digital platforms. This initiative reflects the University's progressive vision of democratizing education, promoting knowledge sharing and extending the benefits of higher education beyond conventional campus boundaries."
+            "text": "The University Library website also provides information and links to reputed national and international academic databases and electronic information resources, including EBSCO, Springer, JSTOR, ProQuest, J-Gate, N-List and Scopus, among others."
           },
           {
             "type": "paragraph",
-            "text": "1. Video-Based Educational Resources: The University has made 156 educational video resources available through online platforms, particularly YouTube. These videos cover Accounting and Finance, Economics and Commerce, Management and Professional Management Studies, Psychology and Social Sciences, Forensic Science, Life Sciences, English, Kannada, Hindi, and Media Studies."
+            "text": "These platforms offer access to scholarly journals, research articles, books and other academic publications. While certain resources are available through open-access arrangements, others operate through institutional subscriptions and may have specific access conditions, including institutional network or authorised user requirements."
           },
           {
             "type": "paragraph",
-            "text": "2. Other Digital Educational Content: In addition to video lectures, the University has facilitated access to 63 other digital educational resources through online platforms, including presentations, academic materials, subject-specific learning content, interactive exercises and knowledge-sharing modules."
-          },
-          {
-            "type": "paragraph",
-            "text": "3. Public Accessibility and Impact: Providing free and open access to 219 educational resources (156 video resources and 63 digital learning materials) is an exemplary model of inclusive, technology-enabled, and socially responsible higher education."
+            "text": "The availability of these resources through the library portal provides a centralised point of reference for users seeking quality academic and research information."
           },
           {
             "type": "section_header",
-            "tag": "PART C",
-            "title": "Institutional Certificate Courses Open to Learners"
+            "title": "5. Additional Digital Learning and Information Resources",
+            "tag": "Public Knowledge Base"
+          },
+          {
+            "type": "paragraph",
+            "text": "Apart from academic books and journals, the University Library website provides links to several other educational and informational resources, including:"
           },
           {
             "type": "activity",
-            "title": "1. Certificate Course on Sports Nutrition (1 September – 30 October 2025)",
+            "title": "Categories of Extended E-Resources",
             "paragraphs": [
+              "• E-newspapers: Access to leading newspapers such as The Hindu, Deccan Herald, Times of India, Deccan Chronicle and Economic Times.",
+              "• E-magazines: Access to publications such as India Today, Business Today, Outlook, Digit and Reader's Digest.",
+              "• General Knowledge and Current Affairs: Educational resources supporting awareness of national and international developments.",
+              "• Research Repositories: Access to dissertations, theses and scholarly research publications.",
+              "• Digital Book Collections: Access to electronic books covering diverse subjects and areas of knowledge."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "These resources are useful not only for university students but also for competitive examination aspirants, independent learners, researchers and members of the general public."
+          },
+          {
+            "type": "paragraph",
+            "text": "Conclusion: Kristu Jayanti (Deemed to be University) demonstrates its commitment to knowledge dissemination and inclusive education by providing an extensive range of digital educational resources through its publicly accessible Library website. With 42 listed digital resource-platform links across different categories, alongside access to numerous open educational repositories and scholarly information platforms, the University creates opportunities for individuals to access quality educational materials beyond the boundaries of its campus. By facilitating access to open-access books, journals, research publications, dissertations, newspapers, magazines and other educational resources, the University extends the benefits of its academic infrastructure to the wider community. This initiative reflects its commitment to democratization of knowledge, digital inclusion, research promotion and lifelong learning."
+          },
+          {
+            "type": "activity",
+            "title": "Glimpses of Library Access & Geotagged Verification",
+            "paragraphs": [
+              "NoteCam Lite Entry 1: Address: Kothanur, Bengaluru, Karnataka, India | Latitude: 13.059299°, Longitude: 77.642024°, Altitude: 894.0 m | Date: 02/06/2024 03:19 PM IST | Accuracy: 12.36 m | Note: Captured by NoteCam.",
+              "NoteCam Lite Entry 2: Address: Kothanur, Bengaluru, Karnataka, India | Latitude: 13.05862974°, Longitude: 77.64202443°, Altitude: 894.0 m | Date: 11/09/2023 02:09 PM IST | Accuracy: 11.83 m | Note: Article Review & Library Access."
+            ]
+          },
+          {
+            "type": "section_header",
+            "title": "B. REPORT ON OPEN ACCESS EDUCATIONAL CONTENT MADE AVAILABLE TO THE GENERAL PUBLIC",
+            "tag": "Faculty-Developed Learning Resources"
+          },
+          {
+            "type": "paragraph",
+            "text": "Kristu Jayanti University has undertaken a distinctive and commendable initiative by making a substantial collection of faculty-developed educational resources freely accessible to the general public through digital platforms. This initiative reflects the University's progressive vision of democratizing education, promoting knowledge sharing and extending the benefits of higher education beyond the conventional boundaries of the campus."
+          },
+          {
+            "type": "paragraph",
+            "text": "While digital learning resources are increasingly being adopted by higher education institutions, a structured initiative to make faculty-created academic content openly available to society represents a significant and distinctive institutional commitment. Such initiatives are practiced by relatively few universities in a sustained and comprehensive manner. Kristu Jayanti University's effort therefore stands out as an exemplary practice that reinforces its commitment to inclusive education, academic outreach and social responsibility."
+          },
+          {
+            "type": "section_header",
+            "title": "1. Video-Based Educational Resources",
+            "tag": "156 Video Modules"
+          },
+          {
+            "type": "paragraph",
+            "text": "The University has made 156 educational video resources available through online platforms, particularly YouTube. These videos cover a wide range of academic disciplines, enabling learners from diverse educational backgrounds to access subject-specific knowledge without any geographical or institutional restrictions."
+          },
+          {
+            "type": "activity",
+            "title": "Disciplines Covered by Video Lectures",
+            "paragraphs": [
+              "The video resources encompass subjects and topics from:",
+              "• Accounting and Finance",
+              "• Economics and Commerce",
+              "• Management and Professional Management Studies",
+              "• Psychology and Social Sciences",
+              "• Forensic Science",
+              "• Life Sciences",
+              "• English, Kannada and Hindi",
+              "• Media Studies"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "The content includes lectures and learning materials on financial analytics, accounting, taxation, GST, banking, entrepreneurship, economic concepts, forensic science, scientific principles, communication, literature and media-related subjects. This multidisciplinary coverage makes the resources valuable to students, researchers, educators, competitive examination aspirants and lifelong learners."
+          },
+          {
+            "type": "section_header",
+            "title": "2. Other Digital Educational Content",
+            "tag": "63 Digital Materials"
+          },
+          {
+            "type": "paragraph",
+            "text": "In addition to video lectures, the University has facilitated access to 63 other digital educational resources through various online platforms. These resources include presentations, academic materials, subject-specific learning content, interactive exercises and other knowledge-sharing resources."
+          },
+          {
+            "type": "paragraph",
+            "text": "These digital materials complement the video-based resources by offering varied formats of learning, encouraging independent study, reinforcing conceptual understanding and supporting self-paced learning."
+          },
+          {
+            "type": "section_header",
+            "title": "3. Public Accessibility and Knowledge Dissemination",
+            "tag": "Total 219 Resources"
+          },
+          {
+            "type": "paragraph",
+            "text": "A significant feature of this initiative is that access to these educational resources is not confined to the students or faculty of Kristu Jayanti University. The resources are made available online for the benefit of the general public, irrespective of institutional affiliation."
+          },
+          {
+            "type": "paragraph",
+            "text": "This open-access approach reflects the University's commitment to ensuring that quality academic knowledge reaches a wider audience. Students from other institutions, teachers, research scholars, professionals and members of the public can benefit from these resources without being required to enroll in a university program."
+          },
+          {
+            "type": "paragraph",
+            "text": "By leveraging digital platforms, the University has transformed faculty expertise into a wider public learning resource. This initiative strengthens the University's role not merely as a center for formal education but also as a proactive contributor to community learning, educational inclusion and the wider dissemination of knowledge."
+          },
+          {
+            "type": "paragraph",
+            "text": "Kristu Jayanti University's initiative of providing free and open access to 219 educational resources, comprising 156 video resources and 63 other digital learning materials, is a noteworthy institutional practice that deserves special recognition. The initiative goes beyond conventional teaching and learning practices by extending the University's academic contributions to the wider community. It demonstrates a forward-looking approach to educational outreach, where knowledge created within the institution is shared for the benefit of society at large."
+          },
+          {
+            "type": "paragraph",
+            "text": "This distinctive initiative exemplifies the University's commitment to the philosophy that education and knowledge should transcend institutional boundaries and remain accessible to all. By making faculty-generated academic content freely available to the public, Kristu Jayanti University demonstrates an exemplary model of inclusive, technology-enabled and socially responsible higher education."
+          },
+          {
+            "type": "section_header",
+            "title": "C. CERTIFICATE COURSES",
+            "tag": "Public Certificate Offerings"
+          },
+          {
+            "type": "activity",
+            "title": "1. CERTIFICATE COURSE ON SPORTS NUTRITION",
+            "paragraphs": [
+              "Duration: 1 September – 30 October 2025",
               "Objective: To provide participants with fundamental knowledge of sports nutrition, dietary requirements, nutritional planning and the role of balanced nutrition in enhancing physical performance, fitness and overall well-being.",
-              "Write-up: The Centre for Physical Education and Fitness, in collaboration with the Department of Life Sciences, organized a Certificate Course on Sports Nutrition from 1 September to 30 October 2025. The programme focused on the significance of nutrition in sports performance, physical fitness and health management, equipping participants with an understanding of essential nutrients, dietary planning, hydration, energy requirements and nutritional strategies for physical activities. Certificates of completion were awarded to successful participants."
+              "Write-up on the Programme: The Centre for Physical Education and Fitness, in collaboration with the Department of Life Sciences, organized a Certificate Course on Sports Nutrition from 1 September to 30 October 2025. The programme focused on the significance of nutrition in sports performance, physical fitness and health management. It aimed to equip participants with an understanding of essential nutrients, dietary planning, hydration, energy requirements and nutritional strategies for physical activities. The course provided valuable insights into the relationship between nutrition and athletic performance, encouraging participants to adopt informed dietary practices for improved fitness and well-being. Certificates of completion were awarded to successful participants."
             ]
           },
           {
             "type": "activity",
-            "title": "2. Certificate Course on Competency Mapping (8 – 26 September 2025)",
+            "title": "2. CERTIFICATE COURSE ON COMPETENCY MAPPING",
             "paragraphs": [
+              "Duration: 8 – 26 September 2025",
               "Objective: To develop an understanding of competency mapping and its application in identifying, assessing and developing individual competencies for improved personal, academic and professional effectiveness.",
-              "Write-up: The Department of Psychology, School of Humanities and Social Sciences, organized a Certificate Course on Competency Mapping from 8 to 26 September 2025. The programme introduced participants to the concept, significance and practical applications of competency mapping, identifying individual strengths, assessing behavioural competencies, and aligning individual capabilities with organizational and professional expectations. Certificates of completion were awarded to participants."
+              "Write-up on the Programme: The Department of Psychology, School of Humanities and Social Sciences, organized a Certificate Course on Competency Mapping from 8 to 26 September 2025. The programme focused on introducing participants to the concept, significance and practical applications of competency mapping. It provided insights into identifying individual strengths, assessing behavioural and professional competencies, and understanding the role of competency-based approaches in personal and career development. The course also highlighted the importance of aligning individual capabilities with organizational and professional expectations. The programme enabled participants to gain a better understanding of competency assessment and its relevance in enhancing individual effectiveness and employability. Certificates of completion were awarded to the participants."
             ]
           },
           {
             "type": "activity",
-            "title": "3. Certificate Course on Voices from the Margins: Exploring Indigenous (Dalit and Tribal) Narratives (15 September – 18 October 2025)",
+            "title": "3. CERTIFICATE COURSE ON VOICES FROM THE MARGINS: EXPLORING INDIGENOUS (DALIT AND TRIBAL) NARRATIVES",
             "paragraphs": [
+              "Duration: 15 September – 18 October 2025",
               "Objective: To introduce participants to indigenous, Dalit and tribal narratives and develop an understanding of marginalized voices, cultural identities, social realities and literary representations through critical engagement with diverse texts and perspectives.",
-              "Write-up: The Department of English, School of Humanities and Social Sciences, organized a 30-hour Certificate Course titled Voices from the Margins: Exploring Indigenous (Dalit and Tribal) Narratives from 15 September to 18 October 2025. The programme explored themes of social justice, identity, representation, cultural heritage and inclusion. As part of the programme, an expert session on Dalit Poetry was delivered by Dr. Abhisarika Prajapati, Associate Professor and Head, Department of English, REVA University, Bengaluru, on 19 September 2025. Certificates of completion and appreciation were awarded to participants and resource persons."
+              "Write-up on the Programme: The Department of English, School of Humanities and Social Sciences, organized a 30-hour Certificate Course titled Voices from the Margins: Exploring Indigenous (Dalit and Tribal) Narratives from 15 September to 18 October 2025. The programme aimed to create awareness of marginalized literary traditions, indigenous identities and socio-cultural experiences through critical engagement with Dalit and tribal narratives. The course explored themes of social justice, identity, representation, cultural heritage and inclusion. As part of the programme, an expert session on Dalit Poetry was delivered by Dr. Abhisarika Prajapati, Associate Professor and Head, Department of English, REVA University, Bengaluru, on 19 September 2025. The programme provided participants with an opportunity to engage with diverse literary perspectives and develop a deeper understanding of the experiences and contributions of marginalized communities. Certificates of completion and appreciation were awarded to the respective participants and resource person."
             ]
           }
         ],
@@ -642,13 +801,13 @@
       {
         "number": "4.3.2",
         "title": "Does your university as a body host event at university that are open to the general public: public lectures, community educational events?",
-        "text": "4.3.2 Does your university as a body host event at university that are open to the general public: public lectures, community educational events?",
+        "text": "4.3.2 Public events open to the general public (lectures, community events)",
         "subtitle": "Campus Community Educational Events, Exhibitions, and Public Markets (Year 2025)",
         "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.2.pdf",
         "contentBlocks": [
           {
             "type": "paragraph",
-            "text": "Kristu Jayanti University, through its various centers and cells, organized several programs and initiatives on campus during the academic year 2025–2026. These activities focused on community service, women's empowerment, social inclusion, health awareness and inclusive communication, providing opportunities for students, volunteers and the public to engage in socially meaningful initiatives."
+            "text": "Kristu Jayanti University, through its various centers and cells, organized several programs and initiatives on campus during the academic year 2025–2026. These activities focused on community service, women's empowerment, social inclusion, health awareness and inclusive communication. The programs provided opportunities for students, volunteers and other participants to engage in socially meaningful activities and contribute to community welfare."
           },
           {
             "type": "table",
@@ -664,19 +823,19 @@
                 "1",
                 "12.09.2025",
                 "Computer Literacy Programme for Slum and Migrant Children",
-                "28 participants"
+                "28"
               ],
               [
                 "2",
                 "26.08.2025",
                 "SRUJANA – Art, Craft and Food Stall",
-                "130 participants (22 volunteers)"
+                "130"
               ],
               [
                 "3",
                 "24.10.2025",
                 "SRUJANA – Art, Craft and Food Stall",
-                "190 participants (76 volunteers)"
+                "190"
               ],
               [
                 "4",
@@ -688,48 +847,46 @@
                 "5",
                 "29.08.2025",
                 "Campus Farmers' Market – Vegetable and Fruits Mela",
-                "75 residents & community members"
+                "75 residents"
               ]
             ]
           },
           {
             "type": "activity",
-            "title": "1. Computer Literacy Programme for Slum and Migrant Children (12 September 2025)",
+            "title": "COMPUTER LITERACY PROGRAMME FOR SLUM AND MIGRANT CHILDREN (12 September 2025)",
             "paragraphs": [
-              "On 12 September 2025, JES conducted a computer literacy program for children from slum and migrant communities. The program aimed to improve digital awareness and introduce basic computer skills among underprivileged children.",
-              "A total of 28 students participated in the initiative and received an opportunity to develop basic computer knowledge and familiarity with technology. The program focused on promoting digital inclusion and providing children with essential technological skills to support their educational development."
+              "On 12 September 2025, JES conducted a computer literacy program for children from slum and migrant communities. The program aimed to improve digital awareness and introduce basic computer skills among underprivileged children. A total of 28 students participated in the initiative and received an opportunity to develop basic computer knowledge and familiarity with technology. The program focused on promoting digital inclusion and providing children with essential technological skills to support their educational development."
             ]
           },
           {
             "type": "activity",
-            "title": "2. SRUJANA – Art, Craft and Food Stall (26 August 2025)",
+            "title": "SRUJANA – ART, CRAFT AND FOOD STALL (26 August 2025)",
             "paragraphs": [
-              "On 26 August 2025, the Women Empowerment Cell organized an art, craft and food stall under the SRUJANA initiative on the university campus. The program aimed to encourage creativity, develop entrepreneurial skills and provide a platform for showcasing products created by participants.",
-              "The stall featured a variety of art and craft items alongside food products, highlighting the creative abilities and practical skills of the individuals involved. A total of 22 center volunteers actively contributed to organizing and managing the stalls, while the program recorded a reach of 130 participants. It promoted awareness of small-scale entrepreneurial activities and self-employment opportunities."
+              "On 26 August 2025, the Women Empowerment Cell organized an art, craft and food stall under the SRUJANA initiative on the university campus. The program aimed to encourage creativity, develop entrepreneurial skills and provide a platform for showcasing products created by participants. The stall featured a variety of art and craft items alongside food products, highlighting the creative abilities and practical skills of the individuals involved. A total of 22 center volunteers actively contributed to organizing and managing the stalls, while the program recorded a reach of 130 participants. The initiative provided an opportunity for visitors to explore the displayed products, interact with the volunteers and appreciate their creativity and efforts. It also promoted awareness of small-scale entrepreneurial activities and the importance of supporting creative skills and self-employment opportunities. Through this initiative, the Women Empowerment Cell encouraged community participation, skill development and the recognition of individual talents."
             ]
           },
           {
             "type": "activity",
-            "title": "3. SRUJANA – Art, Craft and Food Stall (24 October 2025)",
+            "title": "SRUJANA – ART, CRAFT AND FOOD STALL (24 October 2025)",
             "paragraphs": [
-              "On 24 October 2025, the Women Empowerment Cell organized another edition of the SRUJANA art, craft and food stall on the university campus. The initiative aimed to promote creativity, encourage entrepreneurial thinking and provide opportunities for showcasing artistic talents and practical skills.",
-              "A total of 76 center volunteers actively contributed to the planning, coordination and management of the stalls, ensuring the smooth conduct of the program. The event recorded a reach of 190 participants, who visited the stalls, explored handmade craft products and interacted with the volunteers, supporting creative expression and women's empowerment."
+              "On 24 October 2025, the Women Empowerment Cell organized another edition of the SRUJANA art, craft and food stall on the university campus. The initiative aimed to promote creativity, encourage entrepreneurial thinking and provide opportunities for showcasing artistic talents and practical skills. The event featured a range of handmade craft products, creative art pieces and food items, offering participants a platform to display their work and engage with the university community. A total of 76 center volunteers actively contributed to the planning, coordination and management of the stalls, ensuring the smooth conduct of the program. The event recorded a reach of 190 participants, who visited the stalls, explored the products and interacted with the volunteers. The initiative encouraged women to recognize their creative abilities, gain exposure to entrepreneurial activities and develop confidence in presenting and promoting their products. Through SRUJANA, the Women Empowerment Cell continued its efforts to support creative expression, community engagement, skill development and women's empowerment."
             ]
           },
           {
             "type": "activity",
-            "title": "4. Campuspreneurs 2025 (23 September 2025)",
+            "title": "CAMPUSPRENEURS (23 September 2025)",
             "paragraphs": [
-              "The Department of Management, School of Business and Management, Kristu Jayanti University, organized Campuspreneurs 2025, a stall-based entrepreneurial exhibition, on 23 September 2025 for III BBA students.",
-              "A total of 16 exhibits involving 96 student participants were showcased, attracting approximately 420 visitors to the exhibition hall. The stalls featured eco-friendly products, sustainable lifestyle items, herbal personal care, handmade décor, games, and food items. The exhibition provided practical exposure to entrepreneurial decision-making, marketing, pricing, sales, and consumer behaviour."
+              "The Department of Management, School of Business and Management, Kristu Jayanti University, organized Campuspreneurs 2025, a stall-based entrepreneurial exhibition, on 23 September 2025 for III BBA students. The event aimed to provide hands-on entrepreneurial exposure and develop creativity, innovation, teamwork and customer interaction skills among students. A total of 16 exhibits involving 96 student participants were showcased, attracting approximately 400 visitors to the exhibition hall.",
+              "The stalls featured a variety of business concepts, including eco-friendly products, sustainable lifestyle items, herbal and organic personal care products, handmade décor, books, games, fashion accessories and food products. Students actively participated in planning, setting up and promoting their stalls while interacting with visitors and explaining their products and business ideas. The exhibition provided practical exposure to entrepreneurial decision-making, pricing, marketing, sales and consumer behavior. The activity enhanced students' confidence, leadership, communication and teamwork skills while enabling them to apply classroom concepts in a real-world setting. Overall, Campuspreneurs 2025 served as an experiential learning platform that encouraged entrepreneurial thinking and strengthened students' practical business skills.",
+              "Geotagged Record: GPS Map Camera, Kothnur Narayanapura, Bengaluru, Karnataka 560077, India (Lat 13.057900, Long 77.641439, 09/23/2025 10:35 AM GMT+05:30)."
             ]
           },
           {
             "type": "activity",
-            "title": "5. Campus Farmers' Market – Vegetable and Fruits Mela (29 August 2025)",
+            "title": "CAMPUS FARMERS’ MARKET 2025 (29 August 2025)",
             "paragraphs": [
-              "The Institution’s Innovation Council (IIC) of Kristu Jayanti University organized the Campus Farmers’ Market – Vegetable and Fruits Mela on 29 August 2025 as part of the Viksit Bharat @ 2047 initiative.",
-              "The program aimed to promote direct engagement between farmers and consumers, encourage community-based agricultural enterprise and support local products under the Government of India’s One District One Product (ODOP) initiative. The market featured Farmer Producer Organizations (FPOs) from Chitradurga, Vijayapura and Chintamani, along with Greenkraft Producer Company Limited, showcasing fresh agricultural produce to over 75 resident consumers, eliminating intermediaries and ensuring fair returns."
+              "The Institution’s Innovation Council (IIC) of Kristu Jayanti University organized the Campus Farmers’ Market – Vegetable and Fruits Mela on 29 August 2025 as part of the Viksit Bharat @ 2047 initiative. The program aimed to promote direct engagement between farmers and consumers, encourage community-based agricultural enterprise and support local products under the Government of India’s One District One Product (ODOP) initiative.",
+              "The market featured Farmer Producer Organizations (FPOs) from Chitradurga, Vijayapura and Chintamani, along with Greenkraft Producer Company Limited, showcasing fresh agricultural produce. By sourcing products directly from farmers, the initiative sought to ensure better returns for producers, eliminate intermediaries and provide consumers with access to fresh and organic produce. The event also featured stalls offering local snacks, flowers and handmade products, providing visibility to local producers and small-scale enterprises. Organized in collaboration with the Women’s Empowerment Cell, the initiative promoted local entrepreneurship and community participation. Overall, the Campus Farmers’ Market strengthened the connection between farmers and consumers while supporting sustainable agricultural practices, rural livelihoods and local economic development."
             ]
           }
         ]
@@ -743,11 +900,11 @@
         "contentBlocks": [
           {
             "type": "paragraph",
-            "text": "Kristu Jayanti University is committed to promoting lifelong learning through vocational training, skill development and capacity-building initiatives. The University organises structured programmes and learning activities to enhance knowledge, develop professional and leadership competencies, and strengthen institutional effectiveness beyond the campus."
+            "text": "Kristu Jayanti University is committed to promoting lifelong learning through vocational training, skill development and capacity-building initiatives. The University organises structured programmes and learning activities to enhance knowledge, develop professional and leadership competencies, and strengthen institutional effectiveness. These initiatives provide opportunities for continuous learning, knowledge sharing and practical exposure to diverse areas of personal, professional and organisational development. The activities documented in this annexure reflect the University's commitment to extending learning opportunities beyond the campus and fostering a culture of lifelong learning and community engagement."
           },
           {
             "type": "table",
-            "title": "Summary of Vocational Training & Capacity Building Programmes (2025)",
+            "title": "Vocational Training Events (Lifelong Learning) Summary",
             "headers": [
               "Sl. No.",
               "Date",
@@ -795,45 +952,43 @@
           },
           {
             "type": "activity",
-            "title": "1. Professional Development Programme on Empowering Institutions for Sustainable Excellence",
+            "title": "PROFESSIONAL DEVELOPMENT PROGRAMME ON EMPOWERING INSTITUTIONS FOR SUSTAINABLE EXCELLENCE (19–20 September 2025)",
             "paragraphs": [
-              "Date: 19–20 September 2025 | Venue: Council Room, Admin Block | Beneficiaries: 22 Teachers from Christ School, Hassan",
-              "The Office of Human Resources organised a two-day Professional Development Programme for 22 teachers from Christ School, Hassan. The programme aimed to enhance teaching competencies, classroom management, student mentoring and leadership skills.",
-              "Faculty members conducted sessions on growth-oriented teaching perspectives, innovative classroom management, effective student mentoring, teamwork, institutional collaboration and inspirational leadership, accompanied by campus visits and interactions with the Vice Chancellor."
+              "The Office of Human Resources organised a two-day Professional Development Programme for 22 teachers from Christ School, Hassan, on 19 and 20 September 2025 at the Council Room, Admin Block, Kristu Jayanti (Deemed to be) University. The programme aimed to enhance teaching competencies, classroom management, student mentoring and leadership skills.",
+              "Faculty members conducted sessions on growth-oriented teaching perspectives, innovative classroom management, effective student mentoring, teamwork, institutional collaboration and inspirational leadership. The programme also included an interaction with the Vice Chancellor, campus visits and experience-sharing activities, followed by certificate distribution. The initiative provided teachers with practical insights and effective strategies to strengthen their teaching practices and professional development."
             ]
           },
           {
             "type": "activity",
-            "title": "2. Professional Development Programme on Institutional Development and University Status",
+            "title": "PROFESSIONAL DEVELOPMENT PROGRAMME ON INSTITUTIONAL DEVELOPMENT AND UNIVERSITY STATUS (12 November 2025)",
             "paragraphs": [
-              "Date: 12 November 2025 | Venue: Council Room, Admin Block | Beneficiaries: 14 Officials from Rajagiri School of Engineering and Technology, Ernakulam",
-              "The Office of Human Resources facilitated an institutional interaction for 14 officials from Rajagiri School of Engineering and Technology to provide insights into academic, administrative, governance and quality assurance practices involved in attaining university status.",
-              "The interaction featured meetings with the Vice Chancellor and the IQAC team on institutional documentation, academic records management, quality monitoring, accreditation procedures and regulatory compliance, concluding with a guided campus tour."
+              "The Office of Human Resources facilitated an institutional interaction for 14 officials from Rajagiri School of Engineering and Technology, Ernakulam, on 12 November 2025 at the Council Room, Admin Block, Kristu Jayanti (Deemed to be) University. The programme aimed to provide insights into the academic, administrative, governance and quality assurance practices involved in attaining university status.",
+              "The interaction began with a meeting with the Vice Chancellor, who shared the University's vision, governance structure and academic practices. This was followed by an interactive session with the IQAC team on institutional documentation, academic records management, quality monitoring, accreditation procedures and regulatory compliance. The visiting officials actively participated in the discussions and exchanged institutional experiences. The programme concluded with a guided campus tour, providing an overview of the University's academic and support facilities."
             ]
           },
           {
             "type": "activity",
-            "title": "3. Professional Development Programme on Institutional Development and University Status",
+            "title": "PROFESSIONAL DEVELOPMENT PROGRAMME ON INSTITUTIONAL DEVELOPMENT AND UNIVERSITY STATUS (15 November 2025)",
             "paragraphs": [
-              "Date: 15 November 2025 | Venue: Council Room, Admin Block | Beneficiaries: Principal and 11 Faculty Members (12 Total) from St. Agnes College (Autonomous), Mangalore",
-              "The Office of Human Resources organised an institutional interaction for the Principal and faculty members of St. Agnes College, focusing on university governance, statutory requirements, examination reforms, curriculum frameworks and IQAC accreditation strategies.",
-              "Dr. Aloysius Edward (Registrar) and Prof. Geo Joy (Controller of Examinations) addressed statutory frameworks, curriculum design, academic autonomy, and examination management systems."
+              "The Office of Human Resources organised an institutional interaction for the Principal and 11 faculty members of St. Agnes College (Autonomous), Mangalore, on 15 November 2025 at the Council Room, Admin Block, Kristu Jayanti (Deemed to be) University. The programme aimed to familiarise participants with university governance, statutory requirements, examination systems, curriculum frameworks and quality assurance practices.",
+              "Dr. Aloysius Edward, Registrar, shared insights into statutory requirements, governance structures and university administration, while Prof. Geo Joy, Controller of Examinations, discussed examination reforms, curriculum design, academic autonomy and examination management systems. The IQAC team highlighted accreditation strategies, institutional quality assurance mechanisms and documentation practices. The visit also included a guided tour of the campus, covering academic blocks, laboratories, the library and student support facilities. The interaction provided the 12 participants with practical insights into university-level academic administration and institutional quality management."
             ]
           },
           {
             "type": "activity",
-            "title": "4. Professional Development Programme on Fostering Institutional Excellence",
+            "title": "PROFESSIONAL DEVELOPMENT PROGRAMME ON FOSTERING INSTITUTIONAL EXCELLENCE (29–30 April 2025)",
             "paragraphs": [
-              "Date: 29–30 April 2025 | Organised by: Human Resource Development Centre | Beneficiaries: 21 Educators from Carmel Public School, Puliyanmala, Kerala",
-              "The two-day training featured expert sessions on developing a growth-oriented teaching mindset, interpersonal effectiveness, classroom management, student mentoring, and empowering leadership in schools, facilitated by senior university academic leaders."
+              "The Human Resource Development Centre of Kristu Jayanti College (Autonomous) organised a two-day Professional Development Programme titled “Fostering Institutional Excellence” for Carmel Public School, Puliyanmala, Kerala, on 29 and 30 April 2025. The programme featured expert sessions on developing a growth-oriented teaching mindset, enhancing interpersonal effectiveness, classroom management, effective mentoring, collaboration and team synergy, and empowering leadership in schools.",
+              "The sessions were facilitated by Dr. Justin Nelson Michael, Dr. Jonas Richard A, Prof. Suku Thomas Samuel, Prof. Soumya Simon, Prof. Sen B Mathews and Rev. Fr. Joshy Mathew. The participants also visited the Kristu Jayanti campus and Christ (Deemed to be University) to gain exposure to institutional infrastructure and academic practices. The programme concluded with an experience-sharing and feedback session, providing participants an opportunity to reflect on their learning and the importance of professional development in fostering institutional excellence."
             ]
           },
           {
             "type": "activity",
-            "title": "5. Leadership Development Programme on School Management and Enhancing Institutional Effectiveness",
+            "title": "LEADERSHIP DEVELOPMENT PROGRAMME ON SCHOOL MANAGEMENT AND ENHANCING INSTITUTIONAL EFFECTIVENESS (26–27 May 2025)",
             "paragraphs": [
-              "Date: 26–27 May 2025 | Organised by: Human Resource Development Centre | Beneficiaries: 18 Educational Leaders from Little Flower Mission Education Society",
-              "The programme covered the National Education Policy (NEP) 2020, NCRF, academic budgeting, AI tools in education, transformational leadership, stakeholder engagement, and student-centred learning models."
+              "The Human Resource Development Centre of Kristu Jayanti College (Autonomous) organised a two-day Leadership Development Programme titled “School Management and Enhancing Institutional Effectiveness” for the Little Flower Mission Education Society on 26 and 27 May 2025. The programme featured sessions on the National Education Policy 2020, NCRF, budgeting, the use of AI tools in education, transformational leadership, interpersonal skills, team building, stakeholder engagement and student-centred learning.",
+              "The sessions were facilitated by Fr. Dr. Augustine George, Dr. Aloysius Edward J, Dr. Mary Jacob, Prof. Suku Thomas Samuel and Prof. Sen B Mathews. Participants also visited Kristu Jayanti CMI Public School and Christ (Deemed to be University) to gain insights into institutional practices. The programme concluded with a valedictory session and participant reflections, highlighting the value of the training in enhancing leadership skills and professional competence.",
+              "Geotagged Record: GPS Map Camera, Bengaluru, Karnataka, India (Lat 13.058910, Long 77.642504, Plus Code: 7J5V3J5R+HX, 05/26/2025 01:03 PM GMT+05:30, Location: Kristu Jayanti College Autonomous)."
             ]
           }
         ]
@@ -841,59 +996,56 @@
       {
         "number": "4.3.4",
         "title": "Does your university as a body undertake educational outreach activities (e.g.tailored lectures or demonstrations) beyond campus, e.g. in local schools, in the community, including voluntary student-run schemes?",
-        "text": "4.3.4 Does your university as a body undertake educational outreach activities (e.g.tailored lectures or demonstrations) beyond campus, e.g. in local schools, in the community, including voluntary student-run schemes?",
+        "text": "4.3.4 Educational outreach activities beyond campus (local schools, community)",
         "subtitle": "Centre for Community Education (CCE) & 49 Beyond-Campus Educational Outreach Initiatives",
         "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.4.pdf",
         "contentBlocks": [
           {
-            "type": "paragraph",
-            "text": "Kristu Jayanti University has established the Centre for Community Education (CCE) as a flagship initiative dedicated exclusively to community education and outreach. The Centre serves as a platform for extending the University's educational resources, knowledge, expertise and institutional support to the wider community. It focuses on promoting inclusive learning, social awareness, skill development, capacity building and lifelong learning opportunities, particularly among underserved and marginalized sections of society."
+            "type": "section_header",
+            "title": "Education Outreach Activities Beyond Campus",
+            "tag": "Centre for Community Education"
           },
           {
             "type": "paragraph",
-            "text": "During the year 2025, the University conducted 49 extensive outreach initiatives beyond the campus connecting students and faculty with schools, rural and urban communities, care institutions, migrant settlements, and public spaces."
+            "text": "Kristu Jayanti University has established the Centre for Community Education (CCE) as a flagship initiative dedicated exclusively to community education and outreach. The Centre serves as a platform for extending the University's educational resources, knowledge, expertise and institutional support to the wider community. It focuses on promoting inclusive learning, social awareness, skill development, capacity building and lifelong learning opportunities, particularly among underserved and marginalized sections of society. Through structured educational programs, awareness initiatives, training sessions and community engagement activities, CEE strives to empower individuals, address societal needs and foster meaningful university–community partnerships. The Centre reflects the University's commitment to social responsibility, inclusive education and education for sustainable community development."
           },
           {
-            "type": "table",
-            "title": "Major Areas of Community Achievement",
-            "headers": [
-              "Area",
-              "Scope of Outreach Initiatives"
-            ],
-            "rows": [
-              [
-                "Health, hygiene and well-being",
-                "Awareness initiatives addressing women’s health, menstrual hygiene, dengue prevention, mental health, nutrition, healthcare, first aid, and child safety."
-              ],
-              [
-                "Education, literacy and life skills",
-                "Programmes focusing on rural education and literacy campaigns, values and life skills, IT education, study-material support, and learning initiatives."
-              ],
-              [
-                "Rural development & engagement",
-                "Village-level engagement including rural exposure camps, village surveys, Shramadhaan, and community initiatives in adopted and neighbouring villages."
-              ],
-              [
-                "Environmental sustainability",
-                "Cleanliness drives and Swachh Bharat / Swachhata Hi Seva activities encouraging civic participation and responsibility for cleaner public spaces."
-              ],
-              [
-                "Social care and community support",
-                "Visits and service initiatives at elders’ homes, special schools, migrant settlements, and underprivileged communities."
-              ],
-              [
-                "Civic awareness & national service",
-                "NCC, KCDC, ABHA card enrollment drives, government scheme awareness, safety, discipline, and civic responsibility."
-              ]
+            "type": "paragraph",
+            "text": "During the year 2025, the University continued to strengthen its commitment to extension and community engagement through activities conducted beyond the campus by its various centres and service units. The initiatives connected students with schools, rural and urban communities, care institutions and public spaces. The programmes addressed community needs through awareness, service, education, health and hygiene initiatives, environmental action, rural engagement and civic participation. The activities provided opportunities for students to participate in experiential learning and contribute to social responsibility. These activities will happen regularly with set objectives and achievable outcomes."
+          },
+          {
+            "type": "section_header",
+            "title": "Major Areas of Achievement",
+            "tag": "Key Thrust Areas"
+          },
+          {
+            "type": "activity",
+            "title": "Six Thrust Areas of Community Outreach",
+            "paragraphs": [
+              "• Health, hygiene and well-being: Awareness initiatives addressed women’s health and menstrual hygiene, dengue prevention, mental health, nutrition, healthcare, first aid and child safety.",
+              "• Education, literacy and life skills: Programmes focused on rural education and literacy, values and life skills, IT education, healthy food awareness, study-material support and learning initiatives.",
+              "• Rural development and community engagement: Village-level engagement included rural exposure, village surveys, Shramadhaan, community awareness and initiatives in adopted and neighbouring communities.",
+              "• Environmental sustainability and cleanliness: Cleanliness drives and Swachh Bharat-related activities encouraged civic participation and responsibility for cleaner public spaces and communities.",
+              "• Social care and community support: Visits and service initiatives at elders’ homes, special schools, migrant settlements and underprivileged communities reflected compassion, inclusion and community support.",
+              "• Civic awareness and national service: NCC, KCDC and other initiatives included camps, training, awareness of government schemes, safety, discipline and civic responsibility."
             ]
           },
           {
+            "type": "section_header",
+            "title": "Outside-Campus Education Outreach Activities (Year 2025)",
+            "tag": "Activity Register"
+          },
+          {
+            "type": "paragraph",
+            "text": "The following centre-wise write-ups provide a brief account of each event. The event dates, activity details, student participation, external beneficiary information, venue and other particulars are reproduced from the institutional activity register. Numerical external beneficiary counts are highlighted where recorded; descriptive entries are retained as provided."
+          },
+          {
             "type": "table",
-            "title": "Register of 49 Outside-Campus Educational Outreach Activities (Year 2025)",
+            "title": "Consolidated Register of 49 Outside-Campus Educational Outreach Activities",
             "headers": [
               "Sl. No.",
               "Date",
-              "Name of the Outreach Activity"
+              "Name of the Activity"
             ],
             "rows": [
               [
@@ -1003,13 +1155,13 @@
               ],
               [
                 "22",
-                "8 november 2025–13",
-                "august 2025* ABHA Card Enrollment Drive"
+                "8 november 2025–13 august 2025*",
+                "ABHA Card Enrollment Drive"
               ],
               [
                 "23",
-                "9 august 2025–19",
-                "september 2025* Ek Bharat Shreshtha Bharat (EBSB) Camp"
+                "9 august 2025–19 september 2025*",
+                "Ek Bharat Shreshtha Bharat (EBSB) Camp"
               ],
               [
                 "24",
@@ -1053,8 +1205,8 @@
               ],
               [
                 "32",
-                "16 october 2025–8",
-                "january 2025* Yuva Pathshala"
+                "16 october 2025–8 january 2026*",
+                "Yuva Pathshala"
               ],
               [
                 "33",
@@ -1145,368 +1297,351 @@
           },
           {
             "type": "section_header",
-            "tag": "DETAILED REPORTS",
-            "title": "Comprehensive Write-ups of All 49 Outreach Activities"
+            "title": "Detailed Activity Reports (Activities 1 to 49)",
+            "tag": "Activity Reports"
           },
           {
             "type": "activity",
-            "title": "1. Fostering Women’s Safety and Self Awareness",
+            "title": "1. Fostering Women’s Safety and Self Awareness (9 April 2025)",
             "paragraphs": [
-              "An extension activity focusing on women’s safety and well-being was conducted on 9 April 2025 at The\nRefuge Foundation, Anjanapura Layout, Bengaluru. The programme witnessed the participation of 8\nstudents from the University and benefited 20 external participants. The initiative aimed to create\nawareness about personal safety, self-awareness and confidence among women. It emphasised the\nimportance of recognising potential risks, developing a sense of personal security and responding\nappropriately to situations that may affect their safety and well-being. The programme provided an\nopportunity for students to engage with the community and contribute towards promoting awareness and\nsocial responsibility."
+              "An extension activity focusing on women’s safety and well-being was conducted on 9 April 2025 at The Refuge Foundation, Anjanapura Layout, Bengaluru. The programme witnessed the participation of 8 students from the University and benefited 20 external participants. The initiative aimed to create awareness about personal safety, self-awareness and confidence among women. It emphasised the importance of recognising potential risks, developing a sense of personal security and responding appropriately to situations that may affect their safety and well-being. The programme provided an opportunity for students to engage with the community and contribute towards promoting awareness and social responsibility."
             ]
           },
           {
             "type": "activity",
-            "title": "2. Serving with love: visit to the Elders Home",
+            "title": "2. Serving with Love: Visit to the Elders Home (9 September 2025)",
             "paragraphs": [
-              "An outreach visit was organised on 9 September 2025 to the Home for the Aged (Women), Society of\nSt. Vincent De Paul, Ramaiah Layout, Bengaluru. A total of 14 students from the University participated\nin the initiative, which reached 5 elderly residents. The visit provided an opportunity for students to\ninteract with the residents, offer companionship and understand their social and emotional needs. The\ninteraction helped nurture empathy, compassion and respect towards senior citizens while reinforcing\nthe importance of social responsibility and care for the elderly."
+              "An outreach visit was organised on 9 September 2025 to the Home for the Aged (Women), Society of St. Vincent De Paul, Ramaiah Layout, Bengaluru. A total of 14 students from the University participated in the initiative, which reached 5 elderly residents. The visit provided an opportunity for students to interact with the residents, offer companionship and understand their social and emotional needs. The interaction helped nurture empathy, compassion and respect towards senior citizens while reinforcing the importance of social responsibility and care for the elderly."
             ]
           },
           {
             "type": "activity",
-            "title": "3. Clean Drive in the School",
+            "title": "3. Clean Drive in the School (17 September 2025)",
             "paragraphs": [
-              "The event was conducted on 17 september 2025, as an extension activity on the theme of activity. The\nactivity encouraged cleanliness, civic responsibility and community participation. A total of 16 student\nparticipant(s) from the University took part. The activity was held at Siddhartha School Narayanpura,\nBengaluru. External participants/beneficiaries were recorded as Students and Tecahers of the school.\nThe activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct\nparticipation sensitised students to hygiene, civic responsibility and sustained community action."
+              "The event was conducted on 17 september 2025, as an extension activity on the theme of activity. The activity encouraged cleanliness, civic responsibility and community participation. A total of 16 student participant(s) from the University took part. The activity was held at Siddhartha School Narayanpura, Bengaluru. External participants/beneficiaries were recorded as Students and Tecahers of the school. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "4. Menstrual Health & Hygiene Awareness Program",
+            "title": "4. Menstrual Health & Hygiene Awareness Program (18 September 2025)",
             "paragraphs": [
-              "The event was conducted on 18 september 2025, as an extension activity on the theme of activity. The\ninitiative focused on community awareness and engagement around the subject identified in the event\ntitle. A total of 7 student participant(s) from the University took part. The activity was held at New Ark\nMission, 5th Cr, KRC Rd, Doddagubbi, Bengaluru, Karnataka. External participants/beneficiaries were\nrecorded as the women of New Ark Mission. The programme addressed menstrual health and hygiene\nthrough awareness and information sharing, encouraging informed choices and healthy practices."
+              "The event was conducted on 18 september 2025, as an extension activity on the theme of activity. The initiative focused on community awareness and engagement around the subject identified in the event title. A total of 7 student participant(s) from the University took part. The activity was held at New Ark Mission, 5th Cr, KRC Rd, Doddagubbi, Bengaluru, Karnataka. External participants/beneficiaries were recorded as the women of New Ark Mission. The programme addressed menstrual health and hygiene through awareness and information sharing, encouraging informed choices and healthy practices."
             ]
           },
           {
             "type": "activity",
-            "title": "5. Donation Drive - Essentials & Clothing for the Needy",
+            "title": "5. Donation Drive – Essentials & Clothing for the Needy (26 September 2025)",
             "paragraphs": [
-              "The event was conducted on 26 september 2025, as an extension activity on the theme of activity. The\ninitiative involved community outreach and support for the people or institution identified in the activity\nrecord. A total of 11 student participant(s) from the University took part. The activity was held at\nNarayanapura Slum, 3rd Cross, Kothnur. External participants/beneficiaries were recorded as Slum\npeople, Narayanapura. The activity strengthened the University’s engagement with the wider community\nand provided students with an opportunity for experiential learning, social interaction and responsible\nparticipation in an outreach initiative."
+              "The event was conducted on 26 september 2025, as an extension activity on the theme of activity. The initiative involved community outreach and support for the people or institution identified in the activity record. A total of 11 student participant(s) from the University took part. The activity was held at Narayanapura Slum, 3rd Cross, Kothnur. External participants/beneficiaries were recorded as Slum people, Narayanapura. The activity strengthened the University’s engagement with the wider community and provided students with an opportunity for experiential learning, social interaction and responsible participation in an outreach initiative."
             ]
           },
           {
             "type": "activity",
-            "title": "6. Awareness Session on Values, Life Skills and Social Awareness for Government School Students",
+            "title": "6. Awareness Session on Values, Life Skills and Social Awareness for Government School Students (27 October 2025)",
             "paragraphs": [
-              "The event was conducted on 27 october 2025, as a activity programme. The initiative focused on\ncommunity awareness and engagement around the subject identified in the event title. A total of 28\nstudent participant(s) from the University took part. The activity was held at Government Model Higher\nPrimary School, Kothanur. The activity supported learning and educational engagement beyond the\ncampus. It provided students with an opportunity to contribute to community learning needs and\nreinforced education as a means of inclusion and social development."
+              "The event was conducted on 27 october 2025, as a activity programme. The initiative focused on community awareness and engagement around the subject identified in the event title. A total of 28 student participant(s) from the University took part. The activity was held at Government Model Higher Primary School, Kothanur. The activity supported learning and educational engagement beyond the campus. It provided students with an opportunity to contribute to community learning needs and reinforced education as a means of inclusion and social development."
             ]
           },
           {
             "type": "activity",
-            "title": "7. Shield Up: Safety & Protection for Young Minds",
+            "title": "7. Shield Up: Safety & Protection for Young Minds (27 September 2025)",
             "paragraphs": [
-              "The event was conducted on 27 september 2025, as an extension activity. The initiative focused on\ncommunity awareness and engagement around the subject identified in the event title. The activity was\nheld at Infant Jesus Children’s Home. The activity strengthened the University’s engagement with the\nwider community and provided students with an opportunity for experiential learning, social interaction\nand responsible participation in an outreach initiative."
+              "The event was conducted on 27 september 2025, as an extension activity. The initiative focused on community awareness and engagement around the subject identified in the event title. The activity was held at Infant Jesus Children’s Home. The activity strengthened the University’s engagement with the wider community and provided students with an opportunity for experiential learning, social interaction and responsible participation in an outreach initiative."
             ]
           },
           {
             "type": "activity",
-            "title": "8. NSS Special Annual Camp - Cleanliness drive, Free eyecheck up camp, Free health checkup,",
+            "title": "8. NSS Special Annual Camp – Cleanliness, Eye Check-up, Health Check-up and Cybercrime Awareness (11–17 October 2025)",
             "paragraphs": [
-              "Cyber crime awareness\nThe event was conducted from 11th oct 2025 to 17th Oct 2025, as an extension activity. The programme\noffered participants an opportunity to engage in the scheduled camp/training activities and develop\ndiscipline, teamwork and experiential learning. A total of 94 student participant(s) from the University\ntook part. The activity was held at Gram Sonnenahalli & Kanasawadi. The activity encouraged\ncollective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised\nstudents to hygiene, civic responsibility and sustained community action."
+              "The event was conducted from 11th oct 2025 to 17th Oct 2025, as an extension activity. The programme offered participants an opportunity to engage in the scheduled camp/training activities and develop discipline, teamwork and experiential learning. A total of 94 student participant(s) from the University took part. The activity was held at Gram Sonnenahalli & Kanasawadi. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "9. Awareness on Healthy Food",
+            "title": "9. Awareness on Healthy Food (27 October 2025)",
             "paragraphs": [
-              "The event was conducted on 27 october 2025, as an extension activity. The initiative focused on\ncommunity awareness and engagement around the subject identified in the event title. The activity was\nheld at Radiant Shema School, 80/1, 8th cross, Shema School Rd, Byrathi Village. The programme\nprovided a platform to share relevant information, address community-level awareness needs and\nencourage informed participation. It also enabled students to learn through direct interaction beyond the\nclassroom."
+              "The event was conducted on 27 october 2025, as an extension activity. The initiative focused on community awareness and engagement around the subject identified in the event title. The activity was held at Radiant Shema School, 80/1, 8th cross, Shema School Rd, Byrathi Village. The programme provided a platform to share relevant information, address community-level awareness needs and encourage informed participation. It also enabled students to learn through direct interaction beyond the classroom."
             ]
           },
           {
             "type": "activity",
-            "title": "10. BRIDGING GAPS WITH IT EDUCATION AND SERVICE",
+            "title": "10. BRIDGING GAPS WITH IT EDUCATION AND SERVICE (29 September 2025)",
             "paragraphs": [
-              "The event was conducted on 29 september 2025, as an extension activity. The initiative focused on\ncommunity awareness and engagement around the subject identified in the event title. The activity was\nheld at Refuge Foundation. The initiative focused on strengthening awareness and practical\nunderstanding in the area identified by the programme. It supported knowledge sharing, informed\nparticipation and confidence in applying relevant skills."
+              "The event was conducted on 29 september 2025, as an extension activity. The initiative focused on community awareness and engagement around the subject identified in the event title. The activity was held at Refuge Foundation. The initiative focused on strengthening awareness and practical understanding in the area identified by the programme. It supported knowledge sharing, informed participation and confidence in applying relevant skills."
             ]
           },
           {
             "type": "activity",
-            "title": "11. Empowering Women through Hygiene and Education",
+            "title": "11. Empowering Women through Hygiene and Education (29 September 2025)",
             "paragraphs": [
-              "The event was conducted on 29 september 2025, as an extension activity. The initiative focused on\ncommunity awareness and engagement around the subject identified in the event title. The activity was\nheld at Refuge Foundation. The activity supported learning and educational engagement beyond the\ncampus. It provided students with an opportunity to contribute to community learning needs and\nreinforced education as a means of inclusion and social development."
+              "The event was conducted on 29 september 2025, as an extension activity. The initiative focused on community awareness and engagement around the subject identified in the event title. The activity was held at Refuge Foundation. The activity supported learning and educational engagement beyond the campus. It provided students with an opportunity to contribute to community learning needs and reinforced education as a means of inclusion and social development."
             ]
           },
           {
             "type": "activity",
-            "title": "12. Mental Health Awareness",
+            "title": "12. Mental Health Awareness (3 November 2025)",
             "paragraphs": [
-              "An extension activity focusing on mental health awareness was conducted on 3 November 2025 at\nRadiant Shema School, 80/1, 8th Cross, Shema School Road, Byrathi Village. A total of 13 students\nfrom the University participated in the programme, which reached 52 external beneficiaries. The\ninitiative highlighted the importance of mental well-being by promoting awareness, empathy and timely\nsupport. It encouraged participants to develop a better understanding of mental-health concerns and\nfoster a supportive and sensitive community environment."
+              "An extension activity focusing on mental health awareness was conducted on 3 November 2025 at Radiant Shema School, 80/1, 8th Cross, Shema School Road, Byrathi Village. A total of 13 students from the University participated in the programme, which reached 52 external beneficiaries. The initiative highlighted the importance of mental well-being by promoting awareness, empathy and timely support. It encouraged participants to develop a better understanding of mental-health concerns and foster a supportive and sensitive community environment."
             ]
           },
           {
             "type": "activity",
-            "title": "13. HEALTH AND NUTRITION AWARENESS PROGRAMME",
+            "title": "13. HEALTH AND NUTRITION AWARENESS PROGRAMME (3 November 2025)",
             "paragraphs": [
-              "An extension activity focusing on health, nutrition and preventive healthcare practices was conducted\non 3 November 2025 at Government Middle School, Kothanur, Bengaluru. A total of 13 students from\nthe University participated in the programme, which reached 45 external beneficiaries. The initiative\naimed to create awareness about the importance of maintaining good health, adopting nutritious dietary\nhabits and following preventive practices in everyday life. The programme encouraged participants to",
-              "embrace healthier and safer lifestyles through informed choices and responsible health practices."
+              "An extension activity focusing on health, nutrition and preventive healthcare practices was conducted on 3 November 2025 at Government Middle School, Kothanur, Bengaluru. A total of 13 students from the University participated in the programme, which reached 45 external beneficiaries. The initiative aimed to create awareness about the importance of maintaining good health, adopting nutritious dietary habits and following preventive practices in everyday life. The programme encouraged participants to embrace healthier and safer lifestyles through informed choices and responsible health practices."
             ]
           },
           {
             "type": "activity",
-            "title": "14. HEALTHCARE AWARENESS PROGRAMME",
+            "title": "14. HEALTHCARE AWARENESS PROGRAMME (5 November 2025)",
             "paragraphs": [
-              "An extension activity focusing on health, nutrition and preventive practices was conducted on 5\nNovember 2025 at Government School, Northwoods Layout, Vaddarapalya, Hennur. A total of 7\nstudents from the University participated in the programme, which reached 42 external beneficiaries.\nThe initiative aimed to create awareness about the importance of maintaining good health, adopting\nnutritious dietary habits and following preventive practices in everyday life. The programme encouraged\ncommunity members to embrace healthier and safer habits through informed choices and responsible\nhealth practices."
+              "An extension activity focusing on health, nutrition and preventive practices was conducted on 5 November 2025 at Government School, Northwoods Layout, Vaddarapalya, Hennur. A total of 7 students from the University participated in the programme, which reached 42 external beneficiaries. The initiative aimed to create awareness about the importance of maintaining good health, adopting nutritious dietary habits and following preventive practices in everyday life. The programme encouraged community members to embrace healthier and safer habits through informed choices and responsible health practices."
             ]
           },
           {
             "type": "activity",
-            "title": "15. Assertiveness Training",
+            "title": "15. Assertiveness Training (5 November 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 5 November 2025 at Government Primary School, K.\nNarayanapura, Bengaluru. A total of 6 students from the University participated in the initiative, which\nreached 32 external beneficiaries. The activity provided an opportunity for students to interact with the\nlocal community, understand its needs and contribute to an outreach initiative. It also strengthened the\nUniversity's engagement with the wider community while promoting experiential learning, social\ninteraction and a sense of social responsibility among students."
+              "An extension activity was conducted on 5 November 2025 at Government Primary School, K. Narayanapura, Bengaluru. A total of 6 students from the University participated in the initiative, which reached 32 external beneficiaries. The activity provided an opportunity for students to interact with the local community, understand its needs and contribute to an outreach initiative. It also strengthened the University's engagement with the wider community while promoting experiential learning, social interaction and a sense of social responsibility among students."
             ]
           },
           {
             "type": "activity",
-            "title": "16. FIRST AID AWARENESS",
+            "title": "16. FIRST AID AWARENESS (18 September 2025)",
             "paragraphs": [
-              "An extension activity focusing on first-aid awareness was conducted on 18 September 2025 at\nGovernment Upper Primary School, K. Narayanapura, Kothanur. A total of 22 students from the\nUniversity participated in the programme, which reached 58 external beneficiaries. The initiative aimed\nto familiarise participants with basic first-aid practices and the importance of responding promptly\nduring emergencies. It highlighted practical safety measures and emphasised the need to seek appropriate\nmedical assistance whenever required. The programme contributed to enhancing community awareness\nand promoting a sense of preparedness and responsibility towards health and safety."
+              "An extension activity focusing on first-aid awareness was conducted on 18 September 2025 at Government Upper Primary School, K. Narayanapura, Kothanur. A total of 22 students from the University participated in the programme, which reached 58 external beneficiaries. The initiative aimed to familiarise participants with basic first-aid practices and the importance of responding promptly during emergencies. It highlighted practical safety measures and emphasised the need to seek appropriate medical assistance whenever required. The programme contributed to enhancing community awareness and promoting a sense of preparedness and responsibility towards health and safety."
             ]
           },
           {
             "type": "activity",
-            "title": "17. Empowering Education",
+            "title": "17. Empowering Education (27 October 2025)",
             "paragraphs": [
-              "An extension activity aimed at promoting educational engagement beyond the campus was conducted\non 27 October 2025 at Government Model Higher Primary School, Kothanur. A total of 13 students from\nthe University participated in the programme, which reached 41 external beneficiaries. The initiative\nprovided an opportunity for students to engage with the school community and contribute to its learning\nneeds. The activity reinforced the importance of education as a means of promoting inclusion, social",
-              "development and community empowerment while fostering social responsibility among students."
+              "An extension activity aimed at promoting educational engagement beyond the campus was conducted on 27 October 2025 at Government Model Higher Primary School, Kothanur. A total of 13 students from the University participated in the programme, which reached 41 external beneficiaries. The initiative provided an opportunity for students to engage with the school community and contribute to its learning needs. The activity reinforced the importance of education as a means of promoting inclusion, social development and community empowerment while fostering social responsibility among students."
             ]
           },
           {
             "type": "activity",
-            "title": "18. Swachatha Hi Seva",
+            "title": "18. Swachatha Hi Seva (30 September 2025)",
             "paragraphs": [
-              "The event was conducted on 30 september 2025, as an extension activity. The activity provided an\nopportunity for student engagement, experiential learning and community interaction. A total of 9\nstudent participant(s) from the University took part. The activity was held at K. Narayanapura. External\nparticipants/beneficiaries were recorded as Pedestrains. The activity encouraged collective responsibility\nfor cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic\nresponsibility and sustained community action."
+              "The event was conducted on 30 september 2025, as an extension activity. The activity provided an opportunity for student engagement, experiential learning and community interaction. A total of 9 student participant(s) from the University took part. The activity was held at K. Narayanapura. External participants/beneficiaries were recorded as Pedestrains. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "19. A Kit of Hope (Distributing of study materials)",
+            "title": "19. A Kit of Hope (Distribution of Study Materials) (18 December 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 18 December 2025 in the slum area near Kristu Jayanti\nUniversity, Narayanapura, Bengaluru. A total of 8 students from the University participated in the\ninitiative, which reached 12 external beneficiaries. The activity focused on promoting learning and\neducational engagement among members of the local community. It provided students with an\nopportunity to contribute to the educational needs of the community and understand the importance of\ninclusive learning. The initiative reinforced education as an important means of fostering social",
-              "inclusion,",
-              "community",
-              "development",
-              "and",
-              "social",
-              "responsibility."
+              "An extension activity was conducted on 18 December 2025 in the slum area near Kristu Jayanti University, Narayanapura, Bengaluru. A total of 8 students from the University participated in the initiative, which reached 12 external beneficiaries. The activity focused on promoting learning and educational engagement among members of the local community. It provided students with an opportunity to contribute to the educational needs of the community and understand the importance of inclusive learning. The initiative reinforced education as an important means of fostering social inclusion, community development and social responsibility."
             ]
           },
           {
             "type": "activity",
-            "title": "20. STATIONERY DISTRIBUTION, FOOD SAFETY AND HYGIENE MEASURES",
+            "title": "20. STATIONERY DISTRIBUTION, FOOD SAFETY AND HYGIENE MEASURES (22 December 2025)",
             "paragraphs": [
-              "An extension activity focusing on health, nutrition and preventive healthcare practices was conducted\non 22 December 2025 at K. Narayanapura Government School, Bengaluru. A total of 12 students from\nthe University participated in the programme, which reached 90 external beneficiaries. The initiative\naimed to create awareness about the importance of maintaining good health, adopting nutritious dietary\nhabits and following preventive practices in everyday life. The programme encouraged community\nmembers to adopt healthier and safer habits through informed choices and responsible health practices."
+              "An extension activity focusing on health, nutrition and preventive healthcare practices was conducted on 22 December 2025 at K. Narayanapura Government School, Bengaluru. A total of 12 students from the University participated in the programme, which reached 90 external beneficiaries. The initiative aimed to create awareness about the importance of maintaining good health, adopting nutritious dietary habits and following preventive practices in everyday life. The programme encouraged community members to adopt healthier and safer habits through informed choices and responsible health practices."
             ]
           },
           {
             "type": "activity",
-            "title": "21. Ek Bharat Shreshtha Bharat Camp",
+            "title": "21. Ek Bharat Shreshtha Bharat Camp (04–15 July 2025)",
             "paragraphs": [
-              "The event was conducted from 4 july 2025 to 15 july 2025, as a camp programme. The programme\noffered participants an opportunity to engage in the scheduled camp/training activities and develop\ndiscipline, teamwork and experiential learning. A total of 2 student participant(s) from the University\ntook part. The activity was held at Hassan. The camp promoted national integration and cultural",
-              "understanding through structured participation. It also provided opportunities to strengthen discipline,\nteamwork, adaptability and mutual respect.",
-              "."
+              "The event was conducted from 4 july 2025 to 15 july 2025, as a camp programme. The programme offered participants an opportunity to engage in the scheduled camp/training activities and develop discipline, teamwork and experiential learning. A total of 2 student participant(s) from the University took part. The activity was held at Hassan. The camp promoted national integration and cultural understanding through structured participation. It also provided opportunities to strengthen discipline, teamwork, adaptability and mutual respect."
             ]
           },
           {
             "type": "activity",
-            "title": "22. ABHA Card Enrollment Drive",
+            "title": "22. ABHA Card Enrollment Drive (8 November 2025 – 13 August 2025*)",
             "paragraphs": [
-              "The event was conducted from 8 november 2025 to 13 august 2025, as an extension activity. The\ninitiative focused on community awareness and engagement around the subject identified in the event\ntitle. A total of 32 student participant(s) from the University took part. The drive focused on awareness\nof health-related identification and government healthcare support, while providing community\nmembers with information and enrolment-related guidance."
+              "The event was conducted from 8 november 2025 to 13 august 2025, as an extension activity. The initiative focused on community awareness and engagement around the subject identified in the event title. A total of 32 student participant(s) from the University took part. The drive focused on awareness of health-related identification and government healthcare support, while providing community members with information and enrolment-related guidance."
             ]
           },
           {
             "type": "activity",
-            "title": "23. Ek Bharat Shreshtha Bharat (EBSB) camp",
+            "title": "23. Ek Bharat Shreshtha Bharat (EBSB) Camp (9 August 2025 – 19 September 2025*)",
             "paragraphs": [
-              "The event was conducted from 9 august 2025 to 19 september 2025, as a camp programme. The\nprogramme offered participants an opportunity to engage in the scheduled camp/training activities and\ndevelop discipline, teamwork and experiential learning. A total of 1 student participant(s) from the\nUniversity took part. The activity was held at Chhatarpur, Madhya Pradesh (25 MP Battalion). The\ncamp promoted national integration and cultural understanding through structured participation. It also\nprovided opportunities to strengthen discipline, teamwork, adaptability and mutual respect."
+              "The event was conducted from 9 august 2025 to 19 september 2025, as a camp programme. The programme offered participants an opportunity to engage in the scheduled camp/training activities and develop discipline, teamwork and experiential learning. A total of 1 student participant(s) from the University took part. The activity was held at Chhatarpur, Madhya Pradesh (25 MP Battalion). The camp promoted national integration and cultural understanding through structured participation. It also provided opportunities to strengthen discipline, teamwork, adaptability and mutual respect."
             ]
           },
           {
             "type": "activity",
-            "title": "24. CATC Camp",
+            "title": "24. CATC Camp (10–19 October 2025)",
             "paragraphs": [
-              "The event was conducted from 10 october 2025 to 19 october 2025, as a camp programme. The\nprogramme offered participants an opportunity to engage in the scheduled camp/training activities and\ndevelop discipline, teamwork and experiential learning. A total of 110 student participant(s) from the\nUniversity took part. The activity was held at 3KAR BN NCC [Jalahalli East Air Force Station]. The\ncamp provided a structured opportunity for training, collective participation and experiential learning. It\nencouraged discipline, teamwork, leadership and responsibility among participating students."
+              "The event was conducted from 10 october 2025 to 19 october 2025, as a camp programme. The programme offered participants an opportunity to engage in the scheduled camp/training activities and develop discipline, teamwork and experiential learning. A total of 110 student participant(s) from the University took part. The activity was held at 3KAR BN NCC [Jalahalli East Air Force Station]. The camp provided a structured opportunity for training, collective participation and experiential learning. It encouraged discipline, teamwork, leadership and responsibility among participating students."
             ]
           },
           {
             "type": "activity",
-            "title": "25. Awareness on Government Schemes - Ayushman Bharat Card Enrollment Drive",
+            "title": "25. Awareness on Government Schemes – Ayushman Bharat Card Enrollment Drive (11–13 August 2025)",
             "paragraphs": [
-              "An extension activity was conducted from 11 to 13 August 2025 to promote community awareness and\nengagement regarding health-related identification and government healthcare support. A total of 32\nstudents from the University participated in the initiative, which reached 232 external beneficiaries. The\ndrive focused on creating awareness about health-related identification, providing information on\navailable government healthcare support schemes, and guiding community members through the\nenrolment process. The initiative aimed to improve awareness and facilitate access to relevant healthcare\nsupport services."
+              "An extension activity was conducted from 11 to 13 August 2025 to promote community awareness and engagement regarding health-related identification and government healthcare support. A total of 32 students from the University participated in the initiative, which reached 232 external beneficiaries. The drive focused on creating awareness about health-related identification, providing information on available government healthcare support schemes, and guiding community members through the enrolment process. The initiative aimed to improve awareness and facilitate access to relevant healthcare support services."
             ]
           },
           {
             "type": "activity",
-            "title": "26. Awareness Programme WOMEN HEALTH AND HYGIENE",
+            "title": "26. Awareness Programme: WOMEN HEALTH AND HYGIENE (23 September 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 23 September 2025 at Kolar District, focusing on women’s\nhealth and well-being. A total of 20 students from the University participated in the programme, which\nreached 200 external beneficiaries. The initiative aimed to create awareness through information sharing",
-              "on women’s health, encourage informed choices and promote healthy practices. The programme also\nprovided an opportunity for community engagement and strengthened awareness of the importance of\nhealth and well-being."
+              "An extension activity was conducted on 23 September 2025 at Kolar District, focusing on women’s health and well-being. A total of 20 students from the University participated in the programme, which reached 200 external beneficiaries. The initiative aimed to create awareness through information sharing on women’s health, encourage informed choices and promote healthy practices. The programme also provided an opportunity for community engagement and strengthened awareness of the importance of health and well-being."
             ]
           },
           {
             "type": "activity",
-            "title": "27. DENGUE Awareness",
+            "title": "27. DENGUE Awareness (23 September 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 23 September 2025 at Annihalli Village, Kolar District, focusing\non dengue prevention and community health awareness. A total of 20 students from the University\nparticipated in the programme, which reached 130 external beneficiaries. The initiative highlighted\npreventive measures to reduce mosquito breeding and prevent the spread of dengue. It encouraged\ncommunity participation, health-conscious behaviour and greater vigilance at household and community",
-              "levels."
+              "An extension activity was conducted on 23 September 2025 at Annihalli Village, Kolar District, focusing on dengue prevention and community health awareness. A total of 20 students from the University participated in the programme, which reached 130 external beneficiaries. The initiative highlighted preventive measures to reduce mosquito breeding and prevent the spread of dengue. It encouraged community participation, health-conscious behaviour and greater vigilance at household and community levels."
             ]
           },
           {
             "type": "activity",
-            "title": "28. Rural Education and Literacy Campaigns",
+            "title": "28. Rural Education and Literacy Campaigns (23 September 2025)",
             "paragraphs": [
-              "An activity programme was conducted at Byalahalli Village, Kolar District, on 23 September 2025. A\ntotal of 20 students from the University participated, and the programme reached 60 external\nbeneficiaries. The initiative focused on strengthening awareness and practical understanding through\nknowledge sharing and active participation. It also provided opportunities for experiential learning,\nencouraging discipline, teamwork and confidence in applying relevant skills."
+              "An activity programme was conducted at Byalahalli Village, Kolar District, on 23 September 2025. A total of 20 students from the University participated, and the programme reached 60 external beneficiaries. The initiative focused on strengthening awareness and practical understanding through knowledge sharing and active participation. It also provided opportunities for experiential learning, encouraging discipline, teamwork and confidence in applying relevant skills."
             ]
           },
           {
             "type": "activity",
-            "title": "29. Observation Visit",
+            "title": "29. Observation Visit (23 September 2025)",
             "paragraphs": [
-              "The event was conducted on 23 september 2025, as a activity programme. The initiative involved\ncommunity outreach and support for the people or institution identified in the activity record. A total of\n20 student participant(s) from the University took part. The activity was held at Annihalli Village, Kolar\ndistrict. The activity strengthened the University’s engagement with the wider community and provided\nstudents with an opportunity for experiential learning, social interaction and responsible participation in\nan outreach initiative."
+              "The event was conducted on 23 september 2025, as a activity programme. The initiative involved community outreach and support for the people or institution identified in the activity record. A total of 20 student participant(s) from the University took part. The activity was held at Annihalli Village, Kolar district. The activity strengthened the University’s engagement with the wider community and provided students with an opportunity for experiential learning, social interaction and responsible participation in an outreach initiative."
             ]
           },
           {
             "type": "activity",
-            "title": "30. Awareness Programme",
+            "title": "30. Awareness Programme (23 September 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 23 September 2025 at Annihalli Village, Kolar District. A total\nof 20 students from the University participated in the programme, which reached 60 external\nbeneficiaries. The initiative provided a platform to share relevant information, address community-level\nawareness needs and encourage informed participation. It also enabled students to gain practical",
-              "exposure and develop a better understanding of community needs through direct interaction beyond the",
-              "classroom."
+              "An extension activity was conducted on 23 September 2025 at Annihalli Village, Kolar District. A total of 20 students from the University participated in the programme, which reached 60 external beneficiaries. The initiative provided a platform to share relevant information, address community-level awareness needs and encourage informed participation. It also enabled students to gain practical exposure and develop a better understanding of community needs through direct interaction beyond the classroom."
             ]
           },
           {
             "type": "activity",
-            "title": "31. Swachh Bharat (Clean India) Drives",
+            "title": "31. Swachh Bharat (Clean India) Drives (30 September 2025)",
             "paragraphs": [
-              "The event was conducted on 30 september 2025, as an extension activity on the theme of activity. The\nactivity encouraged cleanliness, civic responsibility and community participation. A total of 25 student\nparticipant(s) from the University took part. The activity was held at Munishammappa Layout Road, K.\nNarayanapura. The activity encouraged collective responsibility for cleanliness and the upkeep of shared\nspaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community\naction."
+              "The event was conducted on 30 september 2025, as an extension activity on the theme of activity. The activity encouraged cleanliness, civic responsibility and community participation. A total of 25 student participant(s) from the University took part. The activity was held at Munishammappa Layout Road, K. Narayanapura. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "32. YUVA PATHSHALA",
+            "title": "32. YUVA PATHSHALA (16 October 2025 – 8 January 2026*)",
             "paragraphs": [
-              "An extension activity was conducted from 16 October 2025 to 8 January 2026 at Kacharakanahalli,\nfocusing on learning and educational engagement beyond the campus. A total of 15 students from the\nUniversity participated in the initiative, which reached 35 external beneficiaries. The activity provided\nstudents with an opportunity to contribute to community learning needs and interact directly with the",
-              "community. It also reinforced the role of education in promoting inclusion and social development."
+              "An extension activity was conducted from 16 October 2025 to 8 January 2026 at Kacharakanahalli, focusing on learning and educational engagement beyond the campus. A total of 15 students from the University participated in the initiative, which reached 35 external beneficiaries. The activity provided students with an opportunity to contribute to community learning needs and interact directly with the community. It also reinforced the role of education in promoting inclusion and social development."
             ]
           },
           {
             "type": "activity",
-            "title": "33. JOY OF GIVING – VISIT TO HOUSE OF FAITH",
+            "title": "33. JOY OF GIVING – VISIT TO HOUSE OF FAITH (27 October 2025)",
             "paragraphs": [
-              "The event was conducted on 27 october 2025, as a activity programme. The initiative involved\ncommunity outreach and support for the people or institution identified in the activity record. A total of\n24 student participant(s) from the University took part. The activity was held at HOUSE OF FAITH.\nThe outreach initiative encouraged meaningful engagement with beneficiaries and highlighted\ncompassion, inclusion and community support. It provided students with an opportunity to translate\nsocial concern into responsible action."
+              "The event was conducted on 27 october 2025, as a activity programme. The initiative involved community outreach and support for the people or institution identified in the activity record. A total of 24 student participant(s) from the University took part. The activity was held at HOUSE OF FAITH. The outreach initiative encouraged meaningful engagement with beneficiaries and highlighted compassion, inclusion and community support. It provided students with an opportunity to translate social concern into responsible action."
             ]
           },
           {
             "type": "activity",
-            "title": "34. MENSTRUATION AWARENESS PROGRAM",
+            "title": "34. MENSTRUATION AWARENESS PROGRAM (5 November 2025)",
             "paragraphs": [
-              "An activity programme was conducted on 5 November 2025 at Siddhartha High School Girls. A total of\n21 students from the University participated in the programme, which reached 58 external beneficiaries.",
-              "The initiative provided a platform to share relevant information, address community-level awareness\nneeds and encourage informed participation. It also enabled students to gain practical exposure and\nunderstand community needs through direct interaction beyond the classroom."
+              "An activity programme was conducted on 5 November 2025 at Siddhartha High School Girls. A total of 21 students from the University participated in the programme, which reached 58 external beneficiaries. The initiative provided a platform to share relevant information, address community-level awareness needs and encourage informed participation. It also enabled students to gain practical exposure and understand community needs through direct interaction beyond the classroom."
             ]
           },
           {
             "type": "activity",
-            "title": "35. PREETI NIVAS – OLD AGE HOME VISIT",
+            "title": "35. PREETI NIVAS – OLD AGE HOME VISIT (20 December 2025)",
             "paragraphs": [
-              "The event was conducted on 20 december 2025, as a activity programme. The initiative involved\ncommunity outreach and support for the people or institution identified in the activity record. A total of\n19 student participant(s) from the University took part. The activity was held at Preethi nivas trust. The\nvisit enabled students to interact with older residents and offer companionship, while understanding their\nsocial and emotional needs. It reinforced empathy, respect and responsibility towards senior citizens."
+              "The event was conducted on 20 december 2025, as a activity programme. The initiative involved community outreach and support for the people or institution identified in the activity record. A total of 19 student participant(s) from the University took part. The activity was held at Preethi nivas trust. The visit enabled students to interact with older residents and offer companionship, while understanding their social and emotional needs. It reinforced empathy, respect and responsibility towards senior citizens."
             ]
           },
           {
             "type": "activity",
-            "title": "36. Cleanliness Drive at K. Narayanapura Road, Kothanur, Bengaluru",
+            "title": "36. Cleanliness Drive at K. Narayanapura Road, Kothanur, Bengaluru (30 September 2025)",
             "paragraphs": [
-              "The event was conducted on 30 september 2025, as an extension activity. The activity encouraged\ncleanliness, civic responsibility and community participation. A total of 104 student participant(s) from\nthe University took part. The activity was held at K. Narayanapura. External participants/beneficiaries\nwere recorded as 600 Pedestrains. The activity encouraged collective responsibility for cleanliness and\nthe upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and\nsustained community action.",
-              "Committee for Social Activates"
+              "The event was conducted on 30 september 2025, as an extension activity. The activity encouraged cleanliness, civic responsibility and community participation. A total of 104 student participant(s) from the University took part. The activity was held at K. Narayanapura. External participants/beneficiaries were recorded as 600 Pedestrains. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "37. Swachata Spandana",
+            "title": "37. Swachata Spandana – Committee for Social Activities (30 September 2025)",
             "paragraphs": [
-              "The event was conducted on 30 september 2025, as a activity programme. The activity provided an\nopportunity for student engagement, experiential learning and community interaction. A total of 52\nstudent participant(s) from the University took part. The activity was held at Government Higher Primary\nSchool, Kyalasanahalli -School Premises. The activity encouraged collective responsibility for\ncleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic\nresponsibility and sustained community action."
+              "The event was conducted on 30 september 2025, as a activity programme. The activity provided an opportunity for student engagement, experiential learning and community interaction. A total of 52 student participant(s) from the University took part. The activity was held at Government Higher Primary School, Kyalasanahalli -School Premises. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "38. Red blossom: Nature’s Rhythm Women’s Strength",
+            "title": "38. Red Blossom: Nature’s Rhythm Women’s Strength (24 October 2025)",
             "paragraphs": [
-              "An activity programme was conducted on 24 October 2025 at St Mary’s PU College. A total of 5 students\nfrom the University participated in the programme, which reached 40 external beneficiaries. The\ninitiative connected the themes of nature and women’s strength through community participation and\nawareness. It encouraged reflection on environmental appreciation, the contributions of women and the\nimportance of collective responsibility. The activity also provided students with an opportunity for\nexperiential learning and community interaction beyond the classroom.."
+              "An activity programme was conducted on 24 October 2025 at St Mary’s PU College. A total of 5 students from the University participated in the programme, which reached 40 external beneficiaries. The initiative connected the themes of nature and women’s strength through community participation and awareness. It encouraged reflection on environmental appreciation, the contributions of women and the importance of collective responsibility. The activity also provided students with an opportunity for experiential learning and community interaction beyond the classroom."
             ]
           },
           {
             "type": "activity",
-            "title": "39. Smritipatham – Path of Memories",
+            "title": "39. Smritipatham – Path of Memories (31 October 2025)",
             "paragraphs": [
-              "An activity programme was conducted on 31 October 2025 at Guanella Preethi Nivas. A total of 63\nstudents from the University participated in the programme, which reached 32 external beneficiaries.\nThe initiative created an opportunity for interaction, reflection and shared engagement with the\nbeneficiary community. It encouraged students to appreciate personal experiences and recognise the\nimportance of dignity, meaningful connections and social responsibility. The activity also provided\nstudents with valuable experiential learning through direct community interaction."
+              "An activity programme was conducted on 31 October 2025 at Guanella Preethi Nivas. A total of 63 students from the University participated in the programme, which reached 32 external beneficiaries. The initiative created an opportunity for interaction, reflection and shared engagement with the beneficiary community. It encouraged students to appreciate personal experiences and recognise the importance of dignity, meaningful connections and social responsibility. The activity also provided students with valuable experiential learning through direct community interaction."
             ]
           },
           {
             "type": "activity",
-            "title": "40. Digital Poster Making Competition",
+            "title": "40. Digital Poster Making Competition (1 November 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 1 November 2025 at Nagenahalli. A total of 23 students from\nthe University participated in the programme, which reached 102 external beneficiaries. The activity\nencouraged creative expression and effective communication of ideas through the specified format. It\nprovided students with an opportunity to develop awareness, strengthen presentation skills and explore\nthe purposeful use of communication tools. The programme also promoted teamwork and experiential\nlearning through community engagement."
+              "An extension activity was conducted on 1 November 2025 at Nagenahalli. A total of 23 students from the University participated in the programme, which reached 102 external beneficiaries. The activity encouraged creative expression and effective communication of ideas through the specified format. It provided students with an opportunity to develop awareness, strengthen presentation skills and explore the purposeful use of communication tools. The programme also promoted teamwork and experiential learning through community engagement."
             ]
           },
           {
             "type": "activity",
-            "title": "41. Rural Exposure Camp – Samayak Samruddhi, Shramadhaan, Village Survey",
+            "title": "41. Rural Exposure Camp – Samayak Samruddhi, Shramadhaan, Village Survey (17–21 December 2025)",
             "paragraphs": [
-              "An extension activity was conducted from 17 to 21 December 2025 at Esturu, Hoskote Taluk. A total of\n71 students from the University participated in the programme, which reached 213 external beneficiaries.\nThe initiative encouraged collective responsibility for maintaining cleanliness and the upkeep of shared\nspaces. Through direct participation, students developed greater awareness of hygiene, civic\nresponsibility and the importance of sustained community action. The programme also promoted\nteamwork, discipline and experiential learning."
+              "An extension activity was conducted from 17 to 21 December 2025 at Esturu, Hoskote Taluk. A total of 71 students from the University participated in the programme, which reached 213 external beneficiaries. The initiative encouraged collective responsibility for maintaining cleanliness and the upkeep of shared spaces. Through direct participation, students developed greater awareness of hygiene, civic responsibility and the importance of sustained community action. The programme also promoted teamwork, discipline and experiential learning."
             ]
           },
           {
             "type": "activity",
-            "title": "42. Nyayabodhah",
+            "title": "42. Nyayabodhah (29 September 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 29 September 2025 at Nagenahalli, Bengaluru. The initiative\nreached 10 external beneficiaries and provided an opportunity for students to engage with the community\nthrough experiential learning and interaction. The programme focused on creating awareness of legal\nrights, responsibilities and access to justice. It aimed to share relevant information, encourage informed\ncivic participation and strengthen understanding of the importance of legal awareness in everyday life."
+              "An extension activity was conducted on 29 September 2025 at Nagenahalli, Bengaluru. The initiative reached 10 external beneficiaries and provided an opportunity for students to engage with the community through experiential learning and interaction. The programme focused on creating awareness of legal rights, responsibilities and access to justice. It aimed to share relevant information, encourage informed civic participation and strengthen understanding of the importance of legal awareness in everyday life."
             ]
           },
           {
             "type": "activity",
-            "title": "43. Gram Swachh Abhiyan",
+            "title": "43. Gram Swachh Abhiyan (23 September 2025)",
             "paragraphs": [
-              "The event was conducted on 23 september 2025, as an extension activity. The activity encouraged\ncleanliness, civic responsibility and community participation. The activity was held at Parehosahalli,\nKolar District, Karnataka. The activity encouraged collective responsibility for cleanliness and the\nupkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and\nsustained community action."
+              "The event was conducted on 23 september 2025, as an extension activity. The activity encouraged cleanliness, civic responsibility and community participation. The activity was held at Parehosahalli, Kolar District, Karnataka. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "44. Cyber Security Awareness Programme",
+            "title": "44. Cyber Security Awareness Programme (23 September 2025)",
             "paragraphs": [
-              "The event was conducted on 23 september 2025, as an extension activity. The initiative focused on\ncommunity awareness and engagement around the subject identified in the event title. The activity was\nheld at Parehosahalli, Kolar District, Karnataka. The initiative focused on strengthening awareness and\npractical understanding in the area identified by the programme. It supported knowledge sharing,\ninformed participation and confidence in applying relevant skills."
+              "The event was conducted on 23 september 2025, as an extension activity. The initiative focused on community awareness and engagement around the subject identified in the event title. The activity was held at Parehosahalli, Kolar District, Karnataka. The initiative focused on strengthening awareness and practical understanding in the area identified by the programme. It supported knowledge sharing, informed participation and confidence in applying relevant skills."
             ]
           },
           {
             "type": "activity",
-            "title": "45. Swachhata Hi Seva",
+            "title": "45. Swachhata Hi Seva (29 September 2025)",
             "paragraphs": [
-              "The event was conducted on 29 september 2025, as an extension activity. The activity encouraged\ncleanliness, civic responsibility and community participation. The activity was held at Parehosahalli,\nKolar District, Karnataka. The activity encouraged collective responsibility for cleanliness and the\nupkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and\nsustained community action."
+              "The event was conducted on 29 september 2025, as an extension activity. The activity encouraged cleanliness, civic responsibility and community participation. The activity was held at Parehosahalli, Kolar District, Karnataka. The activity encouraged collective responsibility for cleanliness and the upkeep of shared spaces. Direct participation sensitised students to hygiene, civic responsibility and sustained community action."
             ]
           },
           {
             "type": "activity",
-            "title": "46. \"Extension Activity: Kits of Care Visit to Migrant Settlement, Kothanur\"",
+            "title": "46. Extension Activity: Kits of Care Visit to Migrant Settlement, Kothanur (31 October 2025)",
             "paragraphs": [
-              "The event was conducted on 31 october 2025, as an extension activity. The initiative involved\ncommunity outreach and support for the people or institution identified in the activity record. A total of\n22 student participant(s) from the University took part. The activity was held at Migrant Settlement,\nKothanur. The outreach activity focused on connecting with members of the migrant settlement and\nextending support through care-related kits. It reinforced inclusion, dignity and responsiveness to the\nneeds of vulnerable communities."
+              "The event was conducted on 31 october 2025, as an extension activity. The initiative involved community outreach and support for the people or institution identified in the activity record. A total of 22 student participant(s) from the University took part. The activity was held at Migrant Settlement, Kothanur. The outreach activity focused on connecting with members of the migrant settlement and extending support through care-related kits. It reinforced inclusion, dignity and responsiveness to the needs of vulnerable communities."
             ]
           },
           {
             "type": "activity",
-            "title": "47. Light through Literacy",
+            "title": "47. Light through Literacy (16 December 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 16 December 2025 at BREADS, NGO. A total of 10 students\nfrom the University participated in the programme, which reached 100 external beneficiaries. The\ninitiative focused on strengthening awareness and practical understanding through knowledge sharing\nand community engagement. It encouraged informed participation and helped build confidence in\napplying relevant skills. The activity also provided students with an opportunity to gain experiential\nlearning through direct interaction with the beneficiary community."
+              "An extension activity was conducted on 16 December 2025 at BREADS, NGO. A total of 10 students from the University participated in the programme, which reached 100 external beneficiaries. The initiative focused on strengthening awareness and practical understanding through knowledge sharing and community engagement. It encouraged informed participation and helped build confidence in applying relevant skills. The activity also provided students with an opportunity to gain experiential learning through direct interaction with the beneficiary community."
             ]
           },
           {
             "type": "activity",
-            "title": "48. Unwrap the Joy”: A Visit to Blessed Claire Special School",
+            "title": "48. Unwrap the Joy: A Visit to Blessed Claire Special School (19 December 2025)",
             "paragraphs": [
-              "An extension activity was conducted on 19 December 2025 at Blessed Claire Special School. A total of\n18 students from the University participated in the initiative, which reached 52 external beneficiaries.\nThe programme encouraged meaningful engagement with the beneficiary community and highlighted\nthe importance of compassion, inclusion and social support. It also provided students with an opportunity\nto translate social concern into responsible action through direct community interaction and experiential",
-              "learning."
+              "An extension activity was conducted on 19 December 2025 at Blessed Claire Special School. A total of 18 students from the University participated in the initiative, which reached 52 external beneficiaries. The programme encouraged meaningful engagement with the beneficiary community and highlighted the importance of compassion, inclusion and social support. It also provided students with an opportunity to translate social concern into responsible action through direct community interaction and experiential learning."
             ]
           },
           {
             "type": "activity",
-            "title": "49. Pulse (Flashmob for a Cause) - World Suicide prevention day",
+            "title": "49. Pulse (Flashmob for a Cause) – World Suicide Prevention Day (10 September 2025)",
             "paragraphs": [
-              "The event was conducted on 10 september 2025, as a activity programme. The activity provided an\nopportunity for student engagement, experiential learning and community interaction. The activity was\nheld at Bharatiya mall of bangalore. The initiative drew attention to mental well-being and the\nimportance of awareness, empathy and timely support. It encouraged responsible engagement with\nmental-health concerns and a supportive community environment."
+              "The event was conducted on 10 september 2025, as a activity programme. The activity provided an opportunity for student engagement, experiential learning and community interaction. The activity was held at Bharatiya mall of bangalore. The initiative drew attention to mental well-being and the importance of awareness, empathy and timely support. It encouraged responsible engagement with mental-health concerns and a supportive community environment.",
+              "Geotagged Record: GPS Map Camera, Kannuru, Bengaluru, Karnataka 560064, India (Lat 13.08281°, Long 77.643754°, 10/09/2025 01:13 PM GMT+05:30)."
             ]
           }
         ]
@@ -1514,37 +1649,62 @@
       {
         "number": "4.3.5",
         "title": "Does your university as a body have a policy that ensures that access to these activities is accessible to all, regardless of ethnicity, religion, disability, immigration status or gender?",
-        "text": "4.3.5 Does your university as a body have a policy that ensures that access to these activities is accessible to all, regardless of ethnicity, religion, disability, immigration status or gender?",
+        "text": "4.3.5 Lifelong learning policy ensuring equitable and non-discriminatory access to all",
         "subtitle": "Institutional Lifelong Learning Policy Framework and Equity Mandate",
         "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.5.pdf",
         "contentBlocks": [
           {
             "type": "report_banner",
-            "title": "KRISTU JAYANTI UNIVERSITY — LIFELONG LEARNING POLICY",
-            "subtitle": "Comprehensive Institutional Policy Ensuring Equal and Non-Discriminatory Access to Educational Opportunities",
-            "meta": "Approved by University Governing Authorities • Applicable Across All Academic & Extension Units"
+            "title": "KRISTU JAYANTI UNIVERSITY",
+            "subtitle": "LIFE LONG LEARNING POLICY",
+            "meta": "Institutional Governance, Inclusivity & Equal Opportunity Framework"
           },
           {
-            "type": "activity",
+            "type": "section_header",
             "title": "1. Preamble and Policy Statement",
-            "paragraphs": [
-              "Kristu Jayanti University recognizes lifelong learning as a continuous process through which individuals acquire, update and apply knowledge, skills, values and competencies throughout their lives. Learning may take place through formal education, professional development, short-term courses, online learning, workplace experience, community engagement and independent study.",
-              "In a changing social, economic and technological environment, lifelong learning supports personal growth, employability, innovation, civic participation and institutional development. The Institution is committed to creating inclusive, flexible and quality-assured opportunities for students, faculty, staff, alumni and eligible members of the wider community. This policy is guided by equitable access, learner-centred education, continuous professional development, digital inclusion and continuous improvement."
-            ]
+            "tag": "Policy Statement"
           },
           {
-            "type": "activity",
+            "type": "paragraph",
+            "text": "Kristu Jayanti University recognizes lifelong learning as a continuous process through which individuals acquire, update and apply knowledge, skills, values and competencies throughout their lives. Learning may take place through formal education, professional development, short-term courses, online learning, workplace experience, community engagement and independent study."
+          },
+          {
+            "type": "paragraph",
+            "text": "In a changing social, economic and technological environment, lifelong learning supports personal growth, employability, innovation, civic participation and institutional development. The Institution is committed to creating inclusive, flexible and quality-assured opportunities for students, faculty, staff, alumni and eligible members of the wider community. This policy is guided by equitable access, learner-centred education, continuous professional development, digital inclusion and continuous improvement, and shall be implemented in accordance with applicable regulatory requirements and institutional regulations."
+          },
+          {
+            "type": "section_header",
             "title": "2. Purpose and 3. Scope",
-            "paragraphs": [
-              "Purpose: To establish a clear framework for planning, delivering, facilitating, monitoring and improving lifelong learning opportunities beyond the requirements of a single academic programme or qualification.",
-              "Scope: Applies to current students, research scholars, faculty members, administrative staff, alumni, working professionals, adult learners, and community members participating in approved learning initiatives without discrimination."
-            ]
+            "tag": "Purpose & Scope"
+          },
+          {
+            "type": "paragraph",
+            "text": "2. Purpose: The purpose of this policy is to establish a clear framework for planning, delivering, facilitating, monitoring and improving lifelong learning opportunities beyond the requirements of a single academic programme or qualification."
           },
           {
             "type": "activity",
-            "title": "4. Objectives of Lifelong Learning Policy",
+            "title": "3. Scope of the Policy",
             "paragraphs": [
-              "• To provide equitable, inclusive and non-discriminatory access to relevant learning opportunities regardless of ethnicity, religion, disability, immigration status or gender.",
+              "This policy applies, as relevant to programme eligibility and applicable conditions, to:",
+              "• Current students and research scholars;",
+              "• Faculty members and academic leaders;",
+              "• Administrative, technical and support staff;",
+              "• Alumni and former students;",
+              "• Working professionals, adult learners and eligible external participants;",
+              "• Community members and partner organisations participating in approved learning initiatives.",
+              "Access to particular courses, facilities, platforms or credentials may be subject to admission criteria, registration, fees, licensing, capacity, safety requirements and applicable institutional rules."
+            ]
+          },
+          {
+            "type": "section_header",
+            "title": "4. Objectives of Lifelong Learning Policy",
+            "tag": "Policy Objectives"
+          },
+          {
+            "type": "activity",
+            "title": "Institutional Objectives",
+            "paragraphs": [
+              "• To provide equitable, inclusive and non-discriminatory access to relevant learning opportunities.",
               "• To promote continuous upskilling, reskilling, interdisciplinary learning and transferable competencies.",
               "• To offer flexible learning formats, including online, blended, face-to-face, evening and weekend delivery wherever feasible.",
               "• To support professional growth of faculty and staff through training, development programmes, peer learning and exposure to emerging practices.",
@@ -1555,39 +1715,93 @@
             ]
           },
           {
-            "type": "activity",
+            "type": "section_header",
             "title": "5. Guiding Principles",
+            "tag": "Core Principles"
+          },
+          {
+            "type": "activity",
+            "title": "Seven Guiding Principles",
             "paragraphs": [
-              "• Inclusivity and equity: Learning opportunities should be accessible without discrimination. Reasonable accommodation is provided for learners with disabilities.",
-              "• Learner-centredness: Curriculum design responds to learners' prior knowledge, goals and circumstances.",
-              "• Flexibility: Delivery formats accommodate working professionals and adult learners with diverse schedules.",
-              "• Quality and relevance: Clear learning outcomes, competent facilitators and quality assessment standards.",
-              "• Digital enablement: High-standard digital infrastructure, repositories, and learning platforms.",
-              "• Continuous improvement: Regular outcome assessment, participant feedback and evidence-based curriculum updates."
+              "• Inclusivity and equity: Learning opportunities should be accessible without discrimination on grounds prohibited by applicable law and institutional policy. Reasonable accommodation should be considered for learners with disabilities.",
+              "• Learner-centredness: Learning design should respond to learners’ needs, prior knowledge, goals and circumstances and encourage active participation, reflection and independent learning.",
+              "• Flexibility: Where feasible, delivery schedules and formats should accommodate working professionals, adult learners and learners with differing responsibilities.",
+              "• Quality and relevance: Programmes should have clear learning outcomes, appropriate resources, competent facilitators and suitable methods of assessment or feedback.",
+              "• Digital enablement: Digital platforms and resources should be used appropriately, considering accessibility, digital literacy, data protection and alternative support.",
+              "• Recognition and progression: Prior learning, work experience and external credentials may be considered where a formal mechanism exists and applicable regulations permit.",
+              "• Continuous improvement: Programme design and delivery should be informed by feedback, participation data, outcome evidence and changing learner or industry needs."
+            ]
+          },
+          {
+            "type": "section_header",
+            "title": "6. Policy Framework and Key Provisions",
+            "tag": "Provisions 6.1 – 6.8"
+          },
+          {
+            "type": "activity",
+            "title": "6.1 Lifelong Learning Opportunities & 6.2 Flexible Modes",
+            "paragraphs": [
+              "6.1 Lifelong Learning Opportunities: The Institution may develop, offer, host or facilitate lifelong learning opportunities based on identified needs, available expertise and resources. These may include short-term, certificate, diploma or continuing education programmes, subject to applicable approvals; workshops, seminars, conferences, guest lectures, masterclasses and extension lectures; faculty and staff development programmes, orientation, refresher training and pedagogical development; digital literacy, data literacy, communication, leadership, entrepreneurship and other transferable-skills programmes; industry-oriented training, professional updating, vocational or skill-development initiatives; MOOCs and other approved online learning opportunities, including suitable external platforms; research, innovation, interdisciplinary and self-directed learning activities; and community-based learning, public awareness programmes and outreach initiatives.",
+              "6.2 Flexible Modes and Learning Pathways: Programmes may be delivered in face-to-face, online or blended modes, depending on learning outcomes, infrastructure and learner needs. Evening, weekend, vacation-based or modular scheduling may be considered where feasible. The Institution may facilitate re-entry into learning at different stages of life, subject to programme requirements and applicable regulations."
             ]
           },
           {
             "type": "activity",
-            "title": "6. Policy Framework and Key Provisions (6.1 – 6.8)",
+            "title": "6.3 Learning Resources & 6.4 Faculty and Staff Development",
             "paragraphs": [
-              "6.1 Lifelong Learning Opportunities: Developing short-term certificates, diplomas, workshops, seminars, staff development, digital literacy, and community awareness programmes.",
-              "6.2 Flexible Modes and Learning Pathways: Face-to-face, online, and blended modular delivery schedules.",
-              "6.3 Learning Resources and Technology: Public access to digital libraries, repositories, open courses, and LMS platforms.",
-              "6.4 Faculty and Staff Development: Institutional sponsorship and continuous pedagogical upskilling.",
-              "6.5 Alumni and Community Engagement: Active partnerships with NGOs, industry bodies, and community organizations.",
-              "6.6 Inclusion and Learner Support: Reducing financial, geographical, and physical barriers through scholarships, fee concessions, and accessible learning aids.",
-              "6.7 Recognition of Prior Learning and Credentials: Transparent certification validating skills and vocational proficiencies.",
-              "6.8 Quality Assurance: Rigorous quality benchmarking overseen by the IQAC."
+              "6.3 Learning Resources and Technology: Eligible learners may be provided access, subject to institutional rules and applicable licences, to library collections, e-resources, learning management systems, recorded lectures, digital repositories, online course catalogues and other learning materials. The Institution should periodically review the relevance and accessibility of these resources and provide guidance or support to learners who need assistance.",
+              "6.4 Faculty and Staff Development: The Institution shall encourage continuous professional development among faculty and staff through relevant training, workshops, conferences, peer learning, research engagement, technology-enabled learning and other approved development activities. Departments and administrative units should identify development needs and, where appropriate, incorporate them into annual or periodic plans."
             ]
           },
           {
             "type": "activity",
-            "title": "7. Roles, Responsibilities, Implementation, and Review (Sections 7 – 12)",
+            "title": "6.5 Alumni/Community Engagement & 6.6 Inclusion Support",
             "paragraphs": [
-              "Governance & IQAC: Governed by the Academic Council and monitored periodically by IQAC to ensure adherence to national statutory guidelines.",
-              "Monitoring and Evaluation: Comprehensive evaluation of participant reach, completion rates, learner feedback, and accessibility metrics.",
-              "Funding & Ethics: Budgetary allocations support community learning, outreach concessions, and digital infrastructure while upholding strict academic integrity and data privacy.",
-              "Review Schedule: Mandatory review every three years to incorporate evolving educational standards and technology developments."
+              "6.5 Alumni and Community Engagement: The Institution may engage alumni, employers, professional bodies, industry partners, NGOs, community organisations and subject experts in identifying learning needs and delivering suitable programmes. Access, participation requirements and any applicable charges shall be communicated transparently.",
+              "6.6 Inclusion and Learner Support: Reasonable steps should be taken to reduce avoidable financial, geographical, physical and digital barriers. Depending on resources and programme design, support may include accessible learning materials, counselling, mentoring, orientation, technical assistance, on-campus access to digital resources, flexible participation arrangements or financial support under approved schemes."
+            ]
+          },
+          {
+            "type": "activity",
+            "title": "6.7 Recognition of Prior Learning & 6.8 Quality Assurance",
+            "paragraphs": [
+              "6.7 Recognition of Prior Learning and Credentials: Where permitted by applicable regulations and supported by an approved institutional process, the Institution may consider prior learning, professional experience, non-formal learning or external credentials for recognition, credit, exemption or progression. No credit, equivalence or qualification shall be implied unless formally approved by the competent authority. Certificates and other credentials shall clearly state the nature and requirements of the programme.",
+              "6.8 Quality Assurance: Each programme should, as appropriate to its nature and duration, specify its objectives, intended learning outcomes, target participants, delivery mode, facilitator or organising unit, attendance or participation requirements, assessment or completion criteria, and feedback process. Academic and administrative units shall ensure that programmes follow applicable institutional quality standards, financial procedures and regulatory requirements."
+            ]
+          },
+          {
+            "type": "section_header",
+            "title": "7. Roles and Responsibilities",
+            "tag": "Governance & Accountability"
+          },
+          {
+            "type": "activity",
+            "title": "Key Stakeholder Responsibilities",
+            "paragraphs": [
+              "• Governing Body/Competent Authority: Approve the policy and major amendments, and provide strategic direction and oversight.",
+              "• Institutional Leadership: Promote a culture of lifelong learning, facilitate coordination and consider resource requirements.",
+              "• IQAC or designated quality assurance unit: Support quality planning, monitor implementation, review feedback and recommend improvements.",
+              "• Designated Lifelong Learning/Continuing Education Coordinator or equivalent: Coordinate programme planning, maintain consolidated records, facilitate communication and prepare periodic implementation reports.",
+              "• Deans, Heads of Departments and Unit Heads: Identify learning needs, propose relevant programmes, nominate resource persons and support delivery and review.",
+              "• Faculty members and trainers: Design or deliver appropriate learning content, guide participants and maintain suitable academic and professional standards.",
+              "• Library, IT and support units: Facilitate access to approved learning resources, platforms, technical support and accessible facilities within their respective mandates.",
+              "• Learners and participants: Participate responsibly, comply with programme requirements and codes of conduct, respect intellectual property and provide constructive feedback."
+            ]
+          },
+          {
+            "type": "section_header",
+            "title": "8. Implementation to 12. Review and Amendment",
+            "tag": "Operational Provisions"
+          },
+          {
+            "type": "activity",
+            "title": "Implementation, Monitoring, Funding, Ethics & Review",
+            "paragraphs": [
+              "8. Implementation and Communication: The designated unit or responsible departments should identify learning needs through stakeholder consultation, feedback, academic review, professional trends and community engagement. A periodic programme calendar may be prepared, indicating the programme title, target group, mode, schedule, responsible unit and registration process. Programme information, eligibility, fees (if any), learning outcomes and completion requirements should be communicated through official institutional channels. The Institution may collaborate with external institutions, industry, professional bodies, government agencies and community organisations, subject to appropriate approvals and agreements. Participation and completion records should be maintained in accordance with institutional record-management and data-protection requirements.",
+              "9. Monitoring, Evaluation and Reporting: Lifelong learning initiatives shall be monitored periodically to assess reach, quality, relevance and outcomes. Evaluation may include: number and type of programmes conducted and learner groups reached; participation, attendance, completion and repeat-participation data, as appropriate; learner satisfaction and feedback from facilitators, employers or community partners; evidence of learning, such as assessment results, demonstrations, completed projects or participant reflections, where suitable; accessibility and inclusion concerns, including barriers reported by learners; and recommendations, corrective actions and improvements made for subsequent offerings. The responsible unit shall consolidate relevant information and submit periodic reports to the designated institutional authority or quality assurance body, as prescribed by institutional procedures. Indicators should be interpreted in context and should not substitute for qualitative evaluation.",
+              "10. Funding and Resource Support: Implementation shall be supported through approved institutional budgets, departmental resources, grants, collaboration or programme fees, where applicable. All expenditure, fee collection, concessions and financial assistance shall follow the Institution’s approved financial policies and procedures. Resource commitments shall be subject to availability and competent-authority approval.",
+              "11. Ethics, Compliance and Data Protection: All programmes and participants shall comply with applicable laws, regulatory requirements and institutional policies relating to academic integrity, conduct, health and safety, intellectual property, use of digital platforms, confidentiality and data protection. Misrepresentation of qualifications, misuse of institutional resources or breach of programme conditions may result in action under applicable institutional rules.",
+              "12. Review and Amendment: This policy shall be reviewed at least once every three years, or earlier where required by changes in applicable regulations, institutional priorities, technology, learner needs or quality assurance findings. The designated policy owner shall coordinate the review and submit proposed amendments to the competent authority for approval."
             ]
           }
         ]
