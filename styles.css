@@ -1654,6 +1654,113 @@ body {
     min-width: 52px;
     max-width: 62px;
     flex: 1 1 58px;
-    border-radius: 10px;
+    border-radius: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   PHOTO GALLERY STYLING (SDG 4.3 Photo Evidence & Public Events)
+   ========================================================================== */
+
+.content-gallery-block {
+  margin: 28px 0;
+  padding: 22px 24px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.gallery-block-title {
+  font-size: 16.5px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.01em;
+}
+
+.photo-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.gallery-photo-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-photo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-photo-link {
+  display: block;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.gallery-photo-img {
+  width: 100%;
+  height: 185px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-photo-card:hover .gallery-photo-img {
+  transform: scale(1.03);
+}
+
+.gallery-photo-caption {
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.45;
+  background: #ffffff;
+  border-top: 1px solid #f1f5f9;
+  flex-grow: 1;
+}
+
+.content-single-image {
+  margin: 20px 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.evidence-photo-img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-caption {
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #64748b;
+  border-top: 1px solid #f1f5f9;
+  background: #f8fafc;
+}
+
+@media (max-width: 640px) {
+  .photo-gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .content-gallery-block {
+    padding: 16px;
+    margin: 20px 0;
+  }
+  .gallery-photo-img {
+    height: 195px;
   }
 }

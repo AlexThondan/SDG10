@@ -472,7 +472,7 @@ function renderTargetView(sdg, targetId) {
         </div>
         <h2 class="subpage-title">${escapeHtml(target.desc)}</h2>
         <p class="subpage-subtitle">SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}</p>
-        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !(String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4"))) && (target.url || target.file) ? `
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && (target.url || target.file) ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(target.url || target.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
               <span>View PDF</span>
@@ -570,8 +570,38 @@ function renderContentBlocks(blocks) {
         </div>
       `;
     }
+    if (block.type === "gallery") {
+      const imagesHtml = (block.images || []).map(img => {
+        const url = typeof img === "string" ? img : img.url;
+        const caption = typeof img === "string" ? "" : (img.caption || "");
+        return `
+          <div class="gallery-photo-card">
+            <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="gallery-photo-link" title="${escapeHtml(caption || 'View Image')}">
+              <img src="${escapeHtml(url)}" alt="${escapeHtml(caption || block.title || 'Event Photo')}" loading="lazy" class="gallery-photo-img" />
+            </a>
+            ${caption ? `<div class="gallery-photo-caption">${escapeHtml(caption)}</div>` : ""}
+          </div>
+        `;
+      }).join("");
+
+      return `
+        <div class="content-gallery-block">
+          ${block.title ? `<h4 class="gallery-block-title">${escapeHtml(block.title)}</h4>` : ""}
+          <div class="photo-gallery-grid">
+            ${imagesHtml}
+          </div>
+        </div>
+      `;
+    }
     if (block.type === "image") {
-      return "";
+      return `
+        <div class="content-single-image">
+          <a href="${escapeHtml(block.url)}" target="_blank" rel="noopener noreferrer">
+            <img src="${escapeHtml(block.url)}" alt="${escapeHtml(block.caption || 'Event Image')}" loading="lazy" class="evidence-photo-img" />
+          </a>
+          ${block.caption ? `<div class="image-caption">${escapeHtml(block.caption)}</div>` : ""}
+        </div>
+      `;
     }
     return "";
   }).join("");
@@ -658,7 +688,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
         <p class="subpage-subtitle">
           SDG ${escapeHtml(sdg.num)} (${escapeHtml(sdg.name)})${(String(sdg.num) === "1" && String(target.id) === "1.4") ? "" : ` &nbsp;•&nbsp; Target ${escapeHtml(target.id)}: ${escapeHtml(target.desc)}`}
         </p>
-        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !(String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4"))) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
               <span>View PDF</span>
@@ -674,7 +704,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
           <div class="writeup-prose">
             ${writeupHtml}
           </div>
-          ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !(String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4"))) && foundIndicator && (foundIndicator.url || foundIndicator.file) ? `
+          ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && foundIndicator && (foundIndicator.url || foundIndicator.file) ? `
             <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid #f1f5f9;">
               <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 8px 16px; font-size: 13.5px;" title="View PDF">
                 <span>View PDF</span>

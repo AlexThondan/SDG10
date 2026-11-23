@@ -1241,7 +1241,6 @@
             "title": "Does your university as a body provide free access to educational resources for those not studying at the university, e.g., computers, library, online courses, access to lectures, etc?",
             "text": "4.3.1 Free access to educational resources for those not studying at the university",
             "subtitle": "Library Open Access Portal, Digital Repository, and Community Certificate Courses",
-            "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf",
             "contentBlocks": [
               {
                 "type": "section_header",
@@ -1467,6 +1466,24 @@
                 ]
               },
               {
+                "type": "gallery",
+                "title": "Photo Gallery: Library and Information Centre Resources",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/1.webp",
+                    "caption": "Library & Information Centre – Reading & Reference Section"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/2.webp",
+                    "caption": "Digital Library Infrastructure & Open Access Terminals"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/3.webp",
+                    "caption": "E-Resources & Academic Repository Browsing Facility"
+                  }
+                ]
+              },
+              {
                 "type": "section_header",
                 "title": "B. REPORT ON OPEN ACCESS EDUCATIONAL CONTENT MADE AVAILABLE TO THE GENERAL PUBLIC",
                 "tag": "Faculty-Developed Learning Resources"
@@ -1544,6 +1561,24 @@
               {
                 "type": "paragraph",
                 "text": "This distinctive initiative exemplifies the University's commitment to the philosophy that education and knowledge should transcend institutional boundaries and remain accessible to all. By making faculty-generated academic content freely available to the public, Kristu Jayanti University demonstrates an exemplary model of inclusive, technology-enabled and socially responsible higher education."
+              },
+              {
+                "type": "gallery",
+                "title": "Photo Gallery: Open Access Educational Content",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/1.webp",
+                    "caption": "Faculty-Developed Video Lecture Production & Online Repository"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/2.webp",
+                    "caption": "Multidisciplinary Digital Educational Content Development"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/3.webp",
+                    "caption": "Open-Access Educational Platforms & Public Lecture Recordings"
+                  }
+                ]
               },
               {
                 "type": "section_header",
@@ -1788,7 +1823,6 @@
             "title": "Does your university as a body host event at university that are open to the general public: public lectures, community educational events?",
             "text": "4.3.2 Public events open to the general public (lectures, community events)",
             "subtitle": "Campus Community Educational Events, Exhibitions, and Public Markets (Year 2025)",
-            "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.2.pdf",
             "contentBlocks": [
               {
                 "type": "paragraph",
@@ -1873,6 +1907,36 @@
                   "The Institution’s Innovation Council (IIC) of Kristu Jayanti University organized the Campus Farmers’ Market – Vegetable and Fruits Mela on 29 August 2025 as part of the Viksit Bharat @ 2047 initiative. The program aimed to promote direct engagement between farmers and consumers, encourage community-based agricultural enterprise and support local products under the Government of India’s One District One Product (ODOP) initiative.",
                   "The market featured Farmer Producer Organizations (FPOs) from Chitradurga, Vijayapura and Chintamani, along with Greenkraft Producer Company Limited, showcasing fresh agricultural produce. By sourcing products directly from farmers, the initiative sought to ensure better returns for producers, eliminate intermediaries and provide consumers with access to fresh and organic produce. The event also featured stalls offering local snacks, flowers and handmade products, providing visibility to local producers and small-scale enterprises. Organized in collaboration with the Women’s Empowerment Cell, the initiative promoted local entrepreneurship and community participation. Overall, the Campus Farmers’ Market strengthened the connection between farmers and consumers while supporting sustainable agricultural practices, rural livelihoods and local economic development."
                 ]
+              },
+              {
+                "type": "gallery",
+                "title": "Photo Gallery: On-Campus Public Events & Community Initiatives",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/computer-literacy.webp",
+                    "caption": "Computer Literacy Programme for Slum and Migrant Children"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/srujana.webp",
+                    "caption": "SRUJANA – Art, Craft and Food Stall (August Edition)"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/srujana1.webp",
+                    "caption": "SRUJANA – Art, Craft and Food Stall (October Edition)"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campuspreneurs1.webp",
+                    "caption": "Campuspreneurs 2025 – Student Entrepreneurial Exhibition"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campuspreneurs2.webp",
+                    "caption": "Campuspreneurs 2025 – Business Stalls & Visitor Interaction"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campus-farmers-market-25.webp",
+                    "caption": "Campus Farmers’ Market – Vegetable and Fruits Mela 2025"
+                  }
+                ]
               }
             ]
           },
@@ -1881,7 +1945,6 @@
             "title": "Vocational training events (lifelong learning)",
             "text": "4.3.3 Vocational training events (lifelong learning)",
             "subtitle": "Professional Development, School Leadership, and Institutional Excellence Programmes",
-            "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.3.pdf",
             "contentBlocks": [
               {
                 "type": "paragraph",
@@ -1944,6 +2007,20 @@
                 ]
               },
               {
+                "type": "gallery",
+                "title": "Photo Gallery: Empowering Institutions for Sustainable Excellence",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-empowering-ins-sustainable-excellence1.webp",
+                    "caption": "Professional Development Programme – Faculty Interactive Session"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-empowering-ins-sustainable-excellence2.webp",
+                    "caption": "Teacher Training & Professional Competency Workshop"
+                  }
+                ]
+              },
+              {
                 "type": "activity",
                 "title": "PROFESSIONAL DEVELOPMENT PROGRAMME ON INSTITUTIONAL DEVELOPMENT AND UNIVERSITY STATUS (12 November 2025)",
                 "paragraphs": [
@@ -1960,11 +2037,39 @@
                 ]
               },
               {
+                "type": "gallery",
+                "title": "Photo Gallery: Institutional Development and University Status",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-institutional-dev-university-status1.webp",
+                    "caption": "Institutional Development & Quality Assurance Dialogue"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-institutional-dev-university-status2.webp",
+                    "caption": "University Governance & Statutory Compliance Session"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-institutional-dev-university-status3.webp",
+                    "caption": "Campus Tour & IQAC Documentation Interaction"
+                  }
+                ]
+              },
+              {
                 "type": "activity",
                 "title": "PROFESSIONAL DEVELOPMENT PROGRAMME ON FOSTERING INSTITUTIONAL EXCELLENCE (29–30 April 2025)",
                 "paragraphs": [
                   "The Human Resource Development Centre of Kristu Jayanti College (Autonomous) organised a two-day Professional Development Programme titled “Fostering Institutional Excellence” for Carmel Public School, Puliyanmala, Kerala, on 29 and 30 April 2025. The programme featured expert sessions on developing a growth-oriented teaching mindset, enhancing interpersonal effectiveness, classroom management, effective mentoring, collaboration and team synergy, and empowering leadership in schools.",
                   "The sessions were facilitated by Dr. Justin Nelson Michael, Dr. Jonas Richard A, Prof. Suku Thomas Samuel, Prof. Soumya Simon, Prof. Sen B Mathews and Rev. Fr. Joshy Mathew. The participants also visited the Kristu Jayanti campus and Christ (Deemed to be University) to gain exposure to institutional infrastructure and academic practices. The programme concluded with an experience-sharing and feedback session, providing participants an opportunity to reflect on their learning and the importance of professional development in fostering institutional excellence."
+                ]
+              },
+              {
+                "type": "gallery",
+                "title": "Photo Gallery: Fostering Institutional Excellence",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-fostering-inst-excellence.webp",
+                    "caption": "Fostering Institutional Excellence – Carmel Public School"
+                  }
                 ]
               },
               {
@@ -1975,6 +2080,16 @@
                   "The sessions were facilitated by Fr. Dr. Augustine George, Dr. Aloysius Edward J, Dr. Mary Jacob, Prof. Suku Thomas Samuel and Prof. Sen B Mathews. Participants also visited Kristu Jayanti CMI Public School and Christ (Deemed to be University) to gain insights into institutional practices. The programme concluded with a valedictory session and participant reflections, highlighting the value of the training in enhancing leadership skills and professional competence.",
                   "Geotagged Record: GPS Map Camera, Bengaluru, Karnataka, India (Lat 13.058910, Long 77.642504, Plus Code: 7J5V3J5R+HX, 05/26/2025 01:03 PM GMT+05:30, Location: Kristu Jayanti College Autonomous)."
                 ]
+              },
+              {
+                "type": "gallery",
+                "title": "Photo Gallery: School Management and Enhancing Institutional Effectiveness",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/ldp-sch-mag-enhancing-inst-effectiveness.webp",
+                    "caption": "Leadership Development Programme – Little Flower Mission Education Society"
+                  }
+                ]
               }
             ]
           },
@@ -1983,7 +2098,6 @@
             "title": "Does your university as a body undertake educational outreach activities (e.g.tailored lectures or demonstrations) beyond campus, e.g. in local schools, in the community, including voluntary student-run schemes?",
             "text": "4.3.4 Educational outreach activities beyond campus (local schools, community)",
             "subtitle": "Centre for Community Education (CCE) & 49 Beyond-Campus Educational Outreach Initiatives",
-            "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.4.pdf",
             "contentBlocks": [
               {
                 "type": "section_header",
@@ -2628,6 +2742,36 @@
                   "The event was conducted on 10 september 2025, as a activity programme. The activity provided an opportunity for student engagement, experiential learning and community interaction. The activity was held at Bharatiya mall of bangalore. The initiative drew attention to mental well-being and the importance of awareness, empathy and timely support. It encouraged responsible engagement with mental-health concerns and a supportive community environment.",
                   "Geotagged Record: GPS Map Camera, Kannuru, Bengaluru, Karnataka 560064, India (Lat 13.08281°, Long 77.643754°, 10/09/2025 01:13 PM GMT+05:30)."
                 ]
+              },
+              {
+                "type": "gallery",
+                "title": "Photo Gallery: Outside-Campus Educational Outreach Activities",
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/1.webp",
+                    "caption": "Community Education & Rural Engagement Initiative"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/2.webp",
+                    "caption": "Student Volunteer Outreach & Life Skills Workshop"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/3.webp",
+                    "caption": "Health, Hygiene & Community Wellness Drive"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/4.webp",
+                    "caption": "Digital Literacy & Computer Training in Government Schools"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/5.webp",
+                    "caption": "Swachh Bharat Cleanliness & Community Sanitation Camp"
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/6.webp",
+                    "caption": "Study Material & Essentials Distribution to Underprivileged Children"
+                  }
+                ]
               }
             ]
           },
@@ -2636,7 +2780,6 @@
             "title": "Does your university as a body have a policy that ensures that access to these activities is accessible to all, regardless of ethnicity, religion, disability, immigration status or gender?",
             "text": "4.3.5 Lifelong learning policy ensuring equitable and non-discriminatory access to all",
             "subtitle": "Institutional Lifelong Learning Policy Framework and Equity Mandate",
-            "file": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.5.pdf",
             "contentBlocks": [
               {
                 "type": "report_banner",

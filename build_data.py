@@ -171,39 +171,11 @@ sdgs = {
                 "id": "4.3",
                 "desc": "By 2030, ensure equal access for all women and men to affordable and quality technical, vocational and tertiary education, including university",
                 "indicators": [
-                    {
-                        "text": "4.3.1 Does your university as a body provide free access to educational resources for those not studying at the university, e.g., computers, library, online courses, access to lectures, etc?",
-                        "subItems": [
-                            {
-                                "text": "A. Report on Free Access to Educational Resources Through the University Library Website",
-                                "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf#page=1"
-                            },
-                            {
-                                "text": "B. Report on Open Access Educational Content Made Available to the General Public",
-                                "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf#page=6"
-                            },
-                            {
-                                "text": "C. Certificate Courses",
-                                "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.1.pdf#page=8"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "4.3.2 Does your university as a body host event at university that are open to the general public: public lectures, community educational events?",
-                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.2.pdf"
-                    },
-                    {
-                        "text": "4.3.3 Vocational training events (lifelong learning)",
-                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.3.pdf"
-                    },
-                    {
-                        "text": "4.3.4 Does your university as a body undertake educational outreach activities (e.g.tailored lectures or demonstrations) beyond campus, e.g. in local schools, in the community, including voluntary student-run schemes?",
-                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.4.pdf"
-                    },
-                    {
-                        "text": "4.3.5 Does your university as a body have a policy that ensures that access to these activities is accessible to all, regardless of ethnicity, religion, disability, immigration status or gender?",
-                        "pdf": "https://d2di5o2d0ilx7p.cloudfront.net/sdg-ranking/4.3/4.3.5.pdf"
-                    }
+                    "4.3.1 Free access to educational resources for those not studying at the university",
+                    "4.3.2 Public events open to the general public (lectures, community events)",
+                    "4.3.3 Vocational training events (lifelong learning)",
+                    "4.3.4 Educational outreach activities beyond campus (local schools, community)",
+                    "4.3.5 Lifelong learning policy ensuring equitable and non-discriminatory access to all"
                 ]
             }
         ]
