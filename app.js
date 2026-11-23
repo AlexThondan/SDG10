@@ -686,7 +686,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
         <h2 class="subpage-title">${escapeHtml(displayTitle)}</h2>
         ${displaySubtitle ? `<h3 style="font-size: 15px; font-weight: 600; color: #1e293b; margin: 4px 0 8px 0;">${escapeHtml(displaySubtitle)}</h3>` : ""}
         <p class="subpage-subtitle">
-          SDG ${escapeHtml(sdg.num)} (${escapeHtml(sdg.name)})${(String(sdg.num) === "1" && String(target.id) === "1.4") ? "" : ` &nbsp;•&nbsp; Target ${escapeHtml(target.id)}: ${escapeHtml(target.desc)}`}
+          SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}
         </p>
         ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
           <div style="margin-top: 14px;">
