@@ -163,32 +163,12 @@
     "desc": "First-Generation Students",
     "metricsTable": [
       {
-        "metric": "Undergraduate (UG) Total Degree Starting Students",
-        "value": "4,702"
+        "metric": "Total Degree Starting Students",
+        "value": "6079"
       },
       {
-        "metric": "UG First-Generation Degree Starting Students",
-        "value": "940"
-      },
-      {
-        "metric": "UG Proportion of First-Generation Students",
-        "value": "19.99%"
-      },
-      {
-        "metric": "Postgraduate (PG) Total Degree Starting Students",
-        "value": "1,377"
-      },
-      {
-        "metric": "PG First-Generation Degree Starting Students",
-        "value": "275"
-      },
-      {
-        "metric": "PG Proportion of First-Generation Students",
-        "value": "19.97%"
-      },
-      {
-        "metric": "Combined First-Generation Student Share",
-        "value": "19.99% (1,215 / 6,079)"
+        "metric": "First-Generation Degree Starting Students",
+        "value": "1215"
       }
     ],
     "indicators": [
