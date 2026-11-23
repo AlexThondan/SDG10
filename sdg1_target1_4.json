@@ -17,40 +17,18 @@
         "text": "The university extends the following support to CAZE Labs to facilitate its business operations and entrepreneurial development:"
       },
       {
-        "type": "paragraph",
-        "text": "Free Office Space: Provides office space at the Kristu Jayanti Incubation Centre without collecting rental charges during the tenure of the MOU."
-      },
-      {
-        "type": "paragraph",
-        "text": "Broadband Internet Connectivity: Provides wired and wireless broadband internet access to support the company's software development, communication and business operations."
-      },
-      {
-        "type": "paragraph",
-        "text": "Office Infrastructure: Provides standard essential office furniture and workspace facilities required for day-to-day operations."
-      },
-      {
-        "type": "paragraph",
-        "text": "Electricity: Extends electricity facilities to support the operational requirements of the start-up."
-      },
-      {
-        "type": "paragraph",
-        "text": "Registered Office Address: Permits the incubatee to use the Incubation Centre's institutional address for company registration and other related business requirements, subject to the MOU."
-      },
-      {
-        "type": "paragraph",
-        "text": "Mentoring Support: Facilitates mentoring to strengthen the entrepreneurial and business development capabilities of the incubatee."
-      },
-      {
-        "type": "paragraph",
-        "text": "Training and Workshops: Provides opportunities to participate in seminars, workshops and training programmes conducted in collaboration with the Incubation Centre."
-      },
-      {
-        "type": "paragraph",
-        "text": "Research and Student Collaboration: Encourages joint research activities, student internships and projects, promoting interaction between the start-up and the academic community."
-      },
-      {
-        "type": "paragraph",
-        "text": "Knowledge Sharing: Facilitates knowledge exchange and opportunities for the incubatee to participate in institutional training programmes."
+        "type": "bullet_list",
+        "items": [
+          "Free Office Space: Provides office space at the Kristu Jayanti Incubation Centre without collecting rental charges during the tenure of the MOU.",
+          "Broadband Internet Connectivity: Provides wired and wireless broadband internet access to support the company's software development, communication and business operations.",
+          "Office Infrastructure: Provides standard essential office furniture and workspace facilities required for day-to-day operations.",
+          "Electricity: Extends electricity facilities to support the operational requirements of the start-up.",
+          "Registered Office Address: Permits the incubatee to use the Incubation Centre's institutional address for company registration and other related business requirements, subject to the MOU.",
+          "Mentoring Support: Facilitates mentoring to strengthen the entrepreneurial and business development capabilities of the incubatee.",
+          "Training and Workshops: Provides opportunities to participate in seminars, workshops and training programmes conducted in collaboration with the Incubation Centre.",
+          "Research and Student Collaboration: Encourages joint research activities, student internships and projects, promoting interaction between the start-up and the academic community.",
+          "Knowledge Sharing: Facilitates knowledge exchange and opportunities for the incubatee to participate in institutional training programmes."
+        ]
       },
       {
         "type": "paragraph",
@@ -66,35 +44,35 @@
       },
       {
         "type": "activity",
-        "title": "1. Interaction with SHG Women: Self-Help Groups and Microfinance (CSA, January 2025)",
+        "title": "1. Interaction with SHG Women: Self-Help Groups and Microfinance (CSA)",
         "paragraphs": [
           "The Centre for Social Activities of Kristu Jayanti conducted an interactive session for rural women at Shivagange village, Kolar, during its rural exposure camp, with a team of 70 volunteers. The session explained how Self-Help Groups (SHGs) provide financial support, skill development and a platform for collective decision-making. Participants were taught how to form and manage an SHG and why regular saving matters. They were also shown how to access microfinance, which is the usual first source of capital for small rural enterprises. Volunteers shared success stories of other rural SHGs to inspire the women to collaborate, pool resources and improve their economic independence. The session works as a training workshop, in which university students transfer practical knowledge on group enterprise and financial inclusion to the community. A total of 65 women from Shivagange village benefitted. The activity supports financially sustainable livelihoods by building the savings habit and collective entrepreneurship among women, and by connecting them with formal financial channels."
         ]
       },
       {
         "type": "activity",
-        "title": "2. One District One Product (ODOP) and Campus Farmers Market (UBA, 31 January 2025)",
+        "title": "2. One District One Product (ODOP) and Campus Farmers Market (UBA)",
         "paragraphs": [
           "On 31 January 2025, Kristu Jayanti College hosted the One District One Product event under the Make in India and Atmanirbhar Bharat initiatives, with Shri Pradeep Simha, District Officer of the Minority Welfare Department, Government of Karnataka, as chief guest. The university opened its campus as a marketplace through the Campus Farmers Market (Farmers to Students). Twelve farmers from various districts displayed and sold fresh produce, organic goods and traditional food products directly to students, staff and visitors. This gave local producers free access to university facilities and a ready customer base, and removed middlemen so that farmers earned a fairer income. Over 5,000 people benefitted from access to healthy, chemical-free produce and direct interaction with farmers. The event also taught students about the ODOP scheme and how local agriculture, handicrafts and textiles contribute to the economy. It promoted farmer dignity, consumer trust and sustainable local enterprise, and was widely covered by the media."
         ]
       },
       {
         "type": "activity",
-        "title": "3. Launch of the 25 Village Adoption and Development Programme (VADP), Viksit Bharat @2047 (UBA, 23 January 2025)",
+        "title": "3. Launch of the 25 Village Adoption and Development Programme (VADP), Viksit Bharat @2047 (UBA)",
         "paragraphs": [
           "The Unnat Bharat Abhiyan unit launched the 25 Village Adoption and Development Programme on 23 January 2025 at the Silver Jubilee Auditorium. The university formally committed itself to the long-term development of 25 villages. The thrust areas are holistic wellness, skill development, capacity building, women empowerment, rural entrepreneurship and sustainable development. The programme aims to reduce the socio-economic divide by focusing on marginalised communities and ensuring that economic opportunities reach rural and underdeveloped areas. It plans to create employment through local entrepreneurship, skill-building programmes and infrastructure and development projects. As a body, the university commits its faculty, students and facilities to mentor villagers and run training workshops. The launch brought together the Principal, officials of the Karnataka Slum Development Board and the university community, and was reported in the Malayalam Manorama Bengaluru edition. It forms the framework within which further rural enterprise support activities are carried out."
         ]
       },
       {
         "type": "activity",
-        "title": "4. Cyber Security Awareness Programme, Parehosahalli (UBA, 23 September 2025)",
+        "title": "4. Cyber Security Awareness Programme, Parehosahalli (UBA)",
         "paragraphs": [
           "The Unnat Bharat Abhiyan unit, under Jayantian Extension Services, conducted a Cyber Security Awareness Programme at Parehosahalli village, Kolar district, with 25 B.Com Professional Accounting volunteers under Dr. S. Jayashree. Students used visual aids and interactive workshops to demonstrate how phishing and financial scams work. They simplified strong password creation, two-factor authentication and safe online banking into the local language. Participants also received hands-on training in securing their mobile devices and social media accounts. Before the session, residents had low digital literacy, commonly used easily guessable passwords and found it hard to spot phishing attempts. Afterwards they could recognise and describe scam techniques, and many began enabling security features on their devices. Safe digital payments and online banking are essential for small traders, farmers and self-employed residents who run or want to start businesses. The programme protects their finances and builds trust in the digital economy. The Parehosahalli Village Panchayat issued a letter of appreciation."
         ]
       },
       {
         "type": "activity",
-        "title": "5. Vikasa Rural Exposure Camp, Esthuru (UBA, 23 February 2025)",
+        "title": "5. Vikasa Rural Exposure Camp, Esthuru (UBA)",
         "paragraphs": [
           "The Vikasa Rural Exposure Camp at Esthuru village began at 5 AM with yoga, followed by a Shramadan in which students cleaned three to four streets, which residents appreciated. Students assisted in the medical camps, where Muthoot conducted blood check-ups and Shankar Eye Hospital provided eye check-ups for villagers. The day also featured the One District One Product scheme and the Campus Farmers Market. Students learned how local agriculture, handicrafts and textiles contribute to the economy and why promoting regional products matters. They interacted directly with local farmers and saw the challenges and opportunities facing local producers first-hand. This motivated them to think creatively about solutions and possible business models for rural producers. The camp combines university volunteers and partner organisations bringing services to the village with a mentoring exchange between students and farmers. It supports sustainable local livelihoods by linking classroom knowledge with real rural enterprise."
         ]
@@ -129,7 +107,7 @@
       },
       {
         "type": "activity",
-        "title": "10. NSS Special Annual Camp 2025–26: Health, Digital Safety and ABHA Support (Sonnenahalli and Seeresandra, 11–17 October 2025)",
+        "title": "10. NSS Special Annual Camp: Health, Digital Safety and ABHA Support (NSS)",
         "paragraphs": [
           "During the seven-day special camp, NSS volunteers ran practical awareness and service programmes in Sonnenahalli and Seeresandra villages. Free eye check-ups, BP and sugar screening and blood donation awareness reached about 115 villagers, and 67 received free spectacles. On Day 4 a Cyber Crime Awareness Session taught villagers safe internet practices and how to recognise fraud calls and messages. Volunteers also went door to door to promote ABHA health cards, and on Day 5 they helped villagers create 34 ABHA cards. Cleanliness drives, tree plantation and an alumni talk were part of the camp. The digital safety and ABHA sessions give villagers the awareness needed to use digital services, payments and government schemes securely, which small local businesses and self-employed residents depend on. Health screening and spectacles also protect people's ability to work. Collaborations with Rotary clubs and the local Grama Panchayats brought university resources to the community."
         ]
@@ -160,7 +138,7 @@
     "contentBlocks": [
       {
         "type": "paragraph",
-        "text": "Kristu Jayanti (Deemed to be University), through Jayantian Extension Services and its student units (CSA, NSS, KCDC and UBA), works with government bodies to put national, state and local anti-poverty policy into practice in the communities around it. The university works with local self-government bodies such as Gram Panchayats and the BBMP, takes part in flagship schemes such as Unnat Bharat Abhiyan, Ayushman Bharat (ABHA), Swachh Bharat, One District One Product and Beti Bachao Beti Padhao, and hosts government officials at its events. Through these partnerships the university takes policy on rural development, livelihoods, health access, sanitation and girls' education to poor and rural households. It also builds long-term relationships with village administrations, which supports its continued participation in local and national development programmes."
+        "text": "Kristu Jayanti runs student-led fundraising and donation drives through its extension units (NSS, CSA, YRC and the SDG Student Club), under Jayantian Extension Services. Money raised on campus goes directly to disadvantaged people in the surrounding community. Funds raised from stalls, class donations and volunteer contributions supported more than ten community programmes in and around K. Narayanapura, Kothanur and Byrathi. Under the SDG Utsav stalls, funds raised were used to buy toiletries and ration worth ₹10,000 for 60 residents of Guanella Preethi Nivas.\n NSS volunteers raised ₹5,000 to feed 20 families, and ₹4,500 of essential items for 50 children through Donate and Delight. They also donated stationery worth ₹4,000 to children supported by Radiant Life Charitable Trust, and ₹2,000 each to Neha Jyothi Ashram, the Refuge Foundation and the Pencils of Hope drive. The Youth Red Cross served food worth ₹4,000 at Ananda Sagara, and the Department of English kit drive gave stationery worth ₹720 to about 35 children. Across these ten events, roughly ₹35,000 in funds and goods reached disadvantaged community members. The student volunteers handled the money themselves, which taught them financial planning, accountability and community fundraising, skills that are also the base of entrepreneurship. Bhavishyajyothi 2025, a four-day CSA fundraising campaign, raised funds for educating underprivileged children and building rural sanitation, and the YRC's Platter of Hope charity stalls raised funds for underprivileged communities."
       },
       {
         "type": "section_header",
@@ -168,64 +146,54 @@
       },
       {
         "type": "activity",
-        "title": "1. Launch of the 25 Village Adoption and Development Programme (VADP), Viksit Bharat @2047 (UBA, 23/01/2025)",
+        "title": "1. Launch of the 25 Village Adoption and Development Programme (VADP), Viksit Bharat @2047 (UBA)",
         "paragraphs": [
           "Chief guest was Dr. Ashok D. R., KAS, Commissioner, Karnataka Slum Development Board. The university formally committed itself to the long-term development of 25 adopted villages focusing on holistic wellness, skill development, women empowerment and rural entrepreneurship."
         ]
       },
       {
         "type": "activity",
-        "title": "2. One District One Product (ODOP) and Campus Farmers Market (UBA, 31/01/2025)",
+        "title": "2. One District One Product (ODOP) and Campus Farmers Market (UBA)",
         "paragraphs": [
           "The chief guest was Shri Pradeep Simha, District Officer, Minority Welfare Department, Government of Karnataka. Twelve farmers took part, and over 5,000 people benefitted from direct marketing access on campus without middlemen."
         ]
       },
       {
         "type": "activity",
-        "title": "3. ABHA Card Awareness and Registration Drives (CSA and NSS, 2025)",
+        "title": "3. ABHA Card Awareness and Registration Drives (CSA)",
         "paragraphs": [
           "Under the national Ayushman Bharat Digital Mission, 85 families at Shivagange (January) and 44 families (1 April) were reached, and 34 ABHA cards were created at the NSS camp (15 October)."
         ]
       },
       {
         "type": "activity",
-        "title": "4. Blackspot Cleaning Drive with BBMP (JES and KCDC, 07/10/2024)",
+        "title": "4. Blackspot Cleaning Drive with BBMP (JES and KCDC)",
         "paragraphs": [
           "50 volunteers collected over 200 kg of litter and plastic and cleaned more than 1,000 sq. ft. in collaboration with the Bruhat Bengaluru Mahanagara Palike (BBMP)."
         ]
       },
       {
         "type": "activity",
-        "title": "5. NSS Special Annual Camp with Gram Panchayats of Sonnenahalli and Kanasawadi (11/10/2025 – 17/10/2025)",
+        "title": "5. NSS Special Annual Camp with Gram Panchayats of Sonnenahalli and Kanasawadi (NSS)",
         "paragraphs": [
           "About 115 villagers were screened and 67 received free spectacles, with ABHA and cyber awareness sessions organized in coordination with local Panchayat administration."
         ]
       },
       {
         "type": "activity",
-        "title": "6. Gram Swachh Abhiyan, Parehosahalli (UBA, 23/09/2025)",
+        "title": "6. Gram Swachh Abhiyan, Parehosahalli (UBA)",
         "paragraphs": [
           "Held with Panchayat members and Swachh Bharat Mission coordinators, with 25 volunteers, and the Panchayat issued a letter of appreciation."
         ]
       },
       {
         "type": "activity",
-        "title": "7. Street Play on Beti Bachao Beti Padhao (KCDC with the Theatre Club)",
+        "title": "7. Street Play on Beti Bachao Beti Padhao (KCDC)",
         "paragraphs": [
           "Promoted the national campaign for girls' education and protection through community theatrical performances."
         ]
-      },
-      {
-        "type": "pdf_links",
-        "links": [
-          {
-            "label": "View PDF",
-            "url": "https://assets.kristujayanti.com/sdg-ranking/1.4.2.pdf"
-          }
-        ]
       }
-    ],
-    "file": "https://assets.kristujayanti.com/sdg-ranking/1.4.2.pdf"
+    ]
   },
   {
     "number": "1.4.3",

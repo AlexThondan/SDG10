@@ -541,13 +541,17 @@ function renderContentBlocks(blocks) {
       `;
     }
     if (block.type === "paragraph") {
-      return `<p class="writeup-paragraph">${escapeHtml(block.text)}</p>`;
+      return `<p class="writeup-paragraph">${linkifyUrls(block.text)}</p>`;
     }
     if (block.type === "list" || block.type === "bullet_list") {
       const items = block.items || [];
       return `
         <ul class="content-bullet-list" style="margin: 12px 0 16px 24px; line-height: 1.7; color: #334155;">
-          ${items.map(item => `<li style="margin-bottom: 6px;">${escapeHtml(item)}</li>`).join("")}
+          ${items.map(item => {
+            const linked = linkifyUrls(item);
+            const formatted = linked.replace(/^([^:]{2,50}:)/, '<strong style="color: #1e293b;">$1</strong>');
+            return `<li style="margin-bottom: 6px;">${formatted}</li>`;
+          }).join("")}
         </ul>
       `;
     }
@@ -595,7 +599,7 @@ function renderContentBlocks(blocks) {
       `;
     }
     if (block.type === "activity") {
-      const pText = (block.paragraphs || []).map(p => `<p class="activity-text">${escapeHtml(p)}</p>`).join("");
+      const pText = (block.paragraphs || []).map(p => `<p class="activity-text">${linkifyUrls(p)}</p>`).join("");
       let imagesHtml = "";
       const imgs = block.images || (block.image ? [block.image] : []);
       if (imgs.length > 0) {
@@ -731,7 +735,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
 
   const canShowIndicatorPdf = !!(foundIndicator && (foundIndicator.url || foundIndicator.file) && (
     String(sdg.num) === "17" ? String(target.id) === "17.3" :
-      (String(sdg.num) === "1" ? (String(target.id) !== "1.1" && (String(target.id) !== "1.4" || String(foundIndicator.number) === "1.4.2")) :
+      (String(sdg.num) === "1" ? (String(target.id) !== "1.1" && String(target.id) !== "1.4") :
         (String(sdg.num) === "4" ? String(target.id) !== "4.3" : true))
   ));
 
@@ -971,6 +975,18 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
+}
+
+/**
+ * Auto-link URLs in text
+ */
+function linkifyUrls(str) {
+  if (str === null || str === undefined) return "";
+  const escaped = escapeHtml(str);
+  const urlRegex = /(https?:\/\/[^\s<]+)/g;
+  return escaped.replace(urlRegex, (url) => {
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline; word-break: break-all;">${url}</a>`;
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);
