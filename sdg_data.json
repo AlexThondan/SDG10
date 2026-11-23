@@ -4208,9 +4208,7 @@
                   "Level",
                   "MoU Duration",
                   "Activity conducted",
-                  "SDG",
-                  "MoU pg. no.",
-                  ""
+                  "SDG"
                 ],
                 "rows": [
                   [
@@ -4219,9 +4217,7 @@
                     "Regional",
                     "3-01-2025 to3-01-2026",
                     "Boot Camp AI. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud on 10/01/2025.",
-                    "SDG 4 – Quality Education. SDG 9 – Industry, Innovation and Infrastructure",
-                    "45-46",
-                    ""
+                    "SDG 4 – Quality Education. SDG 9 – Industry, Innovation and Infrastructure"
                   ],
                   [
                     "2",
@@ -4229,9 +4225,7 @@
                     "Regional NGO",
                     "29/11/2025 - 29/09/2030",
                     "Deloitte Impact Day 2025",
-                    "SDG 4 – Quality Education",
-                    "55-59",
-                    ""
+                    "SDG 4 – Quality Education"
                   ]
                 ]
               },
@@ -4239,9 +4233,9 @@
                 "type": "activity",
                 "title": "1. Edunet :  IBM SkillsBuild Boot Camp on Artificial Intelligence",
                 "paragraphs": [
-                  "Edunet Foundation conducted the IBM Skills Build Boot Camp on Artificial Intelligence at Kristu Jayanti College, Bangalore (10.01.2025), with over 110 Computer Science students participating. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud. They worked on exciting projects like creating ChatBots and shared how the boot camp was an informative, engaging, and career-enhancing experience",
-                  "IBM Skills Build Boot Camp on Artificial Intelligence on 10.01.2025"
-                ]
+                  "Edunet Foundation conducted the IBM Skills Build Boot Camp on Artificial Intelligence at Kristu Jayanti College, Bangalore (10.01.2025), with over 110 Computer Science students participating. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud. They worked on exciting projects like creating ChatBots and shared how the boot camp was an informative, engaging, and career-enhancing experience"
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.1/1.webp"
               },
               {
                 "type": "activity",
@@ -4252,7 +4246,8 @@
                   "six students from the Kritu Jayanti Institute of Management.",
                   "The impact Day brought 50 -60 Deloitte employees to the CSR activity. The employees were divided into 8 to 10 groups to participate in different activities during the event. The students from Kristu Jayanti Deemed to be University participated and supported the activities along with the Deloitte employees.",
                   "The activities included:"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.1/2.webp"
               },
               {
                 "type": "activity",
@@ -4294,9 +4289,7 @@
                   "Level",
                   "MoU Duration",
                   "Activity conducted",
-                  "SDG",
-                  "MoU pg. no.",
-                  ""
+                  "SDG"
                 ],
                 "rows": [
                   [
@@ -4305,9 +4298,7 @@
                     "International",
                     "17-11-2022 to17-11-2027",
                     "International Conference on Emergence of Reskilling and Upskilling in Contemporary Global Management by Professional Management Studies,Kristu Jayanti (Deemed to be University)",
-                    "SDG 4- Quality Education",
-                    "1-10",
-                    ""
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "2.",
@@ -4315,19 +4306,7 @@
                     "International",
                     "20-01-2023 to 20-01-2033",
                     "Krisym 2025 -International Conference 18th Edition -The Future Of Business Resurgence: Embracing AI And Automation",
-                    "SDG 4- Quality Education",
-                    "11-20",
-                    ""
-                  ],
-                  [
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "3",
@@ -4335,9 +4314,7 @@
                     "International",
                     "13-10-2023 to 13-10-2028",
                     "International Conference on Asia's Maritime History and Identity at Cultural Crossroads",
-                    "SDG 4- Quality Education, SDG 3 Good Health",
-                    "21",
-                    ""
+                    "SDG 4- Quality Education, SDG 3 Good Health"
                   ],
                   [
                     "4",
@@ -4345,9 +4322,7 @@
                     "National",
                     "11.10.2025-11.10.2028",
                     "Expert lecture by Department of Forensic Science on Bridging Forensic Academics with corporate & Industrial Forensic\"",
-                    "SDG 4- Quality EducationSDG Life Below Water,",
-                    "22-30",
-                    ""
+                    "SDG 4- Quality EducationSDG Life Below Water,"
                   ],
                   [
                     "5",
@@ -4355,9 +4330,7 @@
                     "National",
                     "05.10.2024 to 05.10.2029",
                     "Kristu Jayanti College, Autonomous, organises FDP and FEP on 1 July 2025.",
-                    "SDG 4- Quality Education",
-                    "31-33",
-                    ""
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "6",
@@ -4365,9 +4338,7 @@
                     "Regional",
                     "07.4.2.2025 to 07.04.2028",
                     "Workshop -” Importance of AASSC & Skill-Based Job Roles and Credit-Based Certification",
-                    "SDG 4- Quality Education",
-                    "34-40",
-                    ""
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "7",
@@ -4375,9 +4346,7 @@
                     "Regional",
                     "19/06/2025 - 19/06/2030",
                     "Joint research, training and internships in life sciences and agricultural technology; sustainable development focus.",
-                    "SDG 4- Quality Education",
-                    "41-44",
-                    ""
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "8",
@@ -4385,9 +4354,7 @@
                     "Regional",
                     "3-01-2025 to3-01-2026",
                     "Boot Camp AI. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud on 10/01/2025.",
-                    "SDG 4 – Quality Education. SDG 9 – Industry, Innovation and Infrastructure",
-                    "45-46",
-                    ""
+                    "SDG 4 – Quality Education. SDG 9 – Industry, Innovation and Infrastructure"
                   ],
                   [
                     "9",
@@ -4395,9 +4362,7 @@
                     "Regional",
                     "1-11-2023 to1-11-2025",
                     "Training-First Aid and BLS",
-                    "SDG 4- Quality Education SDG 3 – Good Health and Well-being",
-                    "47-54",
-                    ""
+                    "SDG 4- Quality Education SDG 3 – Good Health and Well-being"
                   ],
                   [
                     "",
@@ -4405,8 +4370,6 @@
                     "",
                     "",
                     "Blood Donation Camp",
-                    "",
-                    "",
                     ""
                   ],
                   [
@@ -4415,23 +4378,18 @@
                     "Regional NGO",
                     "29/11/2025 - 29/09/2030",
                     "Deloitte Impact Day 2025",
-                    "SDG 4 – Quality Education",
-                    "55-59",
-                    ""
+                    "SDG 4 – Quality Education"
                   ]
                 ]
               },
               {
-                "type": "paragraph",
-                "text": "1.University American College, Skopje, North Macedonia -International Conference on Business Transformation through AI"
-              },
-              {
-                "type": "paragraph",
-                "text": "The 3rd International Conference on Business Transformation through AI: A Multidisciplinary Approach commenced with a formal inauguration that set an inspiring tone for the event. The session was graced by Fr. Dr. Augustine George, Vice Chancellor, who delivered the Presidential Address emphasizing the strategic role of artificial intelligence in shaping future-ready institutions. The Inaugural Address was delivered by Mr. Ramesh Balasubramanian, Vice President, Capgemini, who served as the Chief Guest and shared valuable industry-driven insights. He highlighted that technology is not intended to replace human effort but to enhance human experience and organizational efficiency. The welcome address was delivered by Dr. C. Surendranadha Reddy, followed by the ceremonial lighting of the lamp. A soulful prelude performance was presented by Rupashree, adding cultural richness to the occasion. The speakers emphasized the importance of customer-centric innovation, value creation, and automation through AI. Key discussions focused on eliminating inefficiencies, standardizing processes, and leveraging AI for intelligent automation. The session concluded with the message that creativity and critical thinking remain irreplaceable human strengths in an AI-driven era."
-              },
-              {
-                "type": "paragraph",
-                "text": "Session on creativity and critical thinking in an AI-driven era."
+                "type": "activity",
+                "title": "1. University American College, Skopje, North Macedonia - International Conference on Business Transformation through AI",
+                "paragraphs": [
+                  "The 3rd International Conference on Business Transformation through AI: A Multidisciplinary Approach, organized by University American College Skopje (UACS), North Macedonia, was held from September 11–13, 2025. The conference provided a global platform for researchers, academicians, and practitioners to discuss AI-driven innovations and business transformation.",
+                  "Session on creativity and critical thinking in an AI-driven era."
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/1.webp"
               },
               {
                 "type": "activity",
@@ -4439,7 +4397,8 @@
                 "paragraphs": [
                   "The International Conference on \"The Future of Business Resurgence: Embracing AI and Automation\"  was conducted on 16 th & 17th January, 2026. The conference was organised with the objective of exploring the transformative role of Artificial Intelligence (AI) and Automation in reshaping business models and fostering innovation across various industries. It provided an academic platform for scholars, industry experts, academicians, research scholars, and students to discuss the emerging trends, opportunities, and challenges associated with the integration of AI-driven technologies into business operations and management practices. A major focus of the conference was to examine the strategic significance of AI and Automation in transforming traditional business models and encouraging innovative practices across industries. Discussions highlighted how emerging technologies are revolutionising business processes, creating new opportunities for growth, and enabling organisations to adapt to the rapidly evolving digital business environment.",
                   "Mr. Ramesh Gupta Interacting with Audience"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/1.webp"
               },
               {
                 "type": "activity",
@@ -4448,6 +4407,10 @@
                   "The Department of English organised the International Conference on Asia's Maritime History and Identity at Cultural Crossroads on 23/01/2025 & 24/01/2025. The conference was organised with the objective of exploring the rich maritime history of Asia, examining its interconnected identities and cultures, and encouraging interdisciplinary discussions on maritime ecosystems and environmental sustainability. It provided an academic platform for scholars, researchers, academicians, and students to engage in meaningful discussions on the historical, cultural, social, and ecological dimensions of maritime studies.  The conference was inaugurated by the distinguished Shaurya Chakra Col. Dr. DPK Pillay, Former Senior Defence Specialist and Planning Officer Defence Ministry and Research Fellow at Manohar Parikkar Institute for Defence Studies and Analyses, New Delhi. Fr. Dr Lijo P. Thomas, Vice Principal, Kristu Jayanti College, presided over the event and emphasised that the insights from the conference would help navigate our complex identities of today. In his keynote speech, Col. Dr. DPK Pillay addressed the interconnectedness of different Asian civilisations through trade, exploration, and the movement of people. There were 184 beneficiaries.",
                   "Inaugural Ceremony of the Conference",
                   "Dr. Maya Vinai addressing the audience"
+                ],
+                "images": [
+                  "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/2.webp",
+                  "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/3.webp"
                 ]
               },
               {
@@ -4458,7 +4421,16 @@
                   "The session witnessed active participation from 81 beneficiaries comprising M.Sc. Forensic Science students from both first and second year. Dr. Krishnamurthy shared valuable insights from her extensive professional journey in forensic science and emphasized the importance of ethical practices and precision in forensic investigations. She elaborated on various career opportunities, emerging research areas, and interdisciplinary approaches within the field. The students enthusiastically interacted with her, raising queries about job prospects, research collaborations, and current trends in forensic science.",
                   "Dr. Krishnamurthy also discussed recent developments and news in the forensic domain, inspiring students to stay updated with scientific advancements. The session was highly informative and motivational, enriching students’ understanding of the vast potential and evolving nature of Forensic Science in India.",
                   "Session on ethical practices and precision in forensic investigations"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/4.webp"
+              },
+              {
+                "type": "activity",
+                "title": "5. UGC-Malaviya Mission Teaching Training Centre: Faculty Development & Empowerment Programme",
+                "paragraphs": [
+                  "Kristu Jayanti College, Autonomous, organises Faculty Development Programme (FDP) and Faculty Empowerment Programme (FEP) in collaboration with UGC-Malaviya Mission Teacher Training Centre, focusing on multidisciplinary education, academic leadership, and pedagogical excellence aligned with SDG 4 (Quality Education)."
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/5.webp"
               },
               {
                 "type": "activity",
@@ -4466,15 +4438,24 @@
                 "paragraphs": [
                   "The Department of Professional Management Studies, School of Business and Management, Kristu Jayanti University, organized a workshop on “Importance of AASSC & Skill-Based Job Roles and Credit-Based Certification” for the students of BBA Aviation Management. The workshop was conducted in association with the Aerospace and Aviation Sector Skill Council (AASSC)on 21st February 2026 at A2 Auditorium. The students from BBA Aviation Management A and B sections of II and IV semesters actively participated in the programme. The session commenced with an introduction highlighting the growing importance of skill-based education in the aviation industry. The resource persons shared valuable insights into industry-relevant job roles and certification frameworks in the aerospace and aviation sector. The speakers elaborated on the role of AASSC in aligning academic learning with industry requirements. Credit-based certification pathways and their impact on employability were clearly explained. Practical experiences from organizations such as HAL, Air India SATS, and AASSC enriched the discussion. Students actively engaged with the speakers through interactive discussions and queries. The workshop concluded by emphasizing the importance of skill development for career advancement in the aviation industry.",
                   "Workshop -”Importance of AASSC & Skill-Based Job Roles and Credit-Based Certification"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/6.webp"
+              },
+              {
+                "type": "activity",
+                "title": "7. University of Agricultural Sciences, GKVK: Joint Research, Training and Internships in Life Sciences",
+                "paragraphs": [
+                  "Joint research, training and internships in life sciences and agricultural technology, promoting sustainable development, agro-technology practices, and cross-sectoral collaboration aligned with SDG 4 (Quality Education)."
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/7.webp"
               },
               {
                 "type": "activity",
                 "title": "8. Edunet :  IBM SkillsBuild Boot Camp on Artificial Intelligence",
                 "paragraphs": [
-                  "Edunet Foundation conducted the IBM Skills Build Boot Camp on Artificial Intelligence at Kristu Jayanti College, Bangalore (10.01.2025), with over 110 Computer Science students participating. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud. They worked on exciting projects like creating ChatBots and shared how the boot camp was an informative, engaging, and career-enhancing experience",
-                  "IBM Skills Build Boot Camp on Artificial Intelligence on 10.01.2025"
-                ]
+                  "Edunet Foundation conducted the IBM Skills Build Boot Camp on Artificial Intelligence at Kristu Jayanti College, Bangalore (10.01.2025), with over 110 Computer Science students participating. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud. They worked on exciting projects like creating ChatBots and shared how the boot camp was an informative, engaging, and career-enhancing experience"
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/8.webp"
               },
               {
                 "type": "activity",
@@ -4484,7 +4465,8 @@
                   "The camp was organized in partnership with the following hospitals and associations: Lions Blood Centre, St. John’s Hospital, TTK Blood Centre, Kidwai Hospital, St. Philomena’s Hospital, Sanjay Gandhi Institute of Trauma and Orthopaedic, NIMHANS Hospital",
                   "Student clubs, including Youth Red Cross, NSS, KCDC, NCC, CSA, and Unna Bharat Abhiyan, actively contributed to the event’s success. HDFC Bank sponsored goodies for all donors as a token of appreciation.",
                   "Blood Donation Camp on 27/01/2025"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.2/9.webp"
               },
               {
                 "type": "activity",
@@ -4495,7 +4477,8 @@
                   "six students from the Kritu Jayanti Institute of Management.",
                   "The impact Day brought 50 -60 Deloitte employees to the CSR activity. The employees were divided into 8 to 10 groups to participate in different activities during the event. The students from Kristu Jayanti Deemed to be University participated and supported the activities along with the Deloitte employees.",
                   "The activities included:"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.1/2.webp"
               },
               {
                 "type": "activity",
@@ -4814,8 +4797,7 @@
                   "Level",
                   "MoU Duration",
                   "Activity conducted",
-                  "SDG",
-                  "MoU pg. no."
+                  "SDG"
                 ],
                 "rows": [
                   [
@@ -4824,8 +4806,7 @@
                     "International",
                     "17-11-2022 to17-11-2027",
                     "International Conference on Emergence of Reskilling and Upskilling in Contemporary Global Management by Professional Management Studies,Kristu Jayanti (Deemed to be University)",
-                    "SDG 4- Quality Education",
-                    "1-10"
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "2.",
@@ -4833,17 +4814,7 @@
                     "International",
                     "20-01-2023 to 20-01-2033",
                     "Krisym 2025 -International Conference 18th Edition -The Future Of Business Resurgence: Embracing AI And Automation",
-                    "SDG 4- Quality Education",
-                    "11-20"
-                  ],
-                  [
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "SDG 4- Quality Education"
                   ],
                   [
                     "3",
@@ -4851,22 +4822,18 @@
                     "International",
                     "13-10-2023 to 13-10-2028",
                     "International Conference on Asia's Maritime History and Identity at Cultural Crossroads",
-                    "SDG 4- Quality Education, SDG 3 Good Health",
-                    "21"
+                    "SDG 4- Quality Education, SDG 3 Good Health"
                   ]
                 ]
               },
               {
-                "type": "paragraph",
-                "text": "1.University American College, Skopje, North Macedonia -International Conference on Business Transformation through AI"
-              },
-              {
-                "type": "paragraph",
-                "text": "The 3rd International Conference on Business Transformation through AI: A Multidisciplinary Approach commenced with a formal inauguration that set an inspiring tone for the event. The session was graced by Fr. Dr. Augustine George, Vice Chancellor, who delivered the Presidential Address emphasizing the strategic role of artificial intelligence in shaping future-ready institutions. The Inaugural Address was delivered by Mr. Ramesh Balasubramanian, Vice President, Capgemini, who served as the Chief Guest and shared valuable industry-driven insights. He highlighted that technology is not intended to replace human effort but to enhance human experience and organizational efficiency. The welcome address was delivered by Dr. C. Surendranadha Reddy, followed by the ceremonial lighting of the lamp. A soulful prelude performance was presented by Rupashree, adding cultural richness to the occasion. The speakers emphasized the importance of customer-centric innovation, value creation, and automation through AI. Key discussions focused on eliminating inefficiencies, standardizing processes, and leveraging AI for intelligent automation. The session concluded with the message that creativity and critical thinking remain irreplaceable human strengths in an AI-driven era."
-              },
-              {
-                "type": "paragraph",
-                "text": "Session on creativity and critical thinking in an AI-driven era."
+                "type": "activity",
+                "title": "1. University American College, Skopje, North Macedonia - International Conference on Business Transformation through AI",
+                "paragraphs": [
+                  "The 3rd International Conference on Business Transformation through AI: A Multidisciplinary Approach commenced with a formal inauguration that set an inspiring tone for the event. The session was graced by Fr. Dr. Augustine George, Vice Chancellor, who delivered the Presidential Address emphasizing the strategic role of artificial intelligence in shaping future-ready institutions. The Inaugural Address was delivered by Mr. Ramesh Balasubramanian, Vice President, Capgemini, who served as the Chief Guest and shared valuable industry-driven insights. He highlighted that technology is not intended to replace human effort but to enhance human experience and organizational efficiency. The welcome address was delivered by Dr. C. Surendranadha Reddy, followed by the ceremonial lighting of the lamp. A soulful prelude performance was presented by Rupashree, adding cultural richness to the occasion. The speakers emphasized the importance of customer-centric innovation, value creation, and automation through AI. Key discussions focused on eliminating inefficiencies, standardizing processes, and leveraging AI for intelligent automation. The session concluded with the message that creativity and critical thinking remain irreplaceable human strengths in an AI-driven era.",
+                  "Session on creativity and critical thinking in an AI-driven era."
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.4/1.webp"
               },
               {
                 "type": "activity",
@@ -4874,7 +4841,8 @@
                 "paragraphs": [
                   "The International Conference on \"The Future of Business Resurgence: Embracing AI and Automation\"  was conducted on 16 th & 17th January, 2026. The conference was organised with the objective of exploring the transformative role of Artificial Intelligence (AI) and Automation in reshaping business models and fostering innovation across various industries. It provided an academic platform for scholars, industry experts, academicians, research scholars, and students to discuss the emerging trends, opportunities, and challenges associated with the integration of AI-driven technologies into business operations and management practices. A major focus of the conference was to examine the strategic significance of AI and Automation in transforming traditional business models and encouraging innovative practices across industries. Discussions highlighted how emerging technologies are revolutionising business processes, creating new opportunities for growth, and enabling organisations to adapt to the rapidly evolving digital business environment.",
                   "Mr. Ramesh Gupta Interacting with Audience"
-                ]
+                ],
+                "image": "https://assets.kristujayanti.com/sdg-ranking/img/17.2.4/2.webp"
               },
               {
                 "type": "activity",
@@ -4883,6 +4851,10 @@
                   "The Department of English organised the International Conference on Asia's Maritime History and Identity at Cultural Crossroads on 23/01/2025 & 24/01/2025. The conference was organised with the objective of exploring the rich maritime history of Asia, examining its interconnected identities and cultures, and encouraging interdisciplinary discussions on maritime ecosystems and environmental sustainability. It provided an academic platform for scholars, researchers, academicians, and students to engage in meaningful discussions on the historical, cultural, social, and ecological dimensions of maritime studies.  The conference was inaugurated by the distinguished Shaurya Chakra Col. Dr. DPK Pillay, Former Senior Defence Specialist and Planning Officer Defence Ministry and Research Fellow at Manohar Parikkar Institute for Defence Studies and Analyses, New Delhi. Fr. Dr Lijo P. Thomas, Vice Principal, Kristu Jayanti College, presided over the event and emphasised that the insights from the conference would help navigate our complex identities of today. In his keynote speech, Col. Dr. DPK Pillay addressed the interconnectedness of different Asian civilisations through trade, exploration, and the movement of people. There were 184 beneficiaries.",
                   "Inaugural Ceremony of the Conference",
                   "Dr. Maya Vinai addressing the audience"
+                ],
+                "images": [
+                  "https://assets.kristujayanti.com/sdg-ranking/img/17.2.4/3.webp",
+                  "https://assets.kristujayanti.com/sdg-ranking/img/17.2.4/4.webp"
                 ]
               }
             ]
@@ -4905,9 +4877,7 @@
                   "Level",
                   "MoU Duration",
                   "Activity conducted",
-                  "SDG",
-                  "MoU pg. no.",
-                  ""
+                  "SDG"
                 ],
                 "rows": [
                   [
@@ -4916,9 +4886,7 @@
                     "Regional",
                     "3-01-2025 to3-01-2026",
                     "Boot Camp AI. The students completed specialized AI courses on the IBM Academic Portal, earned digital badges, and received 395 days of free access to IBM Cloud on 10/01/2025.",
-                    "SDG 4 – Quality Education. SDG 9 – Industry, Innovation and Infrastructure",
-                    "45-46",
-                    ""
+                    "SDG 4 – Quality Education. SDG 9 – Industry, Innovation and Infrastructure"
                   ],
                   [
                     "2",
@@ -4926,9 +4894,7 @@
                     "Regional NGO",
                     "29/11/2025 - 29/09/2030",
                     "Deloitte Impact Day 2025",
-                    "SDG 4 – Quality Education",
-                    "55-59",
-                    ""
+                    "SDG 4 – Quality Education"
                   ]
                 ]
               },
