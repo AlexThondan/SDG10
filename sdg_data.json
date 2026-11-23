@@ -875,7 +875,8 @@
                     "Under Ms. Anna Pops (Dept. of Physical Sciences), NSS volunteers distributed study kits of notebooks, pencils, pens, colours, scales and erasers to underprivileged children at K. Narayanapura, interacting warmly to encourage regular schooling and creativity.",
                     "Children received essential study materials; improved motivation, confidence and interest in education."
                   ]
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
               },
               {
                 "type": "table",
@@ -1051,27 +1052,6 @@
                   ]
                 ],
                 "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
-              },
-              {
-                "type": "pdf_links",
-                "links": [
-                  {
-                    "label": "CSA – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
-                  },
-                  {
-                    "label": "KCDC – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
-                  },
-                  {
-                    "label": "YRC – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
-                  },
-                  {
-                    "label": "UBA – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
-                  }
-                ]
               }
             ]
           },
@@ -1129,32 +1109,6 @@
                   "Institutional Reference Portal: https://kristujayanti.edu.in/jes/yrc/"
                 ],
                 "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
-              },
-              {
-                "type": "pdf_links",
-                "title": "Institutional Extension Wings Policies & Guidelines (View PDF)",
-                "links": [
-                  {
-                    "label": "1. Unnat Bharat Abhiyan (UBA) – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
-                  },
-                  {
-                    "label": "2. National Service Scheme (NSS) – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
-                  },
-                  {
-                    "label": "3. Entrepreneurship and Innovation Centre (EIC) / KCDC – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
-                  },
-                  {
-                    "label": "4. Centre for Social Activities (CSA) – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
-                  },
-                  {
-                    "label": "5. Youth Red Cross (YRC) – View PDF",
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
-                  }
-                ]
               }
             ]
           }
