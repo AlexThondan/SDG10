@@ -26,16 +26,10 @@ sdgs = {
                     {"metric": "No Poverty: FWCI", "value": "13"},
                     {"metric": "No Poverty Publications", "value": "23"}
                 ],
-                "file": "https://docs.google.com/document/d/1YI8edxuJCJHfIPzMBoVp8a3NCuM1iQuU/edit",
-                "excel": "https://docs.google.com/spreadsheets/d/1nARXXAZEcHhlXH5t7gjxatzniCJCa5nR/edit?gid=2063360444#gid=2063360444",
                 "indicators": [
                     "1.1.1 Papers co-authored with low or lower-middle income countries",
                     "1.1.2 No poverty: FWCI",
-                    {
-                        "text": "1.1.3 No poverty: publications",
-                        "file": "https://docs.google.com/document/d/1ltFdDPIJZsCvz-gYh8oXGRCMTqywBnrR/edit",
-                        "excel": "https://docs.google.com/spreadsheets/d/1nARXXAZEcHhlXH5t7gjxatzniCJCa5nR/edit?gid=2063360444#gid=2063360444"
-                    }
+                    "1.1.3 No poverty: publications"
                 ]
             },
             {
@@ -155,7 +149,6 @@ sdgs = {
             {
                 "id": "1.4",
                 "desc": "Community anti-poverty programmes",
-                "file": "https://docs.google.com/document/d/1IryJ_do58o3o8rQDia2ogyqifEN6Q5l-/edit?usp=sharing&ouid=106142087827933382324&rtpof=true&sd=true",
                 "indicators": [
                     "1.4.1 Local start-up assistance",
                     "1.4.2 Local start-up financial assistance",
@@ -243,6 +236,10 @@ sdgs = {
         "targets": []
     }
 }
+
+if os.path.exists("sdg1_target1_4.json"):
+    with open("sdg1_target1_4.json", "r", encoding="utf-8") as f:
+        sdgs["1"]["targets"][3]["indicators"] = json.load(f)
 
 if os.path.exists("sdg4_full_extracted.json"):
     with open("sdg4_full_extracted.json", "r", encoding="utf-8") as f:

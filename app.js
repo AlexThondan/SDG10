@@ -472,7 +472,7 @@ function renderTargetView(sdg, targetId) {
         </div>
         <h2 class="subpage-title">${escapeHtml(target.desc)}</h2>
         <p class="subpage-subtitle">SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}</p>
-        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : true) && (target.url || target.file) ? `
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !(String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4"))) && (target.url || target.file) ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(target.url || target.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
               <span>View PDF</span>
@@ -656,9 +656,9 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
         <h2 class="subpage-title">${escapeHtml(displayTitle)}</h2>
         ${displaySubtitle ? `<h3 style="font-size: 15px; font-weight: 600; color: #1e293b; margin: 4px 0 8px 0;">${escapeHtml(displaySubtitle)}</h3>` : ""}
         <p class="subpage-subtitle">
-          SDG ${escapeHtml(sdg.num)} (${escapeHtml(sdg.name)}) &nbsp;•&nbsp; Target ${escapeHtml(target.id)}: ${escapeHtml(target.desc)}
+          SDG ${escapeHtml(sdg.num)} (${escapeHtml(sdg.name)})${(String(sdg.num) === "1" && String(target.id) === "1.4") ? "" : ` &nbsp;•&nbsp; Target ${escapeHtml(target.id)}: ${escapeHtml(target.desc)}`}
         </p>
-        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : true) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
+        ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !(String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4"))) && (foundIndicator && (foundIndicator.url || foundIndicator.file)) ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
               <span>View PDF</span>
@@ -674,7 +674,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
           <div class="writeup-prose">
             ${writeupHtml}
           </div>
-          ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : true) && foundIndicator && (foundIndicator.url || foundIndicator.file) ? `
+          ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !(String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4"))) && foundIndicator && (foundIndicator.url || foundIndicator.file) ? `
             <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid #f1f5f9;">
               <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 8px 16px; font-size: 13.5px;" title="View PDF">
                 <span>View PDF</span>
