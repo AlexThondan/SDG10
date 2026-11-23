@@ -14,33 +14,51 @@
       },
       {
         "type": "paragraph",
-        "text": "The university extends the following support to CAZE Labs to facilitate its business operations and entrepreneurial development:\n\n• Free Office Space: Provides office space at the Kristu Jayanti Incubation Centre without collecting rental charges during the tenure of the MOU.\n• Broadband Internet Connectivity: Provides wired and wireless broadband internet access to support the company's software development, communication and business operations.\n• Office Infrastructure: Provides standard essential office furniture and workspace facilities required for day-to-day operations.\n• Electricity: Extends electricity facilities to support the operational requirements of the start-up.\n• Registered Office Address: Permits the incubatee to use the Incubation Centre's institutional address for company registration and other related business requirements, subject to the MOU.\n• Mentoring Support: Facilitates mentoring to strengthen the entrepreneurial and business development capabilities of the incubatee.\n• Training and Workshops: Provides opportunities to participate in seminars, workshops and training programmes conducted in collaboration with the Incubation Centre.\n• Research and Student Collaboration: Encourages joint research activities, student internships and projects, promoting interaction between the start-up and the academic community.\n• Knowledge Sharing: Facilitates knowledge exchange and opportunities for the incubatee to participate in institutional training programmes."
+        "text": "The university extends the following support to CAZE Labs to facilitate its business operations and entrepreneurial development:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Free Office Space: Provides office space at the Kristu Jayanti Incubation Centre without collecting rental charges during the tenure of the MOU."
+      },
+      {
+        "type": "paragraph",
+        "text": "Broadband Internet Connectivity: Provides wired and wireless broadband internet access to support the company's software development, communication and business operations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Office Infrastructure: Provides standard essential office furniture and workspace facilities required for day-to-day operations."
+      },
+      {
+        "type": "paragraph",
+        "text": "Electricity: Extends electricity facilities to support the operational requirements of the start-up."
+      },
+      {
+        "type": "paragraph",
+        "text": "Registered Office Address: Permits the incubatee to use the Incubation Centre's institutional address for company registration and other related business requirements, subject to the MOU."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mentoring Support: Facilitates mentoring to strengthen the entrepreneurial and business development capabilities of the incubatee."
+      },
+      {
+        "type": "paragraph",
+        "text": "Training and Workshops: Provides opportunities to participate in seminars, workshops and training programmes conducted in collaboration with the Incubation Centre."
+      },
+      {
+        "type": "paragraph",
+        "text": "Research and Student Collaboration: Encourages joint research activities, student internships and projects, promoting interaction between the start-up and the academic community."
+      },
+      {
+        "type": "paragraph",
+        "text": "Knowledge Sharing: Facilitates knowledge exchange and opportunities for the incubatee to participate in institutional training programmes."
       },
       {
         "type": "paragraph",
         "text": "Through these provisions, the university reduces the initial infrastructure and operational expenditure of the start-up by offering essential facilities and institutional resources without rental charges. The initiative demonstrates the university's commitment to providing practical assistance to entrepreneurs through access to infrastructure, mentoring, training and knowledge-sharing opportunities, thereby supporting the development and sustainability of start-up ventures."
       },
       {
-        "type": "table",
-        "title": "Incubation Support Summary",
-        "headers": [
-          "Particulars",
-          "Details"
-        ],
-        "rows": [
-          [
-            "Beneficiary",
-            "CAZE Labs Private Limited"
-          ],
-          [
-            "Supporting Institution",
-            "Kristu Jayanti University / Kristu Jayanti Incubation Centre (KJIC)"
-          ],
-          [
-            "Nature of Assistance",
-            "Free incubation facilities, infrastructure, internet connectivity, utilities, mentoring and entrepreneurial support"
-          ]
-        ]
+        "type": "paragraph",
+        "text": "Beneficiary: CAZE Labs Private Limited\nSupporting Institution: Kristu Jayanti University / Kristu Jayanti Incubation Centre (KJIC)\nNature of Assistance: Free incubation facilities, infrastructure, internet connectivity, utilities, mentoring and entrepreneurial support"
       },
       {
         "type": "section_header",
@@ -114,6 +132,23 @@
         "title": "10. NSS Special Annual Camp 2025–26: Health, Digital Safety and ABHA Support (Sonnenahalli and Seeresandra, 11–17 October 2025)",
         "paragraphs": [
           "During the seven-day special camp, NSS volunteers ran practical awareness and service programmes in Sonnenahalli and Seeresandra villages. Free eye check-ups, BP and sugar screening and blood donation awareness reached about 115 villagers, and 67 received free spectacles. On Day 4 a Cyber Crime Awareness Session taught villagers safe internet practices and how to recognise fraud calls and messages. Volunteers also went door to door to promote ABHA health cards, and on Day 5 they helped villagers create 34 ABHA cards. Cleanliness drives, tree plantation and an alumni talk were part of the camp. The digital safety and ABHA sessions give villagers the awareness needed to use digital services, payments and government schemes securely, which small local businesses and self-employed residents depend on. Health screening and spectacles also protect people's ability to work. Collaborations with Rotary clubs and the local Grama Panchayats brought university resources to the community."
+        ]
+      },
+      {
+        "type": "pdf_links",
+        "links": [
+          {
+            "label": "UBA – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
+          },
+          {
+            "label": "NSS – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
+          },
+          {
+            "label": "CSA – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
+          }
         ]
       }
     ]

@@ -539,6 +539,19 @@ function renderContentBlocks(blocks) {
     if (block.type === "paragraph") {
       return `<p class="writeup-paragraph">${escapeHtml(block.text)}</p>`;
     }
+    if (block.type === "pdf_links" || block.type === "action_buttons") {
+      const linksHtml = (block.links || []).map(link => `
+        <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 9px 18px; font-size: 13.5px; gap: 8px;" title="${escapeHtml(link.label || 'View PDF')}">
+          <span>${escapeHtml(link.label || 'View PDF')}</span>
+          ${BOX_ARROW_ICON_SVG}
+        </a>
+      `).join("");
+      return `
+        <div class="content-pdf-links-group" style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
+          ${linksHtml}
+        </div>
+      `;
+    }
     if (block.type === "table") {
       const headersHtml = (block.headers || []).map(h => `<th>${escapeHtml(h)}</th>`).join("");
       const rowsHtml = (block.rows || []).map(row => {
