@@ -216,7 +216,8 @@ function renderSdgMainView(sdg) {
       ? target.indicators.map(ind => {
         const parsed = parseIndicator(ind);
         const indId = parsed.number || parsed.title;
-        const isDirectPdf = (String(sdg.num) === "10" && String(target.id) === "10.6") || !!parsed.directUrl;
+        const hasDirectPage = ["10.6.7", "10.6.8", "10.6.9"].includes(String(parsed.number));
+        const isDirectPdf = !hasDirectPage && ((String(sdg.num) === "10" && String(target.id) === "10.6") || !!parsed.directUrl);
         const targetUrl = (isDirectPdf && (parsed.directUrl || parsed.url || parsed.file))
           ? (parsed.directUrl || parsed.url || parsed.file)
           : buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
@@ -226,7 +227,8 @@ function renderSdgMainView(sdg) {
           subItemsHtml = parsed.subItems.map(sub => {
             const subParsed = parseIndicator(sub);
             const subId = subParsed.number || subParsed.title;
-            const subDirectPdf = (String(sdg.num) === "10" && String(target.id) === "10.6") || !!subParsed.directUrl;
+            const subHasDirectPage = ["10.6.7", "10.6.8", "10.6.9"].includes(String(subParsed.number));
+            const subDirectPdf = !subHasDirectPage && ((String(sdg.num) === "10" && String(target.id) === "10.6") || !!subParsed.directUrl);
             const subUrl = (subDirectPdf && (subParsed.directUrl || subParsed.url || subParsed.file))
               ? (subParsed.directUrl || subParsed.url || subParsed.file)
               : buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: subId });
@@ -361,7 +363,8 @@ function renderTargetView(sdg, targetId) {
   const indicatorsListHtml = (target.indicators || []).map(ind => {
     const parsed = parseIndicator(ind);
     const indId = parsed.number || parsed.title;
-    const isDirectPdf = (String(sdg.num) === "10" && String(target.id) === "10.6") || !!parsed.directUrl;
+    const hasDirectPage = ["10.6.7", "10.6.8", "10.6.9"].includes(String(parsed.number));
+    const isDirectPdf = !hasDirectPage && ((String(sdg.num) === "10" && String(target.id) === "10.6") || !!parsed.directUrl);
     const targetUrl = (isDirectPdf && (parsed.directUrl || parsed.url || parsed.file))
       ? (parsed.directUrl || parsed.url || parsed.file)
       : buildRouteUrl({ type: "indicator", sdg: sdg.num, target: target.id, indicator: indId });
@@ -760,8 +763,8 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
         ${displaySubtitle ? `<h3 style="font-size: 15px; font-weight: 600; color: #475569; margin: 6px 0 0 0; line-height: 1.4;">${escapeHtml(displaySubtitle)}</h3>` : ""}
         ${canShowIndicatorPdf ? `
           <div style="margin-top: 14px;">
-            <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
-              <span>View PDF</span>
+            <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="${(String(sdg.num) === "10" || (foundIndicator && foundIndicator.policyName)) ? "View Policy" : "View PDF"}">
+              <span>${(String(sdg.num) === "10" || (foundIndicator && foundIndicator.policyName)) ? "View Policy" : "View PDF"}</span>
               ${BOX_ARROW_ICON_SVG}
             </a>
           </div>
