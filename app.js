@@ -768,14 +768,6 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
           <div class="writeup-prose">
             ${writeupHtml}
           </div>
-          ${canShowIndicatorPdf ? `
-            <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid #f1f5f9;">
-              <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 8px 16px; font-size: 13.5px;" title="View PDF">
-                <span>View PDF</span>
-                ${BOX_ARROW_ICON_SVG}
-              </a>
-            </div>
-          ` : ""}
         </div>
       ` : ""}
     </div>
