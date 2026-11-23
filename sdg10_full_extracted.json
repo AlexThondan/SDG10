@@ -232,16 +232,12 @@
     "desc": "International Students from Developing Countries",
     "metricsTable": [
       {
-        "metric": "Support Framework",
-        "value": "Active International Student Helpdesk"
+        "metric": "Total number of students",
+        "value": "16988"
       },
       {
-        "metric": "Financial Assistance Schemes",
-        "value": "Institutional Upliftment Scholarships"
-      },
-      {
-        "metric": "International Admissions",
-        "value": "Facilitated via International Office & Registrar"
+        "metric": "Number of international students from developing countries",
+        "value": "53"
       }
     ],
     "indicators": [
