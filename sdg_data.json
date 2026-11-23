@@ -390,11 +390,6 @@
             "text": "1.4.3 Programmes for services access",
             "contentBlocks": [
               {
-                "type": "section_header",
-                "title": "Programmes for Services Access",
-                "tag": "Societal Engagement"
-              },
-              {
                 "type": "paragraph",
                 "text": "Kristu Jayanti (Deemed to be University) follows Sustainable Development Goal 1 (No Poverty) through Jayantian Extension Services (JES), its institutional outreach and societal engagement division, and the centres and wings that work alongside it. JES was started to promote social concern and good citizenship, and its objectives are to assess community needs, build institution-neighbourhood networks and promote the holistic development of nearby villages. Its wings, Centre for Social Activities, National Service Scheme , Karnataka Civil Defence Corps (KCDC) ,Unnat Bharat Abhiyan(UBA) and Youth Red Cross take students and faculty into villages and communities. Allied bodies add livelihood and entrepreneurship support, gender equality, inclusion of marginalised students and environmental responsibility. Together they aim to address poverty-related needs in education, health, livelihood, rights and access to government schemes."
               },
@@ -533,7 +528,8 @@
                     "An eye checkup camp at Esthuru Village, Hoskote, inaugurated by Fr. Jais V. Thomas and Fr. Som Zacharias and coordinated with Rotary Bengaluru Alumni. Eye examinations were conducted by Modi High Hospital staff, with vision testing and screening for villagers and volunteers.",
                     "Accessible eye-care services provided to villagers; awareness raised on eye health and regular vision screening."
                   ]
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
               },
               {
                 "type": "table",
@@ -867,7 +863,8 @@
                     "Revision and interactive sessions on computer basics, characteristics, generations and classification, with practical training in MS Word and MS Excel, delivered by KCDC volunteers to students.",
                     "Students strengthened fundamental computer knowledge and practical skills."
                   ]
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
               },
               {
                 "type": "table",
@@ -908,7 +905,8 @@
                     "With 22 volunteers from I MA English Literature and the SDG Club, stationery kits with notebooks, pencils, erasers, sharpeners, rulers and crayons were assembled from donations and distributed to children of the Kothanur migrant settlement.",
                     "Stationery given to nearly 35 migrant children; boosted enthusiasm for learning."
                   ]
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
               },
               {
                 "type": "table",
@@ -956,6 +954,28 @@
                     "At Parehosahalli, volunteers used visual aids and workshops to show how phishing and financial scams work, taught strong passwords, two-factor authentication and safe online banking in the local language, and trained villagers to secure phones and social media accounts.",
                     "Villagers can recognise scams and began adopting safer digital practices; 25 volunteers."
                   ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
+              },
+              {
+                "type": "pdf_links",
+                "links": [
+                  {
+                    "label": "CSA – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
+                  },
+                  {
+                    "label": "KCDC – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
+                  },
+                  {
+                    "label": "YRC – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
+                  },
+                  {
+                    "label": "UBA – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
+                  }
                 ]
               }
             ]

@@ -564,7 +564,15 @@ function renderContentBlocks(blocks) {
 
       return `
         <div class="content-table-block">
-          ${block.title ? `<h4 class="table-block-title">${escapeHtml(block.title)}</h4>` : ""}
+          <div class="table-block-header-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
+            ${block.title ? `<h4 class="table-block-title" style="margin-bottom: 0;">${escapeHtml(block.title)}</h4>` : "<div></div>"}
+            ${block.pdfUrl ? `
+              <a href="${escapeHtml(block.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 6px 14px; font-size: 12.5px; gap: 6px;" title="View PDF">
+                <span>View PDF</span>
+                ${BOX_ARROW_ICON_SVG}
+              </a>
+            ` : ""}
+          </div>
           <div class="data-table-container">
             <table class="data-grid-table">
               <thead><tr>${headersHtml}</tr></thead>
