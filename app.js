@@ -465,13 +465,15 @@ function renderTargetView(sdg, targetId) {
       </div>
 
       <div class="subpage-header-card">
+        <p class="subpage-subtitle" style="margin: 0 0 10px 0; font-size: 13.5px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px;">
+          SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}
+        </p>
         <div class="target-header-meta" style="margin-bottom: 8px;">
           <span class="target-pipe"></span>
           <span class="target-id">${escapeHtml(target.id)}</span>
           ${target.annexure ? `<span class="target-annexure-tag">(${escapeHtml(target.annexure)})</span>` : ""}
         </div>
         <h2 class="subpage-title">${escapeHtml(target.desc)}</h2>
-        <p class="subpage-subtitle">SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}</p>
         ${(String(sdg.num) === "17" ? String(target.id) === "17.3" : !( (String(sdg.num) === "1" && (String(target.id) === "1.1" || String(target.id) === "1.4")) || (String(sdg.num) === "4" && String(target.id) === "4.3") )) && (target.url || target.file) ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(target.url || target.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
@@ -539,6 +541,14 @@ function renderContentBlocks(blocks) {
     if (block.type === "paragraph") {
       return `<p class="writeup-paragraph">${escapeHtml(block.text)}</p>`;
     }
+    if (block.type === "list" || block.type === "bullet_list") {
+      const items = block.items || [];
+      return `
+        <ul class="content-bullet-list" style="margin: 12px 0 16px 24px; line-height: 1.7; color: #334155;">
+          ${items.map(item => `<li style="margin-bottom: 6px;">${escapeHtml(item)}</li>`).join("")}
+        </ul>
+      `;
+    }
     if (block.type === "pdf_links" || block.type === "action_buttons") {
       const linksHtml = (block.links || []).map(link => `
         <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 9px 18px; font-size: 13.5px; gap: 8px;" title="${escapeHtml(link.label || 'View PDF')}">
@@ -604,7 +614,15 @@ function renderContentBlocks(blocks) {
       }
       return `
         <div class="activity-evidence-card">
-          <h4 class="activity-title">${escapeHtml(block.title)}</h4>
+          <div class="activity-header-row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+            <h4 class="activity-title" style="margin-bottom: 0;">${escapeHtml(block.title)}</h4>
+            ${block.pdfUrl ? `
+              <a href="${escapeHtml(block.pdfUrl)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 6px 14px; font-size: 12.5px; gap: 6px;" title="View PDF">
+                <span>View PDF</span>
+                ${BOX_ARROW_ICON_SVG}
+              </a>
+            ` : ""}
+          </div>
           ${pText}
           ${imagesHtml}
         </div>
@@ -728,12 +746,12 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
       </div>
 
       <div class="subpage-header-card">
-        <span class="subpage-badge">Indicator ${escapeHtml(displayPoint)}</span>
-        <h2 class="subpage-title">${escapeHtml(displayTitle)}</h2>
-        ${displaySubtitle ? `<h3 style="font-size: 15px; font-weight: 600; color: #1e293b; margin: 4px 0 8px 0;">${escapeHtml(displaySubtitle)}</h3>` : ""}
-        <p class="subpage-subtitle">
+        <p class="subpage-subtitle" style="margin: 0 0 10px 0; font-size: 13.5px; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px;">
           SDG ${escapeHtml(sdg.num)}: ${escapeHtml(sdg.name)}
         </p>
+        <span class="subpage-badge" style="margin-bottom: 8px;">Indicator ${escapeHtml(displayPoint)}</span>
+        <h2 class="subpage-title" style="margin-top: 4px;">${escapeHtml(displayTitle)}</h2>
+        ${displaySubtitle ? `<h3 style="font-size: 15px; font-weight: 600; color: #475569; margin: 6px 0 0 0; line-height: 1.4;">${escapeHtml(displaySubtitle)}</h3>` : ""}
         ${canShowIndicatorPdf ? `
           <div style="margin-top: 14px;">
             <a href="${escapeHtml(foundIndicator.url || foundIndicator.file)}" target="_blank" rel="noopener noreferrer" class="file-action-btn" style="padding: 7px 14px; font-size: 13px;" title="View PDF">
@@ -746,7 +764,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
 
       ${writeupHtml ? `
         <div class="subpage-content-card">
-          ${(foundIndicator && foundIndicator.contentBlocks && foundIndicator.contentBlocks.some(b => b.type === "section_header" || b.type === "report_banner")) ? "" : "<h3>Indicator Details & Scope</h3>"}
+          ${(foundIndicator && ((foundIndicator.contentBlocks && foundIndicator.contentBlocks.length > 0) || foundIndicator.description)) ? "" : "<h3>Indicator Details & Scope</h3>"}
           <div class="writeup-prose">
             ${writeupHtml}
           </div>

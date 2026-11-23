@@ -33,9 +33,104 @@
           }
         ],
         "indicators": [
-          "1.1.1 Papers co-authored with low or lower-middle income countries",
-          "1.1.2 No poverty: FWCI",
-          "1.1.3 No poverty: publications"
+          {
+            "number": "1.1.1",
+            "title": "Research on Poverty",
+            "subtitle": "Papers Co-authored with Low or Lower-Middle Income Countries",
+            "text": "1.1.1 Research on Poverty",
+            "contentBlocks": [
+              {
+                "type": "paragraph",
+                "text": "Kristu Jayanti (Deemed to be University) actively promotes international research collaborations to enhance the quality, visibility, and global relevance of its research. During the reporting period, the University published 23 research papers related to SDG 1 – No Poverty. Of these, 21 publications (91.30%) were authored by researchers based in India, while 2 publications (8.70%) were developed through international collaborations."
+              },
+              {
+                "type": "paragraph",
+                "text": "The University's international research collaborations include:"
+              },
+              {
+                "type": "bullet_list",
+                "items": [
+                  "1 publication (4.30%) co-authored with researchers from Bahrain and Malaysia.",
+                  "1 publication (4.30%) co-authored with researchers from the United Arab Emirates (UAE)."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "These collaborations demonstrate the University's commitment to fostering international academic partnerships and promoting the exchange of knowledge on issues related to poverty alleviation, financial inclusion, sustainable development, and inclusive economic growth."
+              },
+              {
+                "type": "paragraph",
+                "text": "At present, no publications were co-authored with institutions from low or lower-middle income countries during the assessment period. Consequently, the University records 0 publications (0.00%) under this specific THE Impact Rankings metric."
+              },
+              {
+                "type": "paragraph",
+                "text": "The University is actively working to expand its global research network and encourages faculty members to establish collaborative partnerships with institutions in low and lower-middle income countries through joint research projects, academic exchange programmes, international conferences, and funded research initiatives. These efforts are expected to strengthen future research collaborations that contribute directly to the achievement of United Nations Sustainable Development Goal 1 – No Poverty."
+              }
+            ]
+          },
+          {
+            "number": "1.1.2",
+            "title": "No Poverty: Field-Weighted Citation Impact (FWCI)",
+            "subtitle": "Citation Performance and Scholarly Influence on Poverty Eradication",
+            "text": "1.1.2 No Poverty: Field-Weighted Citation Impact (FWCI)",
+            "contentBlocks": [
+              {
+                "type": "paragraph",
+                "text": "Kristu Jayanti (Deemed to be University) is committed to producing high-quality, impactful research that contributes to the achievement of United Nations Sustainable Development Goal (SDG) 1 – No Poverty. The University's research addresses critical themes such as poverty alleviation, financial inclusion, rural development, agricultural finance, employment generation, economic resilience, and inclusive growth."
+              },
+              {
+                "type": "paragraph",
+                "text": "During the reporting period, the University published 23 research publications aligned with SDG 1. Of these, 21 publications (91.30%) were authored by researchers based in India, while 2 publications (8.70%) were developed through international collaborations with researchers from Bahrain, Malaysia, and the United Arab Emirates (UAE). These collaborations have enhanced the global visibility and academic reach of the University's research."
+              },
+              {
+                "type": "paragraph",
+                "text": "The Field-Weighted Citation Impact (FWCI) is used to assess the citation performance of research outputs by comparing the number of citations received with the global average for publications of the same subject area, document type, and publication year. Through publications in reputed Scopus-indexed journals, IEEE conference proceedings, and Springer publications, Kristu Jayanti (Deemed to be University) strives to produce research that is internationally relevant and contributes to evidence-based policymaking and sustainable development."
+              },
+              {
+                "type": "paragraph",
+                "text": "The University's SDG 1 research reflects its emphasis on scholarly excellence, interdisciplinary collaboration, and generating knowledge that supports poverty reduction, financial inclusion, and inclusive socio-economic development. The institution continues to encourage high-impact research, international collaborations, and publications in globally recognized journals to further enhance its research influence and citation performance."
+              }
+            ]
+          },
+          {
+            "number": "1.1.3",
+            "title": "No Poverty: Publications",
+            "subtitle": "Scopus-Indexed Research Publications on Poverty Eradication",
+            "text": "1.1.3 No Poverty: Publications",
+            "contentBlocks": [
+              {
+                "type": "paragraph",
+                "text": "Kristu Jayanti (Deemed to be University) demonstrates a strong commitment to United Nations Sustainable Development Goal (SDG) 1 – No Poverty through its robust research output addressing critical issues related to poverty eradication, financial inclusion, rural development, employment generation, economic resilience, and inclusive growth. The University's research contributes to evidence-based policymaking and sustainable development by addressing the socio-economic challenges faced by vulnerable communities."
+              },
+              {
+                "type": "paragraph",
+                "text": "During the reporting period, the University produced 23 research publications aligned with SDG 1 – No Poverty. These publications have been disseminated through reputed Scopus-indexed journals reflecting the institution's commitment to high-quality and globally relevant research."
+              },
+              {
+                "type": "paragraph",
+                "text": "The University's SDG 1 publications encompass diverse themes, including:"
+              },
+              {
+                "type": "bullet_list",
+                "items": [
+                  "Agricultural finance and rural economic development.",
+                  "Poverty alleviation through globalization and inclusive economic policies.",
+                  "Financial inclusion and AI-enabled financial systems.",
+                  "Corporate financial resilience and employment sustainability.",
+                  "Macroeconomic determinants of poverty, unemployment, and economic growth.",
+                  "Rural savings, investment behaviour, and community-based financial inclusion."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Of the 23 publications, 21 (91.30%) were authored by researchers based in India, while 2 publications (8.70%) involved international collaboration with researchers from Bahrain, Malaysia, and the United Arab Emirates (UAE). These collaborations have strengthened the global visibility and impact of the University's research while promoting international knowledge exchange on sustainable development."
+              },
+              {
+                "type": "paragraph",
+                "text": "Through interdisciplinary research and collaborations, Kristu Jayanti (Deemed to be University) continues to generate scholarly evidence that supports poverty reduction, financial inclusion, sustainable livelihoods, and equitable socio-economic development. The institution remains committed to advancing impactful research that contributes to national priorities and the achievement of SDG 1 – No Poverty at the local, national, and global levels."
+              }
+            ]
+          }
         ]
       },
       {
@@ -987,10 +1082,6 @@
             "subtitle": "Institutional Policies, Wings and Strategic Frameworks Addressing Poverty",
             "contentBlocks": [
               {
-                "type": "section_header",
-                "title": "Policy Addressing Poverty"
-              },
-              {
                 "type": "paragraph",
                 "text": "Kristu Jayanti (Deemed to be University) follows Sustainable Development Goal 1 (No Poverty) through Jayantian Extension Services (JES), its institutional outreach and societal engagement division, and the centres and wings that work alongside it. JES was started to promote social concern and good citizenship, and its objectives are to assess community needs, build institution-neighbourhood networks and promote the holistic development of nearby villages. Its wings, Centre for Social Activities, National Service Scheme , Karnataka Civil Defence Corps (KCDC) ,Unnat Bharat Abhiyan(UBA) and Youth Red Cross take students and faculty into villages and communities. Allied bodies add livelihood and entrepreneurship support, gender equality, inclusion of marginalised students and environmental responsibility. Together they aim to address poverty-related needs in education, health, livelihood, rights and access to government schemes."
               },
@@ -1000,7 +1091,8 @@
                 "paragraphs": [
                   "Unnat Bharat Abhiyan applies the university's knowledge to rural development in line with the Government of India's UBA programme. In 2025 the unit adopted 25 villages under the Ittasandra, Hettakki, Annihalli and Marjenahalli panchayats in Hosakote Taluk (Bengaluru Rural) and Kolar Taluk (Kolar). It draws on 18 departments, 5 Jayantian Extension Services units and several centres. Its policy requires liaison with village panchayats, government offices and the UBA Regional Coordinating Institute, plus village situation analysis and need assessment. UBA has many outreach activities which include financial literacy, micro-savings, digital literacy, women's employability, awareness of government schemes, farmer training on crop yields, an organic farm, health and nutrition camps, and sanitation drives. Executed 2024-25 activities include a special camp, social outreach and Shramadhan.",
                   "Institutional Reference Portal: https://kristujayanti.edu.in/uba"
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
               },
               {
                 "type": "activity",
@@ -1008,7 +1100,8 @@
                 "paragraphs": [
                   "The NSS unit engages undergraduate students in voluntary community service, Its policy aims to help students understand community needs, solve local problems, mobilise community participation and build civic responsibility. It works for the integrated development of adopted villages and slums through regular and special camps. Its fields of work include literacy, health and family welfare, disaster management and the environment. At least one hundred students enrol each year. Past campaigns covered AIDS awareness, legal awareness, the rights and status of women, child welfare, water conservation, pest control and tree plantation. The mission is to help higher education institutions work with rural India on development challenges and sustainable growth.",
                   "Institutional Reference Portal: https://kristujayanti.edu.in/jes/nss"
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
               },
               {
                 "type": "activity",
@@ -1016,7 +1109,8 @@
                 "paragraphs": [
                   "The Entrepreneurship and Innovation Centre builds livelihood and income opportunities by supporting start-ups, innovation and social entrepreneurship among students, faculty and alumni. The Centre offers entrepreneurship development programmes, pre-incubation and incubation support, business plan competitions and mentoring. It also provides co-working and prototype infrastructure and a university seed fund where available. Founders are linked to government schemes such as Startup India, DST and MSME, and to angel investors and grants. Partnerships with incubators, accelerators, MSMEs and government agencies are part of its mandate. An Advisory Committee that includes external experts and alumni entrepreneurs reviews the policy annually. Its stated mission is to contribute to socio-economic development.",
                   "Institutional Reference Portal: https://kristujayanti.edu.in/student-services/eic"
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
               },
               {
                 "type": "activity",
@@ -1024,7 +1118,8 @@
                 "paragraphs": [
                   "The Centre for Social Activities (CSA) at Kristu Jayanti University serves as an institutional platform for promoting social responsibility, community engagement and sustainable development. Established in 2009, CSA encourages students to participate in humanitarian service and contribute towards meaningful social transformation. The Centre undertakes various outreach programmes aligned with the United Nations Sustainable Development Goals (SDGs), focusing particularly on the welfare of underprivileged and underserved communities. Its initiatives include rural exposure camps, health check-up camps, blood donation drives, computer literacy programmes, awareness campaigns on social issues and educational sponsorships for school children. CSA seeks to improve access to education, healthcare, digital literacy and essential resources. The Centre also collaborates with NGOs to strengthen institutional relationships with local communities. These initiatives provide students with opportunities to translate institutional values into meaningful community service. By addressing social inequalities and improving the quality of life of disadvantaged sections of society, CSA contributes to inclusive and sustainable community development.",
                   "Institutional Reference Portal: https://kristujayanti.edu.in/jes/csa/"
-                ]
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
               },
               {
                 "type": "activity",
@@ -1032,6 +1127,33 @@
                 "paragraphs": [
                   "The Youth Red Cross (YRC) wing of Kristu Jayanti (Deemed to be University), a Jayantian Extension Services wing, operates within the Indian Red Cross Society's national structure, which runs from national headquarters through state, district and taluk branches. YRC policy places the wing under a University Nodal Officer and a District YRC Sub-Committee, so its programmes follow a humanitarian framework set beyond the campus. The college Advisory Committee, chaired by the Principal, includes a representative of the district or taluk branch of the Indian Red Cross Society. Each year the Programme Officer submits an annual and activity report to the University Nodal Officer, and the policy commits the wing to collaborate with other humanitarian organisations. At the local level, the February 2025 survey at the K. Narayanapura migrant settlement documented demographics, income, education, health, sanitation, housing and water supply, which is the kind of data local anti-poverty planning needs. The wing's policy also commits it to disaster preparedness training with experts and to community service for marginalised communities.",
                   "Institutional Reference Portal: https://kristujayanti.edu.in/jes/yrc/"
+                ],
+                "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
+              },
+              {
+                "type": "pdf_links",
+                "title": "Institutional Extension Wings Policies & Guidelines (View PDF)",
+                "links": [
+                  {
+                    "label": "1. Unnat Bharat Abhiyan (UBA) – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
+                  },
+                  {
+                    "label": "2. National Service Scheme (NSS) – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
+                  },
+                  {
+                    "label": "3. Entrepreneurship and Innovation Centre (EIC) / KCDC – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
+                  },
+                  {
+                    "label": "4. Centre for Social Activities (CSA) – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
+                  },
+                  {
+                    "label": "5. Youth Red Cross (YRC) – View PDF",
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
+                  }
                 ]
               }
             ]

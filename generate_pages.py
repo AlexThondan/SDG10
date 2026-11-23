@@ -13,18 +13,18 @@ def slugify(s):
     return s
 
 def parse_indicator(ind):
-    text = ind if isinstance(ind, str) else ind.get("text", "")
+    text = ind if isinstance(ind, str) else (ind.get("text") or ind.get("title") or "")
     m = re.match(r'^((?:\d+(?:\.[a-zA-Z0-9]+)+(?:\s+to\s+\d+(?:\.[a-zA-Z0-9]+)+)?)|[A-Z]\.)\s*(.*)$', text)
     if m:
         return {
-            "number": m.group(1),
-            "title": m.group(2) or m.group(1),
+            "number": ind.get("number") if (isinstance(ind, dict) and ind.get("number")) else m.group(1),
+            "title": ind.get("title") if (isinstance(ind, dict) and ind.get("title")) else (m.group(2) or m.group(1)),
             "raw": text,
             "subItems": ind.get("subItems", []) if isinstance(ind, dict) else []
         }
     return {
-        "number": "",
-        "title": text,
+        "number": ind.get("number") if (isinstance(ind, dict) and ind.get("number")) else "",
+        "title": ind.get("title") if (isinstance(ind, dict) and ind.get("title")) else text,
         "raw": text,
         "subItems": ind.get("subItems", []) if isinstance(ind, dict) else []
     }

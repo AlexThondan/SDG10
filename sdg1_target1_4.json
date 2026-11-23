@@ -830,10 +830,6 @@
     "subtitle": "Institutional Policies, Wings and Strategic Frameworks Addressing Poverty",
     "contentBlocks": [
       {
-        "type": "section_header",
-        "title": "Policy Addressing Poverty"
-      },
-      {
         "type": "paragraph",
         "text": "Kristu Jayanti (Deemed to be University) follows Sustainable Development Goal 1 (No Poverty) through Jayantian Extension Services (JES), its institutional outreach and societal engagement division, and the centres and wings that work alongside it. JES was started to promote social concern and good citizenship, and its objectives are to assess community needs, build institution-neighbourhood networks and promote the holistic development of nearby villages. Its wings, Centre for Social Activities, National Service Scheme , Karnataka Civil Defence Corps (KCDC) ,Unnat Bharat Abhiyan(UBA) and Youth Red Cross take students and faculty into villages and communities. Allied bodies add livelihood and entrepreneurship support, gender equality, inclusion of marginalised students and environmental responsibility. Together they aim to address poverty-related needs in education, health, livelihood, rights and access to government schemes."
       },
@@ -843,7 +839,8 @@
         "paragraphs": [
           "Unnat Bharat Abhiyan applies the university's knowledge to rural development in line with the Government of India's UBA programme. In 2025 the unit adopted 25 villages under the Ittasandra, Hettakki, Annihalli and Marjenahalli panchayats in Hosakote Taluk (Bengaluru Rural) and Kolar Taluk (Kolar). It draws on 18 departments, 5 Jayantian Extension Services units and several centres. Its policy requires liaison with village panchayats, government offices and the UBA Regional Coordinating Institute, plus village situation analysis and need assessment. UBA has many outreach activities which include financial literacy, micro-savings, digital literacy, women's employability, awareness of government schemes, farmer training on crop yields, an organic farm, health and nutrition camps, and sanitation drives. Executed 2024-25 activities include a special camp, social outreach and Shramadhan.",
           "Institutional Reference Portal: https://kristujayanti.edu.in/uba"
-        ]
+        ],
+        "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
       },
       {
         "type": "activity",
@@ -851,7 +848,8 @@
         "paragraphs": [
           "The NSS unit engages undergraduate students in voluntary community service, Its policy aims to help students understand community needs, solve local problems, mobilise community participation and build civic responsibility. It works for the integrated development of adopted villages and slums through regular and special camps. Its fields of work include literacy, health and family welfare, disaster management and the environment. At least one hundred students enrol each year. Past campaigns covered AIDS awareness, legal awareness, the rights and status of women, child welfare, water conservation, pest control and tree plantation. The mission is to help higher education institutions work with rural India on development challenges and sustainable growth.",
           "Institutional Reference Portal: https://kristujayanti.edu.in/jes/nss"
-        ]
+        ],
+        "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
       },
       {
         "type": "activity",
@@ -859,7 +857,8 @@
         "paragraphs": [
           "The Entrepreneurship and Innovation Centre builds livelihood and income opportunities by supporting start-ups, innovation and social entrepreneurship among students, faculty and alumni. The Centre offers entrepreneurship development programmes, pre-incubation and incubation support, business plan competitions and mentoring. It also provides co-working and prototype infrastructure and a university seed fund where available. Founders are linked to government schemes such as Startup India, DST and MSME, and to angel investors and grants. Partnerships with incubators, accelerators, MSMEs and government agencies are part of its mandate. An Advisory Committee that includes external experts and alumni entrepreneurs reviews the policy annually. Its stated mission is to contribute to socio-economic development.",
           "Institutional Reference Portal: https://kristujayanti.edu.in/student-services/eic"
-        ]
+        ],
+        "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
       },
       {
         "type": "activity",
@@ -867,7 +866,8 @@
         "paragraphs": [
           "The Centre for Social Activities (CSA) at Kristu Jayanti University serves as an institutional platform for promoting social responsibility, community engagement and sustainable development. Established in 2009, CSA encourages students to participate in humanitarian service and contribute towards meaningful social transformation. The Centre undertakes various outreach programmes aligned with the United Nations Sustainable Development Goals (SDGs), focusing particularly on the welfare of underprivileged and underserved communities. Its initiatives include rural exposure camps, health check-up camps, blood donation drives, computer literacy programmes, awareness campaigns on social issues and educational sponsorships for school children. CSA seeks to improve access to education, healthcare, digital literacy and essential resources. The Centre also collaborates with NGOs to strengthen institutional relationships with local communities. These initiatives provide students with opportunities to translate institutional values into meaningful community service. By addressing social inequalities and improving the quality of life of disadvantaged sections of society, CSA contributes to inclusive and sustainable community development.",
           "Institutional Reference Portal: https://kristujayanti.edu.in/jes/csa/"
-        ]
+        ],
+        "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
       },
       {
         "type": "activity",
@@ -875,6 +875,33 @@
         "paragraphs": [
           "The Youth Red Cross (YRC) wing of Kristu Jayanti (Deemed to be University), a Jayantian Extension Services wing, operates within the Indian Red Cross Society's national structure, which runs from national headquarters through state, district and taluk branches. YRC policy places the wing under a University Nodal Officer and a District YRC Sub-Committee, so its programmes follow a humanitarian framework set beyond the campus. The college Advisory Committee, chaired by the Principal, includes a representative of the district or taluk branch of the Indian Red Cross Society. Each year the Programme Officer submits an annual and activity report to the University Nodal Officer, and the policy commits the wing to collaborate with other humanitarian organisations. At the local level, the February 2025 survey at the K. Narayanapura migrant settlement documented demographics, income, education, health, sanitation, housing and water supply, which is the kind of data local anti-poverty planning needs. The wing's policy also commits it to disaster preparedness training with experts and to community service for marginalised communities.",
           "Institutional Reference Portal: https://kristujayanti.edu.in/jes/yrc/"
+        ],
+        "pdfUrl": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
+      },
+      {
+        "type": "pdf_links",
+        "title": "Institutional Extension Wings Policies & Guidelines (View PDF)",
+        "links": [
+          {
+            "label": "1. Unnat Bharat Abhiyan (UBA) – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/uba.pdf"
+          },
+          {
+            "label": "2. National Service Scheme (NSS) – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/nss.pdf"
+          },
+          {
+            "label": "3. Entrepreneurship and Innovation Centre (EIC) / KCDC – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/kcdc.pdf"
+          },
+          {
+            "label": "4. Centre for Social Activities (CSA) – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/center-for-social-activiies.pdf"
+          },
+          {
+            "label": "5. Youth Red Cross (YRC) – View PDF",
+            "url": "https://assets.kristujayanti.com/sdg-ranking/yrc.pdf"
+          }
         ]
       }
     ]

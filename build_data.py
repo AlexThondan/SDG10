@@ -209,6 +209,10 @@ sdgs = {
     }
 }
 
+if os.path.exists("sdg1_target1_1.json"):
+    with open("sdg1_target1_1.json", "r", encoding="utf-8") as f:
+        sdgs["1"]["targets"][0]["indicators"] = json.load(f)
+
 if os.path.exists("sdg1_target1_4.json"):
     with open("sdg1_target1_4.json", "r", encoding="utf-8") as f:
         sdgs["1"]["targets"][3]["indicators"] = json.load(f)
