@@ -269,25 +269,13 @@
               [
                 "10.3.1.1",
                 "Total number of students",
-                "Data not available",
+                "16988",
                 "International Office / Registrar"
               ],
               [
                 "10.3.1.2",
                 "Number of international students from developing countries",
-                "Data not available",
-                "International Office / Registrar"
-              ],
-              [
-                "10.3.1.3",
-                "Percentage of students from developing countries",
-                "Data not available",
-                "International Office / Registrar"
-              ],
-              [
-                "10.3.1.4",
-                "Country classification used and supporting student records",
-                "Data not available",
+                "53",
                 "International Office / Registrar"
               ]
             ]
@@ -306,7 +294,7 @@
     "metricsTable": [
       {
         "metric": "Total Enrolled University Students",
-        "value": "18,498"
+        "value": "16988"
       },
       {
         "metric": "Enrolled Students with Disabilities (Divyangjan)",
@@ -350,7 +338,7 @@
               [
                 "10.4.1.1",
                 "Total number of students",
-                "18498 (University-supplied; reporting year not stated)",
+                "16988",
                 "Registrar / Admissions"
               ],
               [
@@ -1017,6 +1005,24 @@
           {
             "type": "paragraph",
             "text": "Campus developments feature wheelchair-accessible ramps with handrails, passenger lifts equipped with audio announcements, dedicated accessible restrooms, reserved seating in auditoriums, and assistive technologies in library learning spaces."
+          },
+          {
+            "type": "gallery",
+            "title": "Photo Gallery: Accessible Facilities and Infrastructure",
+            "images": [
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.7/1.webp",
+                "caption": ""
+              },
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.7/2.webp",
+                "caption": ""
+              },
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.7/3.webp",
+                "caption": ""
+              }
+            ]
           }
         ]
       },
@@ -1064,6 +1070,28 @@
           {
             "type": "paragraph",
             "text": "Services include scribe support, compensatory exam time (20 minutes per hour), ground-floor examination venues, personalized counselling, and assistive software orientation."
+          },
+          {
+            "type": "gallery",
+            "title": "Photo Gallery: Disability Support Services",
+            "images": [
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.8/1.webp",
+                "caption": ""
+              },
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.8/2.webp",
+                "caption": ""
+              },
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.8/3.webp",
+                "caption": ""
+              },
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.8/4.webp",
+                "caption": ""
+              }
+            ]
           }
         ]
       },
@@ -1111,6 +1139,20 @@
           {
             "type": "paragraph",
             "text": "The Jayantian Determination Scholarship (JDS) provides recurring financial support to eligible disabled students across undergraduate and postgraduate programmes, ensuring economic barriers do not impede higher education access."
+          },
+          {
+            "type": "gallery",
+            "title": "Photo Gallery: Disability Access Schemes",
+            "images": [
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.9/01.webp",
+                "caption": ""
+              },
+              {
+                "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.9/02.webp",
+                "caption": ""
+              }
+            ]
           }
         ]
       },
