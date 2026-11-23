@@ -1456,15 +1456,15 @@
                 "images": [
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/1.webp",
-                    "caption": "Library & Information Centre – Reading & Reference Section"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/2.webp",
-                    "caption": "Digital Library Infrastructure & Open Access Terminals"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/3.webp",
-                    "caption": "E-Resources & Academic Repository Browsing Facility"
+                    "caption": ""
                   }
                 ]
               },
@@ -1544,24 +1544,6 @@
                 "text": "This distinctive initiative exemplifies the University's commitment to the philosophy that education and knowledge should transcend institutional boundaries and remain accessible to all. By making faculty-generated academic content freely available to the public, Kristu Jayanti University demonstrates an exemplary model of inclusive, technology-enabled and socially responsible higher education."
               },
               {
-                "type": "gallery",
-                "title": "Photo Gallery: Open Access Educational Content",
-                "images": [
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/1.webp",
-                    "caption": "Faculty-Developed Video Lecture Production & Online Repository"
-                  },
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/2.webp",
-                    "caption": "Multidisciplinary Digital Educational Content Development"
-                  },
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/3.webp",
-                    "caption": "Open-Access Educational Platforms & Public Lecture Recordings"
-                  }
-                ]
-              },
-              {
                 "type": "section_header",
                 "title": "C. CERTIFICATE COURSES"
               },
@@ -1572,6 +1554,12 @@
                   "Duration: 1 September – 30 October 2025",
                   "Objective: To provide participants with fundamental knowledge of sports nutrition, dietary requirements, nutritional planning and the role of balanced nutrition in enhancing physical performance, fitness and overall well-being.",
                   "Write-up on the Programme: The Centre for Physical Education and Fitness, in collaboration with the Department of Life Sciences, organized a Certificate Course on Sports Nutrition from 1 September to 30 October 2025. The programme focused on the significance of nutrition in sports performance, physical fitness and health management. It aimed to equip participants with an understanding of essential nutrients, dietary planning, hydration, energy requirements and nutritional strategies for physical activities. The course provided valuable insights into the relationship between nutrition and athletic performance, encouraging participants to adopt informed dietary practices for improved fitness and well-being. Certificates of completion were awarded to successful participants."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/1.webp",
+                    "caption": ""
+                  }
                 ]
               },
               {
@@ -1581,6 +1569,12 @@
                   "Duration: 8 – 26 September 2025",
                   "Objective: To develop an understanding of competency mapping and its application in identifying, assessing and developing individual competencies for improved personal, academic and professional effectiveness.",
                   "Write-up on the Programme: The Department of Psychology, School of Humanities and Social Sciences, organized a Certificate Course on Competency Mapping from 8 to 26 September 2025. The programme focused on introducing participants to the concept, significance and practical applications of competency mapping. It provided insights into identifying individual strengths, assessing behavioural and professional competencies, and understanding the role of competency-based approaches in personal and career development. The course also highlighted the importance of aligning individual capabilities with organizational and professional expectations. The programme enabled participants to gain a better understanding of competency assessment and its relevance in enhancing individual effectiveness and employability. Certificates of completion were awarded to the participants."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/2.webp",
+                    "caption": ""
+                  }
                 ]
               },
               {
@@ -1590,6 +1584,12 @@
                   "Duration: 15 September – 18 October 2025",
                   "Objective: To introduce participants to indigenous, Dalit and tribal narratives and develop an understanding of marginalized voices, cultural identities, social realities and literary representations through critical engagement with diverse texts and perspectives.",
                   "Write-up on the Programme: The Department of English, School of Humanities and Social Sciences, organized a 30-hour Certificate Course titled Voices from the Margins: Exploring Indigenous (Dalit and Tribal) Narratives from 15 September to 18 October 2025. The programme aimed to create awareness of marginalized literary traditions, indigenous identities and socio-cultural experiences through critical engagement with Dalit and tribal narratives. The course explored themes of social justice, identity, representation, cultural heritage and inclusion. As part of the programme, an expert session on Dalit Poetry was delivered by Dr. Abhisarika Prajapati, Associate Professor and Head, Department of English, REVA University, Bengaluru, on 19 September 2025. The programme provided participants with an opportunity to engage with diverse literary perspectives and develop a deeper understanding of the experiences and contributions of marginalized communities. Certificates of completion and appreciation were awarded to the respective participants and resource person."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/3.webp",
+                    "caption": ""
+                  }
                 ]
               }
             ],
@@ -1725,6 +1725,24 @@
                   {
                     "type": "paragraph",
                     "text": "5. Additional Digital Learning and Information Resources: E-newspapers (The Hindu, Deccan Herald, Times of India, Deccan Chronicle, Economic Times), E-magazines (India Today, Business Today, Outlook, Digit, Reader's Digest), General Knowledge and Current Affairs resources, and Institutional Research Repositories."
+                  },
+                  {
+                    "type": "gallery",
+                    "title": "",
+                    "images": [
+                      {
+                        "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/1.webp",
+                        "caption": ""
+                      },
+                      {
+                        "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/2.webp",
+                        "caption": ""
+                      },
+                      {
+                        "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/a/3.webp",
+                        "caption": ""
+                      }
+                    ]
                   }
                 ]
               },
@@ -1776,6 +1794,12 @@
                     "paragraphs": [
                       "Objective: To provide participants with fundamental knowledge of sports nutrition, dietary requirements, nutritional planning and the role of balanced nutrition in enhancing physical performance, fitness and overall well-being.",
                       "Write-up: The Centre for Physical Education and Fitness, in collaboration with the Department of Life Sciences, organized a Certificate Course on Sports Nutrition from 1 September to 30 October 2025. The programme focused on the significance of nutrition in sports performance, physical fitness and health management, equipping participants with an understanding of essential nutrients, dietary planning, hydration, energy requirements and nutritional strategies for physical activities. Certificates of completion were awarded to successful participants."
+                    ],
+                    "images": [
+                      {
+                        "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/1.webp",
+                        "caption": ""
+                      }
                     ]
                   },
                   {
@@ -1784,6 +1808,12 @@
                     "paragraphs": [
                       "Objective: To develop an understanding of competency mapping and its application in identifying, assessing and developing individual competencies for improved personal, academic and professional effectiveness.",
                       "Write-up: The Department of Psychology, School of Humanities and Social Sciences, organized a Certificate Course on Competency Mapping from 8 to 26 September 2025. The programme introduced participants to the concept, significance and practical applications of competency mapping, identifying individual strengths, assessing behavioural competencies, and aligning individual capabilities with organizational and professional expectations. Certificates of completion were awarded to participants."
+                    ],
+                    "images": [
+                      {
+                        "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/2.webp",
+                        "caption": ""
+                      }
                     ]
                   },
                   {
@@ -1792,6 +1822,12 @@
                     "paragraphs": [
                       "Objective: To introduce participants to indigenous, Dalit and tribal narratives and develop an understanding of marginalized voices, cultural identities, social realities and literary representations through critical engagement with diverse texts and perspectives.",
                       "Write-up: The Department of English, School of Humanities and Social Sciences, organized a 30-hour Certificate Course titled Voices from the Margins: Exploring Indigenous (Dalit and Tribal) Narratives from 15 September to 18 October 2025. The programme explored themes of social justice, identity, representation, cultural heritage and inclusion. As part of the programme, an expert session on Dalit Poetry was delivered by Dr. Abhisarika Prajapati, Associate Professor and Head, Department of English, REVA University, Bengaluru, on 19 September 2025. Certificates of completion and appreciation were awarded to participants and resource persons."
+                    ],
+                    "images": [
+                      {
+                        "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.1/b/3.webp",
+                        "caption": ""
+                      }
                     ]
                   }
                 ]
@@ -1854,6 +1890,12 @@
                 "title": "COMPUTER LITERACY PROGRAMME FOR SLUM AND MIGRANT CHILDREN (12 September 2025)",
                 "paragraphs": [
                   "On 12 September 2025, JES conducted a computer literacy program for children from slum and migrant communities. The program aimed to improve digital awareness and introduce basic computer skills among underprivileged children. A total of 28 students participated in the initiative and received an opportunity to develop basic computer knowledge and familiarity with technology. The program focused on promoting digital inclusion and providing children with essential technological skills to support their educational development."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/computer-literacy.webp",
+                    "caption": ""
+                  }
                 ]
               },
               {
@@ -1861,6 +1903,12 @@
                 "title": "SRUJANA – ART, CRAFT AND FOOD STALL (26 August 2025)",
                 "paragraphs": [
                   "On 26 August 2025, the Women Empowerment Cell organized an art, craft and food stall under the SRUJANA initiative on the university campus. The program aimed to encourage creativity, develop entrepreneurial skills and provide a platform for showcasing products created by participants. The stall featured a variety of art and craft items alongside food products, highlighting the creative abilities and practical skills of the individuals involved. A total of 22 center volunteers actively contributed to organizing and managing the stalls, while the program recorded a reach of 130 participants. The initiative provided an opportunity for visitors to explore the displayed products, interact with the volunteers and appreciate their creativity and efforts. It also promoted awareness of small-scale entrepreneurial activities and the importance of supporting creative skills and self-employment opportunities. Through this initiative, the Women Empowerment Cell encouraged community participation, skill development and the recognition of individual talents."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/srujana.webp",
+                    "caption": ""
+                  }
                 ]
               },
               {
@@ -1868,6 +1916,12 @@
                 "title": "SRUJANA – ART, CRAFT AND FOOD STALL (24 October 2025)",
                 "paragraphs": [
                   "On 24 October 2025, the Women Empowerment Cell organized another edition of the SRUJANA art, craft and food stall on the university campus. The initiative aimed to promote creativity, encourage entrepreneurial thinking and provide opportunities for showcasing artistic talents and practical skills. The event featured a range of handmade craft products, creative art pieces and food items, offering participants a platform to display their work and engage with the university community. A total of 76 center volunteers actively contributed to the planning, coordination and management of the stalls, ensuring the smooth conduct of the program. The event recorded a reach of 190 participants, who visited the stalls, explored the products and interacted with the volunteers. The initiative encouraged women to recognize their creative abilities, gain exposure to entrepreneurial activities and develop confidence in presenting and promoting their products. Through SRUJANA, the Women Empowerment Cell continued its efforts to support creative expression, community engagement, skill development and women's empowerment."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/srujana1.webp",
+                    "caption": ""
+                  }
                 ]
               },
               {
@@ -1876,6 +1930,16 @@
                 "paragraphs": [
                   "The Department of Management, School of Business and Management, Kristu Jayanti University, organized Campuspreneurs 2025, a stall-based entrepreneurial exhibition, on 23 September 2025 for III BBA students. The event aimed to provide hands-on entrepreneurial exposure and develop creativity, innovation, teamwork and customer interaction skills among students. A total of 16 exhibits involving 96 student participants were showcased, attracting approximately 400 visitors to the exhibition hall.",
                   "The stalls featured a variety of business concepts, including eco-friendly products, sustainable lifestyle items, herbal and organic personal care products, handmade décor, books, games, fashion accessories and food products. Students actively participated in planning, setting up and promoting their stalls while interacting with visitors and explaining their products and business ideas. The exhibition provided practical exposure to entrepreneurial decision-making, pricing, marketing, sales and consumer behavior. The activity enhanced students' confidence, leadership, communication and teamwork skills while enabling them to apply classroom concepts in a real-world setting. Overall, Campuspreneurs 2025 served as an experiential learning platform that encouraged entrepreneurial thinking and strengthened students' practical business skills."
+                ],
+                "images": [
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campuspreneurs1.webp",
+                    "caption": ""
+                  },
+                  {
+                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campuspreneurs2.webp",
+                    "caption": ""
+                  }
                 ]
               },
               {
@@ -1884,35 +1948,11 @@
                 "paragraphs": [
                   "The Institution’s Innovation Council (IIC) of Kristu Jayanti University organized the Campus Farmers’ Market – Vegetable and Fruits Mela on 29 August 2025 as part of the Viksit Bharat @ 2047 initiative. The program aimed to promote direct engagement between farmers and consumers, encourage community-based agricultural enterprise and support local products under the Government of India’s One District One Product (ODOP) initiative.",
                   "The market featured Farmer Producer Organizations (FPOs) from Chitradurga, Vijayapura and Chintamani, along with Greenkraft Producer Company Limited, showcasing fresh agricultural produce. By sourcing products directly from farmers, the initiative sought to ensure better returns for producers, eliminate intermediaries and provide consumers with access to fresh and organic produce. The event also featured stalls offering local snacks, flowers and handmade products, providing visibility to local producers and small-scale enterprises. Organized in collaboration with the Women’s Empowerment Cell, the initiative promoted local entrepreneurship and community participation. Overall, the Campus Farmers’ Market strengthened the connection between farmers and consumers while supporting sustainable agricultural practices, rural livelihoods and local economic development."
-                ]
-              },
-              {
-                "type": "gallery",
-                "title": "Photo Gallery: On-Campus Public Events & Community Initiatives",
+                ],
                 "images": [
                   {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/computer-literacy.webp",
-                    "caption": "Computer Literacy Programme for Slum and Migrant Children"
-                  },
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/srujana.webp",
-                    "caption": "SRUJANA – Art, Craft and Food Stall (August Edition)"
-                  },
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/srujana1.webp",
-                    "caption": "SRUJANA – Art, Craft and Food Stall (October Edition)"
-                  },
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campuspreneurs1.webp",
-                    "caption": "Campuspreneurs 2025 – Student Entrepreneurial Exhibition"
-                  },
-                  {
-                    "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campuspreneurs2.webp",
-                    "caption": "Campuspreneurs 2025 – Business Stalls & Visitor Interaction"
-                  },
-                  {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.2/campus-farmers-market-25.webp",
-                    "caption": "Campus Farmers’ Market – Vegetable and Fruits Mela 2025"
+                    "caption": ""
                   }
                 ]
               }
@@ -1985,15 +2025,15 @@
               },
               {
                 "type": "gallery",
-                "title": "Photo Gallery: Empowering Institutions for Sustainable Excellence",
+                "title": "",
                 "images": [
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-empowering-ins-sustainable-excellence1.webp",
-                    "caption": "Professional Development Programme – Faculty Interactive Session"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-empowering-ins-sustainable-excellence2.webp",
-                    "caption": "Teacher Training & Professional Competency Workshop"
+                    "caption": ""
                   }
                 ]
               },
@@ -2015,19 +2055,19 @@
               },
               {
                 "type": "gallery",
-                "title": "Photo Gallery: Institutional Development and University Status",
+                "title": "",
                 "images": [
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-institutional-dev-university-status1.webp",
-                    "caption": "Institutional Development & Quality Assurance Dialogue"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-institutional-dev-university-status2.webp",
-                    "caption": "University Governance & Statutory Compliance Session"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-institutional-dev-university-status3.webp",
-                    "caption": "Campus Tour & IQAC Documentation Interaction"
+                    "caption": ""
                   }
                 ]
               },
@@ -2041,11 +2081,11 @@
               },
               {
                 "type": "gallery",
-                "title": "Photo Gallery: Fostering Institutional Excellence",
+                "title": "",
                 "images": [
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/pdp-fostering-inst-excellence.webp",
-                    "caption": "Fostering Institutional Excellence – Carmel Public School"
+                    "caption": ""
                   }
                 ]
               },
@@ -2059,11 +2099,11 @@
               },
               {
                 "type": "gallery",
-                "title": "Photo Gallery: School Management and Enhancing Institutional Effectiveness",
+                "title": "",
                 "images": [
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.3/ldp-sch-mag-enhancing-inst-effectiveness.webp",
-                    "caption": "Leadership Development Programme – Little Flower Mission Education Society"
+                    "caption": ""
                   }
                 ]
               }
@@ -2715,31 +2755,31 @@
               },
               {
                 "type": "gallery",
-                "title": "Photo Gallery: Outside-Campus Educational Outreach Activities",
+                "title": "",
                 "images": [
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/1.webp",
-                    "caption": "Community Education & Rural Engagement Initiative"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/2.webp",
-                    "caption": "Student Volunteer Outreach & Life Skills Workshop"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/3.webp",
-                    "caption": "Health, Hygiene & Community Wellness Drive"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/4.webp",
-                    "caption": "Digital Literacy & Computer Training in Government Schools"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/5.webp",
-                    "caption": "Swachh Bharat Cleanliness & Community Sanitation Camp"
+                    "caption": ""
                   },
                   {
                     "url": "https://assets.kristujayanti.com/sdg-ranking/img/4.3.4/6.webp",
-                    "caption": "Study Material & Essentials Distribution to Underprivileged Children"
+                    "caption": ""
                   }
                 ]
               }

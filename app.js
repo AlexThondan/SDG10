@@ -454,7 +454,7 @@ function renderTargetView(sdg, targetId) {
   }
 
   contentContainer.innerHTML = `
-    <div class="subpage-container content-animated centered-layout">
+    <div class="subpage-container content-animated centered-layout" data-sdg-num="${escapeHtml(sdg.num)}" data-target-id="${escapeHtml(target.id)}">
       <div class="subpage-back-row">
         <a href="${buildRouteUrl({ type: "sdg", sdg: sdg.num })}" 
            class="back-nav-link" 
@@ -563,10 +563,29 @@ function renderContentBlocks(blocks) {
     }
     if (block.type === "activity") {
       const pText = (block.paragraphs || []).map(p => `<p class="activity-text">${escapeHtml(p)}</p>`).join("");
+      let imagesHtml = "";
+      const imgs = block.images || (block.image ? [block.image] : []);
+      if (imgs.length > 0) {
+        imagesHtml = `
+          <div class="activity-photos-grid">
+            ${imgs.map(img => {
+              const url = typeof img === "string" ? img : img.url;
+              return `
+                <div class="gallery-photo-card">
+                  <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="gallery-photo-link" title="View Image">
+                    <img src="${escapeHtml(url)}" alt="${escapeHtml(block.title || 'Event Photo')}" loading="lazy" class="gallery-photo-img" />
+                  </a>
+                </div>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }
       return `
         <div class="activity-evidence-card">
           <h4 class="activity-title">${escapeHtml(block.title)}</h4>
           ${pText}
+          ${imagesHtml}
         </div>
       `;
     }
@@ -670,7 +689,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
   }
 
   contentContainer.innerHTML = `
-    <div class="subpage-container content-animated centered-layout">
+    <div class="subpage-container content-animated centered-layout" data-sdg-num="${escapeHtml(sdg.num)}" data-target-id="${escapeHtml(target.id)}">
       <div class="subpage-back-row">
         <a href="${buildRouteUrl({ type: "target", sdg: sdg.num, target: target.id })}" 
            class="back-nav-link" 

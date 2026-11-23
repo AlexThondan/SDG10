@@ -1728,6 +1728,44 @@ body {
   background: #ffffff;
 }
 
+.activity-photos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.activity-photos-grid .gallery-photo-card {
+  flex: 1 1 280px;
+  max-width: 460px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.activity-photos-grid .gallery-photo-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.activity-photos-grid .gallery-photo-card:hover .gallery-photo-img {
+  transform: scale(1.02);
+}
+
+/* Under all images in 4.3: remove tags/captions */
+[data-sdg-num="4"] .gallery-photo-caption,
+[data-target-id="4.3"] .gallery-photo-caption,
+[data-sdg-num="4"] .image-caption,
+[data-target-id="4.3"] .image-caption {
+  display: none !important;
+}
+
 .evidence-photo-img {
   width: 100%;
   max-height: 480px;
