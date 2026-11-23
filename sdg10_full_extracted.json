@@ -983,46 +983,8 @@
         "file": "https://assets.kristujayanti.com/sdg-ranking/policy-doc/policy-on-accessible-facilities.pdf",
         "contentBlocks": [
           {
-            "type": "paragraph",
-            "text": "The University continuously improves physical and digital infrastructure to ensure barrier-free mobility and accessible learning environments for individuals with disabilities."
-          },
-          {
-            "type": "table",
-            "title": "Accessible Facilities and Infrastructure Audit",
-            "headers": [
-              "SNo",
-              "Indicator",
-              "Supplementary Doc",
-              "Department / Office"
-            ],
-            "rows": [
-              [
-                "10.6.7.1",
-                "Accessibility information / audit",
-                "Data not available",
-                "Facilities / Student Support"
-              ],
-              [
-                "10.6.7.2",
-                "Facilities evidence (ramps, lifts, accessible washrooms)",
-                "Data not available",
-                "Facilities / Student Support"
-              ],
-              [
-                "10.6.7.3",
-                "Improvement records",
-                "Data not available",
-                "Facilities / Student Support"
-              ]
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": "Campus developments feature wheelchair-accessible ramps with handrails, passenger lifts equipped with audio announcements, dedicated accessible restrooms, reserved seating in auditoriums, and assistive technologies in library learning spaces."
-          },
-          {
             "type": "gallery",
-            "title": "Photo Gallery: Accessible Facilities and Infrastructure",
+            "title": "",
             "images": [
               {
                 "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.7/1.webp",
@@ -1036,7 +998,8 @@
                 "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.7/3.webp",
                 "caption": ""
               }
-            ]
+            ],
+            "noContainer": true
           }
         ],
         "url": "https://assets.kristujayanti.com/sdg-ranking/policy-doc/policy-on-accessible-facilities.pdf",
@@ -1050,46 +1013,8 @@
         "file": "https://assets.kristujayanti.com/sdg-ranking/policy-doc/policy-on-support-services.pdf",
         "contentBlocks": [
           {
-            "type": "paragraph",
-            "text": "The Examination Office and Student Welfare Cell administer comprehensive disability support services, offering customized academic and examination accommodations to ensure fair evaluation of Divyangjan students."
-          },
-          {
-            "type": "table",
-            "title": "Disability Support Services & Examination Privileges",
-            "headers": [
-              "SNo",
-              "Indicator",
-              "Supplementary Doc",
-              "Department / Office"
-            ],
-            "rows": [
-              [
-                "10.6.8.1",
-                "Examination privileges for Divyangjan students (public page)",
-                "https://www.kristujayanti.edu.in/examination/divyangjan_students_privileges.php",
-                "Examination Office"
-              ],
-              [
-                "10.6.8.2",
-                "Public service description of disability support",
-                "Data not available",
-                "Student Support"
-              ],
-              [
-                "10.6.8.3",
-                "Implementation evidence",
-                "Data not available",
-                "Student Support"
-              ]
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": "Services include scribe support, compensatory exam time (20 minutes per hour), ground-floor examination venues, personalized counselling, and assistive software orientation."
-          },
-          {
             "type": "gallery",
-            "title": "Photo Gallery: Disability Support Services",
+            "title": "",
             "images": [
               {
                 "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.8/1.webp",
@@ -1107,7 +1032,8 @@
                 "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.8/4.webp",
                 "caption": ""
               }
-            ]
+            ],
+            "noContainer": true
           }
         ],
         "url": "https://assets.kristujayanti.com/sdg-ranking/policy-doc/policy-on-support-services.pdf",
@@ -1121,46 +1047,8 @@
         "file": "https://assets.kristujayanti.com/sdg-ranking/policy-doc/policy-on-access-schemes.pdf",
         "contentBlocks": [
           {
-            "type": "paragraph",
-            "text": "Kristu Jayanti University offers targeted access schemes for Divyangjan learners, combining tuition fee waivers, assistive technology grants, and peer-mentoring networks."
-          },
-          {
-            "type": "table",
-            "title": "Disability Access Schemes Assessment",
-            "headers": [
-              "SNo",
-              "Indicator",
-              "Supplementary Doc",
-              "Department / Office"
-            ],
-            "rows": [
-              [
-                "10.6.9.1",
-                "Scheme type selected (mentoring / other targeted support)",
-                "Data not available",
-                "Student Support"
-              ],
-              [
-                "10.6.9.2",
-                "Jayantian Determination (Divyangjan) Scholarship (public page)",
-                "https://kristujayanti.edu.in/student-services/scholarship/",
-                "Student Support / Scholarship Section"
-              ],
-              [
-                "10.6.9.3",
-                "Eligibility, programme description and evidence of delivery",
-                "Data not available",
-                "Student Support"
-              ]
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": "The Jayantian Determination Scholarship (JDS) provides recurring financial support to eligible disabled students across undergraduate and postgraduate programmes, ensuring economic barriers do not impede higher education access."
-          },
-          {
             "type": "gallery",
-            "title": "Photo Gallery: Disability Access Schemes",
+            "title": "",
             "images": [
               {
                 "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.9/01.webp",
@@ -1170,7 +1058,8 @@
                 "url": "https://assets.kristujayanti.com/sdg-ranking/img/10.6.9/02.webp",
                 "caption": ""
               }
-            ]
+            ],
+            "noContainer": true
           }
         ],
         "url": "https://assets.kristujayanti.com/sdg-ranking/policy-doc/policy-on-access-schemes.pdf",

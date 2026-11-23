@@ -638,9 +638,20 @@ function renderContentBlocks(blocks) {
       `;
     }
     if (block.type === "gallery") {
+      const isPlain = !!block.noContainer || !block.title;
       const imagesHtml = (block.images || []).map(img => {
         const url = typeof img === "string" ? img : img.url;
         const caption = typeof img === "string" ? "" : (img.caption || "");
+        if (isPlain) {
+          return `
+            <div class="gallery-photo-plain">
+              <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="gallery-photo-link" style="background: transparent; display: block;" title="View Image">
+                <img src="${escapeHtml(url)}" alt="Photo" loading="lazy" class="gallery-photo-img-plain" />
+              </a>
+              ${caption ? `<div class="gallery-photo-caption">${escapeHtml(caption)}</div>` : ""}
+            </div>
+          `;
+        }
         return `
           <div class="gallery-photo-card">
             <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" class="gallery-photo-link" title="${escapeHtml(caption || 'View Image')}">
@@ -650,6 +661,14 @@ function renderContentBlocks(blocks) {
           </div>
         `;
       }).join("");
+
+      if (isPlain) {
+        return `
+          <div class="photo-gallery-grid photo-gallery-plain">
+            ${imagesHtml}
+          </div>
+        `;
+      }
 
       return `
         <div class="content-gallery-block">
@@ -742,6 +761,10 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
         (String(sdg.num) === "4" ? String(target.id) !== "4.3" : true))
   ));
 
+  const isGalleryOnly = foundIndicator && foundIndicator.contentBlocks &&
+    foundIndicator.contentBlocks.length > 0 &&
+    foundIndicator.contentBlocks.every(b => b.type === "gallery" || b.type === "image");
+
   contentContainer.innerHTML = `
     <div class="subpage-container content-animated centered-layout" data-sdg-num="${escapeHtml(sdg.num)}" data-target-id="${escapeHtml(target.id)}">
       <div class="subpage-back-row">
@@ -772,7 +795,7 @@ function renderIndicatorView(sdg, targetId, indicatorId) {
       </div>
 
       ${writeupHtml ? `
-        <div class="subpage-content-card">
+        <div class="subpage-content-card ${isGalleryOnly ? 'subpage-card-plain' : ''}">
           ${(foundIndicator && ((foundIndicator.contentBlocks && foundIndicator.contentBlocks.length > 0) || foundIndicator.description)) ? "" : "<h3>Indicator Details & Scope</h3>"}
           <div class="writeup-prose">
             ${writeupHtml}
