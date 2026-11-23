@@ -521,10 +521,10 @@ function renderContentBlocks(blocks) {
     if (block.type === "report_banner") {
       return `
         <div class="report-cover-banner">
-          <div class="report-cover-tag">INSTITUTIONAL PERFORMANCE REPORT</div>
+          ${block.tag ? `<div class="report-cover-tag">${escapeHtml(block.tag)}</div>` : ""}
           <h2 class="report-cover-title">${escapeHtml(block.title)}</h2>
-          <div class="report-cover-subtitle">${escapeHtml(block.subtitle)}</div>
-          <div class="report-cover-meta">${escapeHtml(block.meta)}</div>
+          ${block.subtitle ? `<div class="report-cover-subtitle">${escapeHtml(block.subtitle)}</div>` : ""}
+          ${block.meta ? `<div class="report-cover-meta">${escapeHtml(block.meta)}</div>` : ""}
         </div>
       `;
     }
